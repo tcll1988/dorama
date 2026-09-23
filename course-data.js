@@ -8302,7 +8302,7 @@ window.DRAMA_COURSE = [
         "id": "drama-10-r-2",
         "speaker": "店員",
         "ch": "你好！一百块。你要几个？",
-        "py": "nǐ hǎo ！ yì bǎi kuài 。 nǐ yào jǐ gè ？",
+        "py": "nǐ hǎo ！ yì bǎi kuài 。 nǐ yào jǐ ge ？",
         "jp": "こんにちは。100元です。いくついりますか。",
         "audio": "audio/lesson10/reading-02.mp3"
       },
