@@ -1,0 +1,846 @@
+{
+  "id": 10,
+  "title": "请问，这个多少钱？",
+  "japanese": "買い物",
+  "reading": [
+    {
+      "id": "drama-10-r-1",
+      "speaker": "山本",
+      "ch": "你好！请问，这个多少钱？",
+      "py": "nǐ hǎo ！ qǐng wèn ， zhè ge duō shao qián ？",
+      "jp": "すみません、これはいくらですか。",
+      "audio": "audio/lesson10/reading-01.mp3"
+    },
+    {
+      "id": "drama-10-r-2",
+      "speaker": "店員",
+      "ch": "你好！一百块。你要几个？",
+      "py": "nǐ hǎo ！ yì bǎi kuài 。 nǐ yào jǐ gè ？",
+      "jp": "こんにちは。100元です。いくついりますか。",
+      "audio": "audio/lesson10/reading-02.mp3"
+    },
+    {
+      "id": "drama-10-r-3",
+      "speaker": "山本",
+      "ch": "我要两个。",
+      "py": "wǒ yào liǎng ge 。",
+      "jp": "二つください。",
+      "audio": "audio/lesson10/reading-03.mp3"
+    },
+    {
+      "id": "drama-10-r-4",
+      "speaker": "店員",
+      "ch": "好的，谢谢！",
+      "py": "hǎo de ， xiè xie ！",
+      "jp": "はい、ありがとうございます。",
+      "audio": "audio/lesson10/reading-04.mp3"
+    }
+  ],
+  "words": [
+    {
+      "id": "drama-10-w-1",
+      "ch": "请问",
+      "py": "qǐng wèn",
+      "jp": "すみません／おたずねします",
+      "audio": "audio/lesson10/word-01.mp3"
+    },
+    {
+      "id": "drama-10-w-2",
+      "ch": "这个",
+      "py": "zhège/zhèige",
+      "jp": "これ",
+      "audio": "audio/lesson10/word-02.mp3"
+    },
+    {
+      "id": "drama-10-w-3",
+      "ch": "多少钱",
+      "py": "duōshao qián",
+      "jp": "いくらですか",
+      "audio": "audio/lesson10/word-03.mp3"
+    },
+    {
+      "id": "drama-10-w-4",
+      "ch": "一百",
+      "py": "yì bǎi",
+      "jp": "100",
+      "audio": "audio/lesson10/word-04.mp3"
+    },
+    {
+      "id": "drama-10-w-5",
+      "ch": "块",
+      "py": "kuài",
+      "jp": "～元（口語）",
+      "audio": "audio/lesson10/word-05.mp3"
+    },
+    {
+      "id": "drama-10-w-6",
+      "ch": "两个",
+      "py": "liǎng ge",
+      "jp": "2つ",
+      "audio": "audio/lesson10/word-06.mp3"
+    },
+    {
+      "id": "drama-10-w-7",
+      "ch": "好的",
+      "py": "hǎo de",
+      "jp": "はい／わかりました",
+      "audio": "audio/lesson10/word-07.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "中国語でお金の言い方を読んでみましょう",
+      "html": "<div class=\"table-scroll\"><table><tr><td>中国語</td><td>ピンイン</td><td>日本語</td></tr><tr><td>钱</td><td>qián</td><td>お金</td></tr><tr><td>人民币</td><td>rénmínbì</td><td>人民元</td></tr><tr><td>元</td><td>yuán</td><td>元</td></tr><tr><td>块</td><td>kuài</td><td>元（口語）</td></tr><tr><td>毛</td><td>máo</td><td>角（口語）</td></tr><tr><td>角</td><td>jiǎo</td><td>角</td></tr><tr><td>分</td><td>fēn</td><td>分</td></tr><tr><td>三块四（毛钱）</td><td>sān kuài sì (máo qián)</td><td>3.4元</td></tr><tr><td>五块钱</td><td>wǔ kuài qián</td><td>5元</td></tr><tr><td>十块钱</td><td>shí kuài qián</td><td>10元</td></tr><tr><td>二十块钱</td><td>èr shí kuài qián</td><td>20元</td></tr><tr><td>一百块钱</td><td>yì bǎi kuài qián</td><td>100元</td></tr><tr><td>太贵了</td><td>tài guì le</td><td>高すぎます</td></tr><tr><td>便宜一点儿</td><td>pián yi yì diǎnr</td><td>少し安くしてください</td></tr></table></div>"
+    }
+  ],
+  "pronunciation": [],
+  "exercises": [
+    {
+      "group": 4,
+      "number": 1,
+      "inputId": "4_1",
+      "answer": "すみません、これはいくらですか。",
+      "initial": "",
+      "prompts": [
+        "你好！请问，这个多少钱？"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_1",
+          "answer": "すみません、これはいくらですか。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">你好！请问，这个多少钱？</p><label class=\"answer-label\" for=\"4_1\">あなたの答え</label><input id=\"4_1\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-10-r-1"
+    },
+    {
+      "group": 5,
+      "number": 1,
+      "inputId": "5_1",
+      "answer": "你好！请问，这个多少钱？",
+      "initial": "",
+      "prompts": [
+        "すみません、これはいくらですか。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_1",
+          "answer": "你好！请问，这个多少钱？",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">すみません、これはいくらですか。</p><label class=\"answer-label\" for=\"5_1\">あなたの答え</label><input id=\"5_1\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-10-r-1"
+    },
+    {
+      "group": 4,
+      "number": 2,
+      "inputId": "4_2",
+      "answer": "こんにちは。100元です。いくついりますか。",
+      "initial": "",
+      "prompts": [
+        "你好！一百块。你要几个？"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_2",
+          "answer": "こんにちは。100元です。いくついりますか。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">你好！一百块。你要几个？</p><label class=\"answer-label\" for=\"4_2\">あなたの答え</label><input id=\"4_2\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-10-r-2"
+    },
+    {
+      "group": 5,
+      "number": 2,
+      "inputId": "5_2",
+      "answer": "你好！一百块。你要几个？",
+      "initial": "",
+      "prompts": [
+        "こんにちは。100元です。いくついりますか。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_2",
+          "answer": "你好！一百块。你要几个？",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">こんにちは。100元です。いくついりますか。</p><label class=\"answer-label\" for=\"5_2\">あなたの答え</label><input id=\"5_2\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-10-r-2"
+    },
+    {
+      "group": 4,
+      "number": 3,
+      "inputId": "4_3",
+      "answer": "二つください。",
+      "initial": "",
+      "prompts": [
+        "我要两个。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_3",
+          "answer": "二つください。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">我要两个。</p><label class=\"answer-label\" for=\"4_3\">あなたの答え</label><input id=\"4_3\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-10-r-3"
+    },
+    {
+      "group": 5,
+      "number": 3,
+      "inputId": "5_3",
+      "answer": "我要两个。",
+      "initial": "",
+      "prompts": [
+        "二つください。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_3",
+          "answer": "我要两个。",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">二つください。</p><label class=\"answer-label\" for=\"5_3\">あなたの答え</label><input id=\"5_3\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-10-r-3"
+    },
+    {
+      "group": 4,
+      "number": 4,
+      "inputId": "4_4",
+      "answer": "はい、ありがとうございます。",
+      "initial": "",
+      "prompts": [
+        "好的，谢谢！"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_4",
+          "answer": "はい、ありがとうございます。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">好的，谢谢！</p><label class=\"answer-label\" for=\"4_4\">あなたの答え</label><input id=\"4_4\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-10-r-4"
+    },
+    {
+      "group": 5,
+      "number": 4,
+      "inputId": "5_4",
+      "answer": "好的，谢谢！",
+      "initial": "",
+      "prompts": [
+        "はい、ありがとうございます。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_4",
+          "answer": "好的，谢谢！",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">はい、ありがとうございます。</p><label class=\"answer-label\" for=\"5_4\">あなたの答え</label><input id=\"5_4\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-10-r-4"
+    },
+    {
+      "number": 1,
+      "initial": "",
+      "sourceWord": "drama-10-w-1",
+      "explanation": "请问 · qǐng wèn\nすみません／おたずねします",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_1",
+      "kind": "meaning",
+      "prompts": [
+        "请问"
+      ],
+      "answer": "すみません／おたずねします",
+      "choices": [
+        {
+          "value": "すみません／おたずねします",
+          "text": "すみません／おたずねします"
+        },
+        {
+          "value": "これ",
+          "text": "これ"
+        },
+        {
+          "value": "いくらですか",
+          "text": "いくらですか"
+        },
+        {
+          "value": "100",
+          "text": "100"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 1,
+      "initial": "",
+      "sourceWord": "drama-10-w-1",
+      "explanation": "请问 · qǐng wèn\nすみません／おたずねします",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_1",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/d163cd45b95cba15.mp3",
+      "answer": "请问",
+      "choices": [
+        {
+          "value": "请问",
+          "text": "请问"
+        },
+        {
+          "value": "这个",
+          "text": "这个"
+        },
+        {
+          "value": "多少钱",
+          "text": "多少钱"
+        },
+        {
+          "value": "一百",
+          "text": "一百"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 1,
+      "initial": "",
+      "sourceWord": "drama-10-w-1",
+      "explanation": "请问 · qǐng wèn\nすみません／おたずねします",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_1",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/d163cd45b95cba15.mp3",
+      "answer": "qǐng wèn",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 2,
+      "initial": "",
+      "sourceWord": "drama-10-w-2",
+      "explanation": "这个 · zhège/zhèige\nこれ",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_2",
+      "kind": "meaning",
+      "prompts": [
+        "这个"
+      ],
+      "answer": "これ",
+      "choices": [
+        {
+          "value": "これ",
+          "text": "これ"
+        },
+        {
+          "value": "すみません／おたずねします",
+          "text": "すみません／おたずねします"
+        },
+        {
+          "value": "いくらですか",
+          "text": "いくらですか"
+        },
+        {
+          "value": "100",
+          "text": "100"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 2,
+      "initial": "",
+      "sourceWord": "drama-10-w-2",
+      "explanation": "这个 · zhège/zhèige\nこれ",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_2",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/46837664f48b2204.mp3",
+      "answer": "这个",
+      "choices": [
+        {
+          "value": "这个",
+          "text": "这个"
+        },
+        {
+          "value": "请问",
+          "text": "请问"
+        },
+        {
+          "value": "多少钱",
+          "text": "多少钱"
+        },
+        {
+          "value": "一百",
+          "text": "一百"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 2,
+      "initial": "",
+      "sourceWord": "drama-10-w-2",
+      "explanation": "这个 · zhège/zhèige\nこれ",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_2",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/46837664f48b2204.mp3",
+      "answer": "zhège",
+      "acceptedAnswers": [
+        "zhèige"
+      ],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 3,
+      "initial": "",
+      "sourceWord": "drama-10-w-3",
+      "explanation": "多少钱 · duōshao qián\nいくらですか",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_3",
+      "kind": "meaning",
+      "prompts": [
+        "多少钱"
+      ],
+      "answer": "いくらですか",
+      "choices": [
+        {
+          "value": "いくらですか",
+          "text": "いくらですか"
+        },
+        {
+          "value": "すみません／おたずねします",
+          "text": "すみません／おたずねします"
+        },
+        {
+          "value": "これ",
+          "text": "これ"
+        },
+        {
+          "value": "100",
+          "text": "100"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 3,
+      "initial": "",
+      "sourceWord": "drama-10-w-3",
+      "explanation": "多少钱 · duōshao qián\nいくらですか",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_3",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/5905257a8b7de230.mp3",
+      "answer": "多少钱",
+      "choices": [
+        {
+          "value": "多少钱",
+          "text": "多少钱"
+        },
+        {
+          "value": "请问",
+          "text": "请问"
+        },
+        {
+          "value": "这个",
+          "text": "这个"
+        },
+        {
+          "value": "一百",
+          "text": "一百"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 3,
+      "initial": "",
+      "sourceWord": "drama-10-w-3",
+      "explanation": "多少钱 · duōshao qián\nいくらですか",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_3",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/5905257a8b7de230.mp3",
+      "answer": "duōshao qián",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 4,
+      "initial": "",
+      "sourceWord": "drama-10-w-4",
+      "explanation": "一百 · yì bǎi\n100",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_4",
+      "kind": "meaning",
+      "prompts": [
+        "一百"
+      ],
+      "answer": "100",
+      "choices": [
+        {
+          "value": "100",
+          "text": "100"
+        },
+        {
+          "value": "すみません／おたずねします",
+          "text": "すみません／おたずねします"
+        },
+        {
+          "value": "これ",
+          "text": "これ"
+        },
+        {
+          "value": "いくらですか",
+          "text": "いくらですか"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 4,
+      "initial": "",
+      "sourceWord": "drama-10-w-4",
+      "explanation": "一百 · yì bǎi\n100",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_4",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/290e168cf0c5b41a.mp3",
+      "answer": "一百",
+      "choices": [
+        {
+          "value": "一百",
+          "text": "一百"
+        },
+        {
+          "value": "请问",
+          "text": "请问"
+        },
+        {
+          "value": "这个",
+          "text": "这个"
+        },
+        {
+          "value": "多少钱",
+          "text": "多少钱"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 4,
+      "initial": "",
+      "sourceWord": "drama-10-w-4",
+      "explanation": "一百 · yì bǎi\n100",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_4",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/290e168cf0c5b41a.mp3",
+      "answer": "yì bǎi",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 5,
+      "initial": "",
+      "sourceWord": "drama-10-w-5",
+      "explanation": "块 · kuài\n～元（口語）",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_5",
+      "kind": "meaning",
+      "prompts": [
+        "块"
+      ],
+      "answer": "～元（口語）",
+      "choices": [
+        {
+          "value": "～元（口語）",
+          "text": "～元（口語）"
+        },
+        {
+          "value": "すみません／おたずねします",
+          "text": "すみません／おたずねします"
+        },
+        {
+          "value": "これ",
+          "text": "これ"
+        },
+        {
+          "value": "いくらですか",
+          "text": "いくらですか"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 5,
+      "initial": "",
+      "sourceWord": "drama-10-w-5",
+      "explanation": "块 · kuài\n～元（口語）",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_5",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/c1022ae0b4623268.mp3",
+      "answer": "块",
+      "choices": [
+        {
+          "value": "块",
+          "text": "块"
+        },
+        {
+          "value": "请问",
+          "text": "请问"
+        },
+        {
+          "value": "这个",
+          "text": "这个"
+        },
+        {
+          "value": "多少钱",
+          "text": "多少钱"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 5,
+      "initial": "",
+      "sourceWord": "drama-10-w-5",
+      "explanation": "块 · kuài\n～元（口語）",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_5",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/c1022ae0b4623268.mp3",
+      "answer": "kuài",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 6,
+      "initial": "",
+      "sourceWord": "drama-10-w-6",
+      "explanation": "两个 · liǎng ge\n2つ",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_6",
+      "kind": "meaning",
+      "prompts": [
+        "两个"
+      ],
+      "answer": "2つ",
+      "choices": [
+        {
+          "value": "2つ",
+          "text": "2つ"
+        },
+        {
+          "value": "すみません／おたずねします",
+          "text": "すみません／おたずねします"
+        },
+        {
+          "value": "これ",
+          "text": "これ"
+        },
+        {
+          "value": "いくらですか",
+          "text": "いくらですか"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 6,
+      "initial": "",
+      "sourceWord": "drama-10-w-6",
+      "explanation": "两个 · liǎng ge\n2つ",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_6",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/0406c753bffd1caa.mp3",
+      "answer": "两个",
+      "choices": [
+        {
+          "value": "两个",
+          "text": "两个"
+        },
+        {
+          "value": "请问",
+          "text": "请问"
+        },
+        {
+          "value": "这个",
+          "text": "这个"
+        },
+        {
+          "value": "多少钱",
+          "text": "多少钱"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 6,
+      "initial": "",
+      "sourceWord": "drama-10-w-6",
+      "explanation": "两个 · liǎng ge\n2つ",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_6",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/0406c753bffd1caa.mp3",
+      "answer": "liǎng ge",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 7,
+      "initial": "",
+      "sourceWord": "drama-10-w-7",
+      "explanation": "好的 · hǎo de\nはい／わかりました",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_7",
+      "kind": "meaning",
+      "prompts": [
+        "好的"
+      ],
+      "answer": "はい／わかりました",
+      "choices": [
+        {
+          "value": "はい／わかりました",
+          "text": "はい／わかりました"
+        },
+        {
+          "value": "すみません／おたずねします",
+          "text": "すみません／おたずねします"
+        },
+        {
+          "value": "これ",
+          "text": "これ"
+        },
+        {
+          "value": "いくらですか",
+          "text": "いくらですか"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 7,
+      "initial": "",
+      "sourceWord": "drama-10-w-7",
+      "explanation": "好的 · hǎo de\nはい／わかりました",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_7",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/9891af5b828d0f94.mp3",
+      "answer": "好的",
+      "choices": [
+        {
+          "value": "好的",
+          "text": "好的"
+        },
+        {
+          "value": "请问",
+          "text": "请问"
+        },
+        {
+          "value": "这个",
+          "text": "这个"
+        },
+        {
+          "value": "多少钱",
+          "text": "多少钱"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 7,
+      "initial": "",
+      "sourceWord": "drama-10-w-7",
+      "explanation": "好的 · hǎo de\nはい／わかりました",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_7",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/9891af5b828d0f94.mp3",
+      "answer": "hǎo de",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    }
+  ],
+  "homework": null,
+  "drama": []
+}

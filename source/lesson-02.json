@@ -1,0 +1,756 @@
+{
+  "id": 2,
+  "title": "我是山本优子。",
+  "japanese": "自己紹介",
+  "reading": [
+    {
+      "id": "drama-2-r-1",
+      "speaker": "山本",
+      "ch": "王明老师，您好！我是山本优子。",
+      "py": "wáng míng lǎo shī ， nín hǎo ！ wǒ shì shān běn yōu zǐ 。",
+      "jp": "王明先生、こんにちは。私は山本優子です。",
+      "audio": "audio/lesson02/reading-01.mp3"
+    },
+    {
+      "id": "drama-2-r-2",
+      "speaker": "王",
+      "ch": "优子同学，你好！",
+      "py": "yōu zǐ tóng xué ， nǐ hǎo ！",
+      "jp": "優子さん、こんにちは。",
+      "audio": "audio/lesson02/reading-02.mp3"
+    },
+    {
+      "id": "drama-2-r-3",
+      "speaker": "山本",
+      "ch": "王老师，拜拜！",
+      "py": "wáng lǎo shī ， bái bái ！",
+      "jp": "王先生、またね。",
+      "audio": "audio/lesson02/reading-03.mp3"
+    },
+    {
+      "id": "drama-2-r-4",
+      "speaker": "王",
+      "ch": "优子同学，再见！",
+      "py": "yōu zǐ tóng xué ， zài jiàn ！",
+      "jp": "優子さん、さようなら。",
+      "audio": "audio/lesson02/reading-04.mp3"
+    }
+  ],
+  "words": [
+    {
+      "id": "drama-2-w-1",
+      "ch": "老师",
+      "py": "lǎo shī",
+      "jp": "先生、教師",
+      "audio": "audio/lesson02/word-01.mp3"
+    },
+    {
+      "id": "drama-2-w-2",
+      "ch": "您好",
+      "py": "nín hǎo",
+      "jp": "こんにちは",
+      "audio": "audio/lesson02/word-02.mp3"
+    },
+    {
+      "id": "drama-2-w-3",
+      "ch": "我",
+      "py": "wǒ",
+      "jp": "私",
+      "audio": "audio/lesson02/word-03.mp3"
+    },
+    {
+      "id": "drama-2-w-4",
+      "ch": "是",
+      "py": "shì",
+      "jp": "～は～である",
+      "audio": "audio/lesson02/word-04.mp3"
+    },
+    {
+      "id": "drama-2-w-5",
+      "ch": "同学",
+      "py": "tóng xué",
+      "jp": "クラスメート、同級生",
+      "audio": "audio/lesson02/word-05.mp3"
+    },
+    {
+      "id": "drama-2-w-6",
+      "ch": "拜拜",
+      "py": "bái bái",
+      "jp": "バイバイ、またね",
+      "audio": "audio/lesson02/word-06.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "“是”について",
+      "html": "<p>意味：“是”＝「です、だ、である」</p><p>使い方：肯定：主語+是+目的語。=「～は～である。」</p><p data-audio=\"audio/clips/09600585954ad864.mp3\">我是留学生。Wǒ shì liúxuéshēng.</p><p>私は留学生です。</p><p>否定：主語+不是+目的語。=「～は～ではない。」</p><p data-audio=\"audio/clips/aaa4e8d7e10ae12a.mp3\">李明不是留学生。Lǐ Míng bú shì liúxuéshēng.李明さんは留学生ではありません。</p><p>疑問：主語+是+目的語+吗？</p><p data-audio=\"audio/clips/c330097374fa344a.mp3\">山本是大学生吗？Shānběn shì dàxuéshēng ma?</p><p>山本さんは大学生ですか。</p>"
+    }
+  ],
+  "pronunciation": [],
+  "exercises": [
+    {
+      "group": 4,
+      "number": 1,
+      "inputId": "4_1",
+      "answer": "王明先生、こんにちは。私は山本優子です。",
+      "initial": "",
+      "prompts": [
+        "王明老师，您好！我是山本优子。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_1",
+          "answer": "王明先生、こんにちは。私は山本優子です。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">王明老师，您好！我是山本优子。</p><label class=\"answer-label\" for=\"4_1\">あなたの答え</label><input id=\"4_1\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-2-r-1"
+    },
+    {
+      "group": 5,
+      "number": 1,
+      "inputId": "5_1",
+      "answer": "王明老师，您好！我是山本优子。",
+      "initial": "",
+      "prompts": [
+        "王明先生、こんにちは。私は山本優子です。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_1",
+          "answer": "王明老师，您好！我是山本优子。",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">王明先生、こんにちは。私は山本優子です。</p><label class=\"answer-label\" for=\"5_1\">あなたの答え</label><input id=\"5_1\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-2-r-1"
+    },
+    {
+      "group": 4,
+      "number": 2,
+      "inputId": "4_2",
+      "answer": "優子さん、こんにちは。",
+      "initial": "",
+      "prompts": [
+        "优子同学，你好！"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_2",
+          "answer": "優子さん、こんにちは。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">优子同学，你好！</p><label class=\"answer-label\" for=\"4_2\">あなたの答え</label><input id=\"4_2\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-2-r-2"
+    },
+    {
+      "group": 5,
+      "number": 2,
+      "inputId": "5_2",
+      "answer": "优子同学，你好！",
+      "initial": "",
+      "prompts": [
+        "優子さん、こんにちは。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_2",
+          "answer": "优子同学，你好！",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">優子さん、こんにちは。</p><label class=\"answer-label\" for=\"5_2\">あなたの答え</label><input id=\"5_2\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-2-r-2"
+    },
+    {
+      "group": 4,
+      "number": 3,
+      "inputId": "4_3",
+      "answer": "王先生、またね。",
+      "initial": "",
+      "prompts": [
+        "王老师，拜拜！"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_3",
+          "answer": "王先生、またね。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">王老师，拜拜！</p><label class=\"answer-label\" for=\"4_3\">あなたの答え</label><input id=\"4_3\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-2-r-3"
+    },
+    {
+      "group": 5,
+      "number": 3,
+      "inputId": "5_3",
+      "answer": "王老师，拜拜！",
+      "initial": "",
+      "prompts": [
+        "王先生、またね。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_3",
+          "answer": "王老师，拜拜！",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">王先生、またね。</p><label class=\"answer-label\" for=\"5_3\">あなたの答え</label><input id=\"5_3\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-2-r-3"
+    },
+    {
+      "group": 4,
+      "number": 4,
+      "inputId": "4_4",
+      "answer": "優子さん、さようなら。",
+      "initial": "",
+      "prompts": [
+        "优子同学，再见！"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_4",
+          "answer": "優子さん、さようなら。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">优子同学，再见！</p><label class=\"answer-label\" for=\"4_4\">あなたの答え</label><input id=\"4_4\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-2-r-4"
+    },
+    {
+      "group": 5,
+      "number": 4,
+      "inputId": "5_4",
+      "answer": "优子同学，再见！",
+      "initial": "",
+      "prompts": [
+        "優子さん、さようなら。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_4",
+          "answer": "优子同学，再见！",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">優子さん、さようなら。</p><label class=\"answer-label\" for=\"5_4\">あなたの答え</label><input id=\"5_4\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-2-r-4"
+    },
+    {
+      "number": 1,
+      "initial": "",
+      "sourceWord": "drama-2-w-1",
+      "explanation": "老师 · lǎo shī\n先生、教師",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_1",
+      "kind": "meaning",
+      "prompts": [
+        "老师"
+      ],
+      "answer": "先生、教師",
+      "choices": [
+        {
+          "value": "先生、教師",
+          "text": "先生、教師"
+        },
+        {
+          "value": "こんにちは",
+          "text": "こんにちは"
+        },
+        {
+          "value": "私",
+          "text": "私"
+        },
+        {
+          "value": "～は～である",
+          "text": "～は～である"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 1,
+      "initial": "",
+      "sourceWord": "drama-2-w-1",
+      "explanation": "老师 · lǎo shī\n先生、教師",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_1",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/351360c66042bbf5.mp3",
+      "answer": "老师",
+      "choices": [
+        {
+          "value": "老师",
+          "text": "老师"
+        },
+        {
+          "value": "您好",
+          "text": "您好"
+        },
+        {
+          "value": "我",
+          "text": "我"
+        },
+        {
+          "value": "是",
+          "text": "是"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 1,
+      "initial": "",
+      "sourceWord": "drama-2-w-1",
+      "explanation": "老师 · lǎo shī\n先生、教師",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_1",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/351360c66042bbf5.mp3",
+      "answer": "lǎo shī",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 2,
+      "initial": "",
+      "sourceWord": "drama-2-w-2",
+      "explanation": "您好 · nín hǎo\nこんにちは",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_2",
+      "kind": "meaning",
+      "prompts": [
+        "您好"
+      ],
+      "answer": "こんにちは",
+      "choices": [
+        {
+          "value": "こんにちは",
+          "text": "こんにちは"
+        },
+        {
+          "value": "先生、教師",
+          "text": "先生、教師"
+        },
+        {
+          "value": "私",
+          "text": "私"
+        },
+        {
+          "value": "～は～である",
+          "text": "～は～である"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 2,
+      "initial": "",
+      "sourceWord": "drama-2-w-2",
+      "explanation": "您好 · nín hǎo\nこんにちは",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_2",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/f4574826a3d427ae.mp3",
+      "answer": "您好",
+      "choices": [
+        {
+          "value": "您好",
+          "text": "您好"
+        },
+        {
+          "value": "老师",
+          "text": "老师"
+        },
+        {
+          "value": "我",
+          "text": "我"
+        },
+        {
+          "value": "是",
+          "text": "是"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 2,
+      "initial": "",
+      "sourceWord": "drama-2-w-2",
+      "explanation": "您好 · nín hǎo\nこんにちは",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_2",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/f4574826a3d427ae.mp3",
+      "answer": "nín hǎo",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 3,
+      "initial": "",
+      "sourceWord": "drama-2-w-3",
+      "explanation": "我 · wǒ\n私",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_3",
+      "kind": "meaning",
+      "prompts": [
+        "我"
+      ],
+      "answer": "私",
+      "choices": [
+        {
+          "value": "私",
+          "text": "私"
+        },
+        {
+          "value": "先生、教師",
+          "text": "先生、教師"
+        },
+        {
+          "value": "こんにちは",
+          "text": "こんにちは"
+        },
+        {
+          "value": "～は～である",
+          "text": "～は～である"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 3,
+      "initial": "",
+      "sourceWord": "drama-2-w-3",
+      "explanation": "我 · wǒ\n私",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_3",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/7d1a64b914f3d36b.mp3",
+      "answer": "我",
+      "choices": [
+        {
+          "value": "我",
+          "text": "我"
+        },
+        {
+          "value": "老师",
+          "text": "老师"
+        },
+        {
+          "value": "您好",
+          "text": "您好"
+        },
+        {
+          "value": "是",
+          "text": "是"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 3,
+      "initial": "",
+      "sourceWord": "drama-2-w-3",
+      "explanation": "我 · wǒ\n私",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_3",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/7d1a64b914f3d36b.mp3",
+      "answer": "wǒ",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 4,
+      "initial": "",
+      "sourceWord": "drama-2-w-4",
+      "explanation": "是 · shì\n～は～である",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_4",
+      "kind": "meaning",
+      "prompts": [
+        "是"
+      ],
+      "answer": "～は～である",
+      "choices": [
+        {
+          "value": "～は～である",
+          "text": "～は～である"
+        },
+        {
+          "value": "先生、教師",
+          "text": "先生、教師"
+        },
+        {
+          "value": "こんにちは",
+          "text": "こんにちは"
+        },
+        {
+          "value": "私",
+          "text": "私"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 4,
+      "initial": "",
+      "sourceWord": "drama-2-w-4",
+      "explanation": "是 · shì\n～は～である",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_4",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/34a1700661cea257.mp3",
+      "answer": "是",
+      "choices": [
+        {
+          "value": "是",
+          "text": "是"
+        },
+        {
+          "value": "老师",
+          "text": "老师"
+        },
+        {
+          "value": "您好",
+          "text": "您好"
+        },
+        {
+          "value": "我",
+          "text": "我"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 4,
+      "initial": "",
+      "sourceWord": "drama-2-w-4",
+      "explanation": "是 · shì\n～は～である",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_4",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/34a1700661cea257.mp3",
+      "answer": "shì",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 5,
+      "initial": "",
+      "sourceWord": "drama-2-w-5",
+      "explanation": "同学 · tóng xué\nクラスメート、同級生",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_5",
+      "kind": "meaning",
+      "prompts": [
+        "同学"
+      ],
+      "answer": "クラスメート、同級生",
+      "choices": [
+        {
+          "value": "クラスメート、同級生",
+          "text": "クラスメート、同級生"
+        },
+        {
+          "value": "先生、教師",
+          "text": "先生、教師"
+        },
+        {
+          "value": "こんにちは",
+          "text": "こんにちは"
+        },
+        {
+          "value": "私",
+          "text": "私"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 5,
+      "initial": "",
+      "sourceWord": "drama-2-w-5",
+      "explanation": "同学 · tóng xué\nクラスメート、同級生",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_5",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/e5d2928ac0688f58.mp3",
+      "answer": "同学",
+      "choices": [
+        {
+          "value": "同学",
+          "text": "同学"
+        },
+        {
+          "value": "老师",
+          "text": "老师"
+        },
+        {
+          "value": "您好",
+          "text": "您好"
+        },
+        {
+          "value": "我",
+          "text": "我"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 5,
+      "initial": "",
+      "sourceWord": "drama-2-w-5",
+      "explanation": "同学 · tóng xué\nクラスメート、同級生",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_5",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/e5d2928ac0688f58.mp3",
+      "answer": "tóng xué",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 6,
+      "initial": "",
+      "sourceWord": "drama-2-w-6",
+      "explanation": "拜拜 · bái bái\nバイバイ、またね",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_6",
+      "kind": "meaning",
+      "prompts": [
+        "拜拜"
+      ],
+      "answer": "バイバイ、またね",
+      "choices": [
+        {
+          "value": "バイバイ、またね",
+          "text": "バイバイ、またね"
+        },
+        {
+          "value": "先生、教師",
+          "text": "先生、教師"
+        },
+        {
+          "value": "こんにちは",
+          "text": "こんにちは"
+        },
+        {
+          "value": "私",
+          "text": "私"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 6,
+      "initial": "",
+      "sourceWord": "drama-2-w-6",
+      "explanation": "拜拜 · bái bái\nバイバイ、またね",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_6",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/d470613de287e4c7.mp3",
+      "answer": "拜拜",
+      "choices": [
+        {
+          "value": "拜拜",
+          "text": "拜拜"
+        },
+        {
+          "value": "老师",
+          "text": "老师"
+        },
+        {
+          "value": "您好",
+          "text": "您好"
+        },
+        {
+          "value": "我",
+          "text": "我"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 6,
+      "initial": "",
+      "sourceWord": "drama-2-w-6",
+      "explanation": "拜拜 · bái bái\nバイバイ、またね",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_6",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/d470613de287e4c7.mp3",
+      "answer": "bái bái",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    }
+  ],
+  "homework": null,
+  "drama": []
+}

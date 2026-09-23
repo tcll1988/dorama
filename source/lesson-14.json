@@ -1,0 +1,1204 @@
+{
+  "id": 14,
+  "title": "过年好！",
+  "japanese": "新年と誕生日",
+  "reading": [
+    {
+      "id": "drama-14-r-1",
+      "speaker": "山本",
+      "ch": "今天是中国的春节。过年好！",
+      "py": "jīn tiān shì zhōng guó de chūn jié 。 guò nián hǎo ！",
+      "jp": "今日は中国の春節です。あけましておめでとうございます。",
+      "audio": "audio/lesson14/reading-01.mp3"
+    },
+    {
+      "id": "drama-14-r-2",
+      "speaker": "王",
+      "ch": "新年快乐！祝你身体健康，万事如意！",
+      "py": "xīn nián kuài lè ！ zhù nǐ shēn tǐ jiàn kāng ， wàn shì rú yì ！",
+      "jp": "新年おめでとうございます。健康で、すべてがうまくいきますように。",
+      "audio": "audio/lesson14/reading-02.mp3"
+    },
+    {
+      "id": "drama-14-r-3",
+      "speaker": "山本",
+      "ch": "今天也是我的生日。",
+      "py": "jīn tiān yě shì wǒ de shēng rì 。",
+      "jp": "今日は私の誕生日でもあります。",
+      "audio": "audio/lesson14/reading-03.mp3"
+    },
+    {
+      "id": "drama-14-r-4",
+      "speaker": "王",
+      "ch": "祝你生日快乐！学习进步！",
+      "py": "zhù nǐ shēng rì kuài lè ！ xué xí jìn bù ！",
+      "jp": "お誕生日おめでとうございます。勉強が上達しますように。",
+      "audio": "audio/lesson14/reading-04.mp3"
+    },
+    {
+      "id": "drama-14-r-5",
+      "speaker": "王",
+      "ch": "天天开心！",
+      "py": "tiān tiān kāi xīn ！",
+      "jp": "毎日楽しく過ごせますように。",
+      "audio": "audio/lesson14/reading-05.mp3"
+    }
+  ],
+  "words": [
+    {
+      "id": "drama-14-w-1",
+      "ch": "中国",
+      "py": "Zhōngguó",
+      "jp": "中国",
+      "audio": "audio/lesson14/word-01.mp3"
+    },
+    {
+      "id": "drama-14-w-2",
+      "ch": "的",
+      "py": "de",
+      "jp": "～の",
+      "audio": "audio/lesson14/word-02.mp3"
+    },
+    {
+      "id": "drama-14-w-3",
+      "ch": "春节",
+      "py": "Chūnjié",
+      "jp": "春節",
+      "audio": "audio/lesson14/word-03.mp3"
+    },
+    {
+      "id": "drama-14-w-4",
+      "ch": "过年好",
+      "py": "guònián hǎo",
+      "jp": "あけましておめでとうございます",
+      "audio": "audio/lesson14/word-04.mp3"
+    },
+    {
+      "id": "drama-14-w-5",
+      "ch": "新年快乐",
+      "py": "xīnnián kuàilè",
+      "jp": "新年おめでとうございます",
+      "audio": "audio/lesson14/word-05.mp3"
+    },
+    {
+      "id": "drama-14-w-6",
+      "ch": "祝",
+      "py": "zhù",
+      "jp": "祈る／願う／祝う",
+      "audio": "audio/lesson14/word-06.mp3"
+    },
+    {
+      "id": "drama-14-w-7",
+      "ch": "身体健康",
+      "py": "shēntǐ jiànkāng",
+      "jp": "体が健康である",
+      "audio": "audio/lesson14/word-07.mp3"
+    },
+    {
+      "id": "drama-14-w-8",
+      "ch": "万事如意",
+      "py": "wànshì rúyì",
+      "jp": "すべてが思い通りにいきますように",
+      "audio": "audio/lesson14/word-08.mp3"
+    },
+    {
+      "id": "drama-14-w-9",
+      "ch": "生日快乐",
+      "py": "shēngrìkuàilè",
+      "jp": "誕生日おめでとうございます",
+      "audio": "audio/lesson14/word-09.mp3"
+    },
+    {
+      "id": "drama-14-w-10",
+      "ch": "学习进步",
+      "py": "xuéxí jìnbù",
+      "jp": "学業の進歩",
+      "audio": "audio/lesson14/word-10.mp3"
+    },
+    {
+      "id": "drama-14-w-11",
+      "ch": "天天开心",
+      "py": "tiāntiān kāixīn",
+      "jp": "毎日元気で楽しい",
+      "audio": "audio/lesson14/word-11.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "“祝……快乐”について",
+      "html": "<p>意味：「おめでとう」</p><p>使い方：祝＋相手＋めでたいこと/日＋快乐！</p><p data-audio=\"audio/clips/5c2d8c62e9d552a8.mp3\">祝你生日快乐！お誕生日、おめでとうございます！</p><p data-audio=\"audio/clips/fa8e03375abce351.mp3\">祝王老师新年快乐！王先生、新年おめでとうございます！</p>"
+    },
+    {
+      "title": "中国語で新年のあいさつを読んでみましょう",
+      "html": "<div class=\"table-scroll\"><table><tr><td>中国語</td><td>ピンイン</td><td>日本語</td></tr><tr><td>过年好！</td><td>Guònián hǎo!</td><td>あけましておめでとうございます</td></tr><tr><td>新年快乐！</td><td>Xīnnián kuàilè!</td><td>新年おめでとうございます</td></tr><tr><td>春节快乐！</td><td>Chūnjié kuàilè!</td><td>春節おめでとうございます</td></tr><tr><td>恭喜发财！</td><td>Gōngxǐ fācái!</td><td>お金に恵まれますように／ご発財をお祈りします</td></tr><tr><td>万事如意！</td><td>Wànshì rúyì!</td><td>すべてがうまくいきますように</td></tr><tr><td>身体健康！</td><td>Shēntǐ jiànkāng!</td><td>健康でありますように</td></tr><tr><td>阖家幸福！</td><td>Héjiā xìngfú!</td><td>ご家族みんなが幸せでありますように</td></tr><tr><td>天天好心情！</td><td>Tiāntiān hǎo xīnqíng!</td><td>毎日よい気分で過ごせますように</td></tr><tr><td>学习进步！</td><td>Xuéxí jìnbù!</td><td>学業が進歩しますように</td></tr><tr><td>工作顺利！</td><td>Gōngzuò shùnlì!</td><td>仕事が順調でありますように</td></tr><tr><td>龙年快乐！</td><td>Lóngnián kuàilè!</td><td>辰年おめでとうございます</td></tr><tr><td>蛇年快乐！</td><td>Shénián kuàilè!</td><td>巳年おめでとうございます</td></tr></table></div>"
+    }
+  ],
+  "pronunciation": [],
+  "exercises": [
+    {
+      "group": 4,
+      "number": 1,
+      "inputId": "4_1",
+      "answer": "今日は中国の春節です。あけましておめでとうございます。",
+      "initial": "",
+      "prompts": [
+        "今天是中国的春节。过年好！"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_1",
+          "answer": "今日は中国の春節です。あけましておめでとうございます。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">今天是中国的春节。过年好！</p><label class=\"answer-label\" for=\"4_1\">あなたの答え</label><input id=\"4_1\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-14-r-1"
+    },
+    {
+      "group": 5,
+      "number": 1,
+      "inputId": "5_1",
+      "answer": "今天是中国的春节。过年好！",
+      "initial": "",
+      "prompts": [
+        "今日は中国の春節です。あけましておめでとうございます。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_1",
+          "answer": "今天是中国的春节。过年好！",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">今日は中国の春節です。あけましておめでとうございます。</p><label class=\"answer-label\" for=\"5_1\">あなたの答え</label><input id=\"5_1\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-14-r-1"
+    },
+    {
+      "group": 4,
+      "number": 2,
+      "inputId": "4_2",
+      "answer": "新年おめでとうございます。健康で、すべてがうまくいきますように。",
+      "initial": "",
+      "prompts": [
+        "新年快乐！祝你身体健康，万事如意！"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_2",
+          "answer": "新年おめでとうございます。健康で、すべてがうまくいきますように。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">新年快乐！祝你身体健康，万事如意！</p><label class=\"answer-label\" for=\"4_2\">あなたの答え</label><input id=\"4_2\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-14-r-2"
+    },
+    {
+      "group": 5,
+      "number": 2,
+      "inputId": "5_2",
+      "answer": "新年快乐！祝你身体健康，万事如意！",
+      "initial": "",
+      "prompts": [
+        "新年おめでとうございます。健康で、すべてがうまくいきますように。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_2",
+          "answer": "新年快乐！祝你身体健康，万事如意！",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">新年おめでとうございます。健康で、すべてがうまくいきますように。</p><label class=\"answer-label\" for=\"5_2\">あなたの答え</label><input id=\"5_2\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-14-r-2"
+    },
+    {
+      "group": 4,
+      "number": 3,
+      "inputId": "4_3",
+      "answer": "今日は私の誕生日でもあります。",
+      "initial": "",
+      "prompts": [
+        "今天也是我的生日。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_3",
+          "answer": "今日は私の誕生日でもあります。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">今天也是我的生日。</p><label class=\"answer-label\" for=\"4_3\">あなたの答え</label><input id=\"4_3\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-14-r-3"
+    },
+    {
+      "group": 5,
+      "number": 3,
+      "inputId": "5_3",
+      "answer": "今天也是我的生日。",
+      "initial": "",
+      "prompts": [
+        "今日は私の誕生日でもあります。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_3",
+          "answer": "今天也是我的生日。",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">今日は私の誕生日でもあります。</p><label class=\"answer-label\" for=\"5_3\">あなたの答え</label><input id=\"5_3\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-14-r-3"
+    },
+    {
+      "group": 4,
+      "number": 4,
+      "inputId": "4_4",
+      "answer": "お誕生日おめでとうございます。勉強が上達しますように。",
+      "initial": "",
+      "prompts": [
+        "祝你生日快乐！学习进步！"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_4",
+          "answer": "お誕生日おめでとうございます。勉強が上達しますように。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">祝你生日快乐！学习进步！</p><label class=\"answer-label\" for=\"4_4\">あなたの答え</label><input id=\"4_4\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-14-r-4"
+    },
+    {
+      "group": 5,
+      "number": 4,
+      "inputId": "5_4",
+      "answer": "祝你生日快乐！学习进步！",
+      "initial": "",
+      "prompts": [
+        "お誕生日おめでとうございます。勉強が上達しますように。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_4",
+          "answer": "祝你生日快乐！学习进步！",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">お誕生日おめでとうございます。勉強が上達しますように。</p><label class=\"answer-label\" for=\"5_4\">あなたの答え</label><input id=\"5_4\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-14-r-4"
+    },
+    {
+      "group": 4,
+      "number": 5,
+      "inputId": "4_5",
+      "answer": "毎日楽しく過ごせますように。",
+      "initial": "",
+      "prompts": [
+        "天天开心！"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_5",
+          "answer": "毎日楽しく過ごせますように。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">天天开心！</p><label class=\"answer-label\" for=\"4_5\">あなたの答え</label><input id=\"4_5\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-14-r-5"
+    },
+    {
+      "group": 5,
+      "number": 5,
+      "inputId": "5_5",
+      "answer": "天天开心！",
+      "initial": "",
+      "prompts": [
+        "毎日楽しく過ごせますように。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_5",
+          "answer": "天天开心！",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">毎日楽しく過ごせますように。</p><label class=\"answer-label\" for=\"5_5\">あなたの答え</label><input id=\"5_5\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-14-r-5"
+    },
+    {
+      "number": 1,
+      "initial": "",
+      "sourceWord": "drama-14-w-1",
+      "explanation": "中国 · Zhōngguó\n中国",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_1",
+      "kind": "meaning",
+      "prompts": [
+        "中国"
+      ],
+      "answer": "中国",
+      "choices": [
+        {
+          "value": "中国",
+          "text": "中国"
+        },
+        {
+          "value": "～の",
+          "text": "～の"
+        },
+        {
+          "value": "春節",
+          "text": "春節"
+        },
+        {
+          "value": "あけましておめでとうございます",
+          "text": "あけましておめでとうございます"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 1,
+      "initial": "",
+      "sourceWord": "drama-14-w-1",
+      "explanation": "中国 · Zhōngguó\n中国",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_1",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/a68cf4f32aae9103.mp3",
+      "answer": "中国",
+      "choices": [
+        {
+          "value": "中国",
+          "text": "中国"
+        },
+        {
+          "value": "的",
+          "text": "的"
+        },
+        {
+          "value": "春节",
+          "text": "春节"
+        },
+        {
+          "value": "过年好",
+          "text": "过年好"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 1,
+      "initial": "",
+      "sourceWord": "drama-14-w-1",
+      "explanation": "中国 · Zhōngguó\n中国",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_1",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/a68cf4f32aae9103.mp3",
+      "answer": "Zhōngguó",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 2,
+      "initial": "",
+      "sourceWord": "drama-14-w-2",
+      "explanation": "的 · de\n～の",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_2",
+      "kind": "meaning",
+      "prompts": [
+        "的"
+      ],
+      "answer": "～の",
+      "choices": [
+        {
+          "value": "～の",
+          "text": "～の"
+        },
+        {
+          "value": "中国",
+          "text": "中国"
+        },
+        {
+          "value": "春節",
+          "text": "春節"
+        },
+        {
+          "value": "あけましておめでとうございます",
+          "text": "あけましておめでとうございます"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 2,
+      "initial": "",
+      "sourceWord": "drama-14-w-2",
+      "explanation": "的 · de\n～の",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_2",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/34487db5b0bb34e9.mp3",
+      "answer": "的",
+      "choices": [
+        {
+          "value": "的",
+          "text": "的"
+        },
+        {
+          "value": "中国",
+          "text": "中国"
+        },
+        {
+          "value": "春节",
+          "text": "春节"
+        },
+        {
+          "value": "过年好",
+          "text": "过年好"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 2,
+      "initial": "",
+      "sourceWord": "drama-14-w-2",
+      "explanation": "的 · de\n～の",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_2",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/34487db5b0bb34e9.mp3",
+      "answer": "de",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 3,
+      "initial": "",
+      "sourceWord": "drama-14-w-3",
+      "explanation": "春节 · Chūnjié\n春節",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_3",
+      "kind": "meaning",
+      "prompts": [
+        "春节"
+      ],
+      "answer": "春節",
+      "choices": [
+        {
+          "value": "春節",
+          "text": "春節"
+        },
+        {
+          "value": "中国",
+          "text": "中国"
+        },
+        {
+          "value": "～の",
+          "text": "～の"
+        },
+        {
+          "value": "あけましておめでとうございます",
+          "text": "あけましておめでとうございます"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 3,
+      "initial": "",
+      "sourceWord": "drama-14-w-3",
+      "explanation": "春节 · Chūnjié\n春節",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_3",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/c49e75146a4d9b5c.mp3",
+      "answer": "春节",
+      "choices": [
+        {
+          "value": "春节",
+          "text": "春节"
+        },
+        {
+          "value": "中国",
+          "text": "中国"
+        },
+        {
+          "value": "的",
+          "text": "的"
+        },
+        {
+          "value": "过年好",
+          "text": "过年好"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 3,
+      "initial": "",
+      "sourceWord": "drama-14-w-3",
+      "explanation": "春节 · Chūnjié\n春節",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_3",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/c49e75146a4d9b5c.mp3",
+      "answer": "Chūnjié",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 4,
+      "initial": "",
+      "sourceWord": "drama-14-w-4",
+      "explanation": "过年好 · guònián hǎo\nあけましておめでとうございます",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_4",
+      "kind": "meaning",
+      "prompts": [
+        "过年好"
+      ],
+      "answer": "あけましておめでとうございます",
+      "choices": [
+        {
+          "value": "あけましておめでとうございます",
+          "text": "あけましておめでとうございます"
+        },
+        {
+          "value": "中国",
+          "text": "中国"
+        },
+        {
+          "value": "～の",
+          "text": "～の"
+        },
+        {
+          "value": "春節",
+          "text": "春節"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 4,
+      "initial": "",
+      "sourceWord": "drama-14-w-4",
+      "explanation": "过年好 · guònián hǎo\nあけましておめでとうございます",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_4",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/835cecf557800864.mp3",
+      "answer": "过年好",
+      "choices": [
+        {
+          "value": "过年好",
+          "text": "过年好"
+        },
+        {
+          "value": "中国",
+          "text": "中国"
+        },
+        {
+          "value": "的",
+          "text": "的"
+        },
+        {
+          "value": "春节",
+          "text": "春节"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 4,
+      "initial": "",
+      "sourceWord": "drama-14-w-4",
+      "explanation": "过年好 · guònián hǎo\nあけましておめでとうございます",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_4",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/835cecf557800864.mp3",
+      "answer": "guònián hǎo",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 5,
+      "initial": "",
+      "sourceWord": "drama-14-w-5",
+      "explanation": "新年快乐 · xīnnián kuàilè\n新年おめでとうございます",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_5",
+      "kind": "meaning",
+      "prompts": [
+        "新年快乐"
+      ],
+      "answer": "新年おめでとうございます",
+      "choices": [
+        {
+          "value": "新年おめでとうございます",
+          "text": "新年おめでとうございます"
+        },
+        {
+          "value": "中国",
+          "text": "中国"
+        },
+        {
+          "value": "～の",
+          "text": "～の"
+        },
+        {
+          "value": "春節",
+          "text": "春節"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 5,
+      "initial": "",
+      "sourceWord": "drama-14-w-5",
+      "explanation": "新年快乐 · xīnnián kuàilè\n新年おめでとうございます",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_5",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/15a8f338b319f9fd.mp3",
+      "answer": "新年快乐",
+      "choices": [
+        {
+          "value": "新年快乐",
+          "text": "新年快乐"
+        },
+        {
+          "value": "中国",
+          "text": "中国"
+        },
+        {
+          "value": "的",
+          "text": "的"
+        },
+        {
+          "value": "春节",
+          "text": "春节"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 5,
+      "initial": "",
+      "sourceWord": "drama-14-w-5",
+      "explanation": "新年快乐 · xīnnián kuàilè\n新年おめでとうございます",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_5",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/15a8f338b319f9fd.mp3",
+      "answer": "xīnnián kuàilè",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 6,
+      "initial": "",
+      "sourceWord": "drama-14-w-6",
+      "explanation": "祝 · zhù\n祈る／願う／祝う",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_6",
+      "kind": "meaning",
+      "prompts": [
+        "祝"
+      ],
+      "answer": "祈る／願う／祝う",
+      "choices": [
+        {
+          "value": "祈る／願う／祝う",
+          "text": "祈る／願う／祝う"
+        },
+        {
+          "value": "中国",
+          "text": "中国"
+        },
+        {
+          "value": "～の",
+          "text": "～の"
+        },
+        {
+          "value": "春節",
+          "text": "春節"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 6,
+      "initial": "",
+      "sourceWord": "drama-14-w-6",
+      "explanation": "祝 · zhù\n祈る／願う／祝う",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_6",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/7060b180e168ff51.mp3",
+      "answer": "祝",
+      "choices": [
+        {
+          "value": "祝",
+          "text": "祝"
+        },
+        {
+          "value": "中国",
+          "text": "中国"
+        },
+        {
+          "value": "的",
+          "text": "的"
+        },
+        {
+          "value": "春节",
+          "text": "春节"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 6,
+      "initial": "",
+      "sourceWord": "drama-14-w-6",
+      "explanation": "祝 · zhù\n祈る／願う／祝う",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_6",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/7060b180e168ff51.mp3",
+      "answer": "zhù",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 7,
+      "initial": "",
+      "sourceWord": "drama-14-w-7",
+      "explanation": "身体健康 · shēntǐ jiànkāng\n体が健康である",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_7",
+      "kind": "meaning",
+      "prompts": [
+        "身体健康"
+      ],
+      "answer": "体が健康である",
+      "choices": [
+        {
+          "value": "体が健康である",
+          "text": "体が健康である"
+        },
+        {
+          "value": "中国",
+          "text": "中国"
+        },
+        {
+          "value": "～の",
+          "text": "～の"
+        },
+        {
+          "value": "春節",
+          "text": "春節"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 7,
+      "initial": "",
+      "sourceWord": "drama-14-w-7",
+      "explanation": "身体健康 · shēntǐ jiànkāng\n体が健康である",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_7",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/1cd4c41e355ee546.mp3",
+      "answer": "身体健康",
+      "choices": [
+        {
+          "value": "身体健康",
+          "text": "身体健康"
+        },
+        {
+          "value": "中国",
+          "text": "中国"
+        },
+        {
+          "value": "的",
+          "text": "的"
+        },
+        {
+          "value": "春节",
+          "text": "春节"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 7,
+      "initial": "",
+      "sourceWord": "drama-14-w-7",
+      "explanation": "身体健康 · shēntǐ jiànkāng\n体が健康である",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_7",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/1cd4c41e355ee546.mp3",
+      "answer": "shēntǐ jiànkāng",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 8,
+      "initial": "",
+      "sourceWord": "drama-14-w-8",
+      "explanation": "万事如意 · wànshì rúyì\nすべてが思い通りにいきますように",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_8",
+      "kind": "meaning",
+      "prompts": [
+        "万事如意"
+      ],
+      "answer": "すべてが思い通りにいきますように",
+      "choices": [
+        {
+          "value": "すべてが思い通りにいきますように",
+          "text": "すべてが思い通りにいきますように"
+        },
+        {
+          "value": "中国",
+          "text": "中国"
+        },
+        {
+          "value": "～の",
+          "text": "～の"
+        },
+        {
+          "value": "春節",
+          "text": "春節"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 8,
+      "initial": "",
+      "sourceWord": "drama-14-w-8",
+      "explanation": "万事如意 · wànshì rúyì\nすべてが思い通りにいきますように",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_8",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/ed6e0966d5ca9e70.mp3",
+      "answer": "万事如意",
+      "choices": [
+        {
+          "value": "万事如意",
+          "text": "万事如意"
+        },
+        {
+          "value": "中国",
+          "text": "中国"
+        },
+        {
+          "value": "的",
+          "text": "的"
+        },
+        {
+          "value": "春节",
+          "text": "春节"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 8,
+      "initial": "",
+      "sourceWord": "drama-14-w-8",
+      "explanation": "万事如意 · wànshì rúyì\nすべてが思い通りにいきますように",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_8",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/ed6e0966d5ca9e70.mp3",
+      "answer": "wànshì rúyì",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 9,
+      "initial": "",
+      "sourceWord": "drama-14-w-9",
+      "explanation": "生日快乐 · shēngrìkuàilè\n誕生日おめでとうございます",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_9",
+      "kind": "meaning",
+      "prompts": [
+        "生日快乐"
+      ],
+      "answer": "誕生日おめでとうございます",
+      "choices": [
+        {
+          "value": "誕生日おめでとうございます",
+          "text": "誕生日おめでとうございます"
+        },
+        {
+          "value": "中国",
+          "text": "中国"
+        },
+        {
+          "value": "～の",
+          "text": "～の"
+        },
+        {
+          "value": "春節",
+          "text": "春節"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 9,
+      "initial": "",
+      "sourceWord": "drama-14-w-9",
+      "explanation": "生日快乐 · shēngrìkuàilè\n誕生日おめでとうございます",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_9",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/9ac78a76b9640662.mp3",
+      "answer": "生日快乐",
+      "choices": [
+        {
+          "value": "生日快乐",
+          "text": "生日快乐"
+        },
+        {
+          "value": "中国",
+          "text": "中国"
+        },
+        {
+          "value": "的",
+          "text": "的"
+        },
+        {
+          "value": "春节",
+          "text": "春节"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 9,
+      "initial": "",
+      "sourceWord": "drama-14-w-9",
+      "explanation": "生日快乐 · shēngrìkuàilè\n誕生日おめでとうございます",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_9",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/9ac78a76b9640662.mp3",
+      "answer": "shēngrìkuàilè",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 10,
+      "initial": "",
+      "sourceWord": "drama-14-w-10",
+      "explanation": "学习进步 · xuéxí jìnbù\n学業の進歩",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_10",
+      "kind": "meaning",
+      "prompts": [
+        "学习进步"
+      ],
+      "answer": "学業の進歩",
+      "choices": [
+        {
+          "value": "学業の進歩",
+          "text": "学業の進歩"
+        },
+        {
+          "value": "中国",
+          "text": "中国"
+        },
+        {
+          "value": "～の",
+          "text": "～の"
+        },
+        {
+          "value": "春節",
+          "text": "春節"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 10,
+      "initial": "",
+      "sourceWord": "drama-14-w-10",
+      "explanation": "学习进步 · xuéxí jìnbù\n学業の進歩",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_10",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/f0406885c809278c.mp3",
+      "answer": "学习进步",
+      "choices": [
+        {
+          "value": "学习进步",
+          "text": "学习进步"
+        },
+        {
+          "value": "中国",
+          "text": "中国"
+        },
+        {
+          "value": "的",
+          "text": "的"
+        },
+        {
+          "value": "春节",
+          "text": "春节"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 10,
+      "initial": "",
+      "sourceWord": "drama-14-w-10",
+      "explanation": "学习进步 · xuéxí jìnbù\n学業の進歩",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_10",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/f0406885c809278c.mp3",
+      "answer": "xuéxí jìnbù",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 11,
+      "initial": "",
+      "sourceWord": "drama-14-w-11",
+      "explanation": "天天开心 · tiāntiān kāixīn\n毎日元気で楽しい",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_11",
+      "kind": "meaning",
+      "prompts": [
+        "天天开心"
+      ],
+      "answer": "毎日元気で楽しい",
+      "choices": [
+        {
+          "value": "毎日元気で楽しい",
+          "text": "毎日元気で楽しい"
+        },
+        {
+          "value": "中国",
+          "text": "中国"
+        },
+        {
+          "value": "～の",
+          "text": "～の"
+        },
+        {
+          "value": "春節",
+          "text": "春節"
+        }
+      ],
+      "choiceLang": "ja"
+    }
+  ],
+  "homework": null,
+  "drama": []
+}

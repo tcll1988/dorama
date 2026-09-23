@@ -1,0 +1,1112 @@
+{
+  "id": 5,
+  "title": "爸爸和妈妈",
+  "japanese": "家族と年齢",
+  "reading": [
+    {
+      "id": "drama-5-r-1",
+      "speaker": "王",
+      "ch": "你家有几口人？",
+      "py": "nǐ jiā yǒu jǐ kǒu rén ？",
+      "jp": "あなたの家族は何人ですか。",
+      "audio": "audio/lesson05/reading-01.mp3"
+    },
+    {
+      "id": "drama-5-r-2",
+      "speaker": "山本",
+      "ch": "我家有四口人。爸爸、妈妈，妹妹和我。",
+      "py": "wǒ jiā yǒu sì kǒu rén 。 bà ba 、 mā ma ， mèi mei hé wǒ 。",
+      "jp": "私の家族は4人です。父、母、妹と私です。",
+      "audio": "audio/lesson05/reading-02.mp3"
+    },
+    {
+      "id": "drama-5-r-3",
+      "speaker": "王",
+      "ch": "你妹妹几岁了？",
+      "py": "nǐ mèi mei jǐ suì le ？",
+      "jp": "妹さんは何歳ですか。",
+      "audio": "audio/lesson05/reading-03.mp3"
+    },
+    {
+      "id": "drama-5-r-4",
+      "speaker": "山本",
+      "ch": "我妹妹今年八岁。",
+      "py": "wǒ mèi mei jīn nián bā suì 。",
+      "jp": "妹は今年8歳です。",
+      "audio": "audio/lesson05/reading-04.mp3"
+    }
+  ],
+  "words": [
+    {
+      "id": "drama-5-w-1",
+      "ch": "家",
+      "py": "jiā",
+      "jp": "家",
+      "audio": "audio/lesson05/word-01.mp3"
+    },
+    {
+      "id": "drama-5-w-2",
+      "ch": "有",
+      "py": "yǒu",
+      "jp": "ある；いる",
+      "audio": "audio/lesson05/word-02.mp3"
+    },
+    {
+      "id": "drama-5-w-3",
+      "ch": "口人",
+      "py": "kǒurén",
+      "jp": "～人家族",
+      "audio": "audio/lesson05/word-03.mp3"
+    },
+    {
+      "id": "drama-5-w-4",
+      "ch": "爸爸",
+      "py": "bà ba",
+      "jp": "お父さん",
+      "audio": "audio/lesson05/word-04.mp3"
+    },
+    {
+      "id": "drama-5-w-5",
+      "ch": "妈妈",
+      "py": "mā ma",
+      "jp": "お母さん",
+      "audio": "audio/lesson05/word-05.mp3"
+    },
+    {
+      "id": "drama-5-w-6",
+      "ch": "妹妹",
+      "py": "mèimei",
+      "jp": "妹",
+      "audio": "audio/lesson05/word-06.mp3"
+    },
+    {
+      "id": "drama-5-w-7",
+      "ch": "和",
+      "py": "hé",
+      "jp": "と",
+      "audio": "audio/lesson05/word-07.mp3"
+    },
+    {
+      "id": "drama-5-w-8",
+      "ch": "几岁了",
+      "py": "jǐsuìle",
+      "jp": "何歳ですか",
+      "audio": "audio/lesson05/word-08.mp3"
+    },
+    {
+      "id": "drama-5-w-9",
+      "ch": "今年",
+      "py": "jīn nián",
+      "jp": "今年",
+      "audio": "audio/lesson05/word-09.mp3"
+    },
+    {
+      "id": "drama-5-w-10",
+      "ch": "岁",
+      "py": "suì",
+      "jp": "歳",
+      "audio": "audio/lesson05/word-10.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "中国語の家族の言い方について",
+      "html": "<p>家族を紹介するときは「我家有…口人」を使います。</p><div class=\"table-scroll\"><table><tr><td>爸爸</td><td>bàba</td><td>父</td></tr><tr><td>妈妈</td><td>māma</td><td>母</td></tr><tr><td>哥哥</td><td>gēge</td><td>兄</td></tr><tr><td>姐姐</td><td>jiějie</td><td>姉</td></tr><tr><td>弟弟</td><td>dìdi</td><td>弟</td></tr><tr><td>妹妹</td><td>mèimei</td><td>妹</td></tr></table></div>"
+    },
+    {
+      "title": "年齢を尋ねる表現について",
+      "html": "<p>⓵子どもに聞くとき</p><p data-audio=\"audio/clips/9f5885f960e2a9f5.mp3\">A： 你几岁了？Nǐjǐsuìle？</p><p>何歳なの。</p><p data-audio=\"audio/clips/4d8557e2e12ca236.mp3\">B： ５岁。Wǔsuì.</p><p>５歳。</p><p>⓶同年代の人に聞くとき</p><p data-audio=\"audio/clips/7047c46da3b9f299.mp3\">A： 你多大了？Nǐduōdàle？</p><p>いくつですか。</p><p data-audio=\"audio/clips/aa31763c0cc3b17f.mp3\">B： 25岁。Èrshíwǔsuì。</p><p>25歳。</p><p>⓷年配の人に聞くとき</p><p data-audio=\"audio/clips/c76fc2eab377fa88.mp3\">A： 您多大岁数了？Nínduōdàsuìshu le？</p><p>おいくつですか。</p><p data-audio=\"audio/clips/73ee0d0fee0d627f.mp3\">B： 76岁。Qīshíliùsuì。</p><p>76歳。</p>"
+    }
+  ],
+  "pronunciation": [],
+  "exercises": [
+    {
+      "group": 4,
+      "number": 1,
+      "inputId": "4_1",
+      "answer": "あなたの家族は何人ですか。",
+      "initial": "",
+      "prompts": [
+        "你家有几口人？"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_1",
+          "answer": "あなたの家族は何人ですか。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">你家有几口人？</p><label class=\"answer-label\" for=\"4_1\">あなたの答え</label><input id=\"4_1\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-5-r-1"
+    },
+    {
+      "group": 5,
+      "number": 1,
+      "inputId": "5_1",
+      "answer": "你家有几口人？",
+      "initial": "",
+      "prompts": [
+        "あなたの家族は何人ですか。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_1",
+          "answer": "你家有几口人？",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">あなたの家族は何人ですか。</p><label class=\"answer-label\" for=\"5_1\">あなたの答え</label><input id=\"5_1\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-5-r-1"
+    },
+    {
+      "group": 4,
+      "number": 2,
+      "inputId": "4_2",
+      "answer": "私の家族は4人です。父、母、妹と私です。",
+      "initial": "",
+      "prompts": [
+        "我家有四口人。爸爸、妈妈，妹妹和我。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_2",
+          "answer": "私の家族は4人です。父、母、妹と私です。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">我家有四口人。爸爸、妈妈，妹妹和我。</p><label class=\"answer-label\" for=\"4_2\">あなたの答え</label><input id=\"4_2\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-5-r-2"
+    },
+    {
+      "group": 5,
+      "number": 2,
+      "inputId": "5_2",
+      "answer": "我家有四口人。爸爸、妈妈，妹妹和我。",
+      "initial": "",
+      "prompts": [
+        "私の家族は4人です。父、母、妹と私です。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_2",
+          "answer": "我家有四口人。爸爸、妈妈，妹妹和我。",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">私の家族は4人です。父、母、妹と私です。</p><label class=\"answer-label\" for=\"5_2\">あなたの答え</label><input id=\"5_2\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-5-r-2"
+    },
+    {
+      "group": 4,
+      "number": 3,
+      "inputId": "4_3",
+      "answer": "妹さんは何歳ですか。",
+      "initial": "",
+      "prompts": [
+        "你妹妹几岁了？"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_3",
+          "answer": "妹さんは何歳ですか。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">你妹妹几岁了？</p><label class=\"answer-label\" for=\"4_3\">あなたの答え</label><input id=\"4_3\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-5-r-3"
+    },
+    {
+      "group": 5,
+      "number": 3,
+      "inputId": "5_3",
+      "answer": "你妹妹几岁了？",
+      "initial": "",
+      "prompts": [
+        "妹さんは何歳ですか。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_3",
+          "answer": "你妹妹几岁了？",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">妹さんは何歳ですか。</p><label class=\"answer-label\" for=\"5_3\">あなたの答え</label><input id=\"5_3\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-5-r-3"
+    },
+    {
+      "group": 4,
+      "number": 4,
+      "inputId": "4_4",
+      "answer": "妹は今年8歳です。",
+      "initial": "",
+      "prompts": [
+        "我妹妹今年八岁。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_4",
+          "answer": "妹は今年8歳です。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">我妹妹今年八岁。</p><label class=\"answer-label\" for=\"4_4\">あなたの答え</label><input id=\"4_4\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-5-r-4"
+    },
+    {
+      "group": 5,
+      "number": 4,
+      "inputId": "5_4",
+      "answer": "我妹妹今年八岁。",
+      "initial": "",
+      "prompts": [
+        "妹は今年8歳です。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_4",
+          "answer": "我妹妹今年八岁。",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">妹は今年8歳です。</p><label class=\"answer-label\" for=\"5_4\">あなたの答え</label><input id=\"5_4\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-5-r-4"
+    },
+    {
+      "number": 1,
+      "initial": "",
+      "sourceWord": "drama-5-w-1",
+      "explanation": "家 · jiā\n家",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_1",
+      "kind": "meaning",
+      "prompts": [
+        "家"
+      ],
+      "answer": "家",
+      "choices": [
+        {
+          "value": "家",
+          "text": "家"
+        },
+        {
+          "value": "ある；いる",
+          "text": "ある；いる"
+        },
+        {
+          "value": "～人家族",
+          "text": "～人家族"
+        },
+        {
+          "value": "お父さん",
+          "text": "お父さん"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 1,
+      "initial": "",
+      "sourceWord": "drama-5-w-1",
+      "explanation": "家 · jiā\n家",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_1",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/1001b6bb59c3e777.mp3",
+      "answer": "家",
+      "choices": [
+        {
+          "value": "家",
+          "text": "家"
+        },
+        {
+          "value": "有",
+          "text": "有"
+        },
+        {
+          "value": "口人",
+          "text": "口人"
+        },
+        {
+          "value": "爸爸",
+          "text": "爸爸"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 1,
+      "initial": "",
+      "sourceWord": "drama-5-w-1",
+      "explanation": "家 · jiā\n家",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_1",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/1001b6bb59c3e777.mp3",
+      "answer": "jiā",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 2,
+      "initial": "",
+      "sourceWord": "drama-5-w-2",
+      "explanation": "有 · yǒu\nある；いる",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_2",
+      "kind": "meaning",
+      "prompts": [
+        "有"
+      ],
+      "answer": "ある；いる",
+      "choices": [
+        {
+          "value": "ある；いる",
+          "text": "ある；いる"
+        },
+        {
+          "value": "家",
+          "text": "家"
+        },
+        {
+          "value": "～人家族",
+          "text": "～人家族"
+        },
+        {
+          "value": "お父さん",
+          "text": "お父さん"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 2,
+      "initial": "",
+      "sourceWord": "drama-5-w-2",
+      "explanation": "有 · yǒu\nある；いる",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_2",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/b64a63891c88a40d.mp3",
+      "answer": "有",
+      "choices": [
+        {
+          "value": "有",
+          "text": "有"
+        },
+        {
+          "value": "家",
+          "text": "家"
+        },
+        {
+          "value": "口人",
+          "text": "口人"
+        },
+        {
+          "value": "爸爸",
+          "text": "爸爸"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 2,
+      "initial": "",
+      "sourceWord": "drama-5-w-2",
+      "explanation": "有 · yǒu\nある；いる",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_2",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/b64a63891c88a40d.mp3",
+      "answer": "yǒu",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 3,
+      "initial": "",
+      "sourceWord": "drama-5-w-3",
+      "explanation": "口人 · kǒurén\n～人家族",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_3",
+      "kind": "meaning",
+      "prompts": [
+        "口人"
+      ],
+      "answer": "～人家族",
+      "choices": [
+        {
+          "value": "～人家族",
+          "text": "～人家族"
+        },
+        {
+          "value": "家",
+          "text": "家"
+        },
+        {
+          "value": "ある；いる",
+          "text": "ある；いる"
+        },
+        {
+          "value": "お父さん",
+          "text": "お父さん"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 3,
+      "initial": "",
+      "sourceWord": "drama-5-w-3",
+      "explanation": "口人 · kǒurén\n～人家族",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_3",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/03b133aca741703e.mp3",
+      "answer": "口人",
+      "choices": [
+        {
+          "value": "口人",
+          "text": "口人"
+        },
+        {
+          "value": "家",
+          "text": "家"
+        },
+        {
+          "value": "有",
+          "text": "有"
+        },
+        {
+          "value": "爸爸",
+          "text": "爸爸"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 3,
+      "initial": "",
+      "sourceWord": "drama-5-w-3",
+      "explanation": "口人 · kǒurén\n～人家族",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_3",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/03b133aca741703e.mp3",
+      "answer": "kǒurén",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 4,
+      "initial": "",
+      "sourceWord": "drama-5-w-4",
+      "explanation": "爸爸 · bà ba\nお父さん",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_4",
+      "kind": "meaning",
+      "prompts": [
+        "爸爸"
+      ],
+      "answer": "お父さん",
+      "choices": [
+        {
+          "value": "お父さん",
+          "text": "お父さん"
+        },
+        {
+          "value": "家",
+          "text": "家"
+        },
+        {
+          "value": "ある；いる",
+          "text": "ある；いる"
+        },
+        {
+          "value": "～人家族",
+          "text": "～人家族"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 4,
+      "initial": "",
+      "sourceWord": "drama-5-w-4",
+      "explanation": "爸爸 · bà ba\nお父さん",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_4",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/f2a4a035792f1f84.mp3",
+      "answer": "爸爸",
+      "choices": [
+        {
+          "value": "爸爸",
+          "text": "爸爸"
+        },
+        {
+          "value": "家",
+          "text": "家"
+        },
+        {
+          "value": "有",
+          "text": "有"
+        },
+        {
+          "value": "口人",
+          "text": "口人"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 4,
+      "initial": "",
+      "sourceWord": "drama-5-w-4",
+      "explanation": "爸爸 · bà ba\nお父さん",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_4",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/f2a4a035792f1f84.mp3",
+      "answer": "bà ba",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 5,
+      "initial": "",
+      "sourceWord": "drama-5-w-5",
+      "explanation": "妈妈 · mā ma\nお母さん",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_5",
+      "kind": "meaning",
+      "prompts": [
+        "妈妈"
+      ],
+      "answer": "お母さん",
+      "choices": [
+        {
+          "value": "お母さん",
+          "text": "お母さん"
+        },
+        {
+          "value": "家",
+          "text": "家"
+        },
+        {
+          "value": "ある；いる",
+          "text": "ある；いる"
+        },
+        {
+          "value": "～人家族",
+          "text": "～人家族"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 5,
+      "initial": "",
+      "sourceWord": "drama-5-w-5",
+      "explanation": "妈妈 · mā ma\nお母さん",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_5",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/b22321f5912ad896.mp3",
+      "answer": "妈妈",
+      "choices": [
+        {
+          "value": "妈妈",
+          "text": "妈妈"
+        },
+        {
+          "value": "家",
+          "text": "家"
+        },
+        {
+          "value": "有",
+          "text": "有"
+        },
+        {
+          "value": "口人",
+          "text": "口人"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 5,
+      "initial": "",
+      "sourceWord": "drama-5-w-5",
+      "explanation": "妈妈 · mā ma\nお母さん",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_5",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/b22321f5912ad896.mp3",
+      "answer": "mā ma",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 6,
+      "initial": "",
+      "sourceWord": "drama-5-w-6",
+      "explanation": "妹妹 · mèimei\n妹",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_6",
+      "kind": "meaning",
+      "prompts": [
+        "妹妹"
+      ],
+      "answer": "妹",
+      "choices": [
+        {
+          "value": "妹",
+          "text": "妹"
+        },
+        {
+          "value": "家",
+          "text": "家"
+        },
+        {
+          "value": "ある；いる",
+          "text": "ある；いる"
+        },
+        {
+          "value": "～人家族",
+          "text": "～人家族"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 6,
+      "initial": "",
+      "sourceWord": "drama-5-w-6",
+      "explanation": "妹妹 · mèimei\n妹",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_6",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/419ce4b1edd0f71c.mp3",
+      "answer": "妹妹",
+      "choices": [
+        {
+          "value": "妹妹",
+          "text": "妹妹"
+        },
+        {
+          "value": "家",
+          "text": "家"
+        },
+        {
+          "value": "有",
+          "text": "有"
+        },
+        {
+          "value": "口人",
+          "text": "口人"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 6,
+      "initial": "",
+      "sourceWord": "drama-5-w-6",
+      "explanation": "妹妹 · mèimei\n妹",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_6",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/419ce4b1edd0f71c.mp3",
+      "answer": "mèimei",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 7,
+      "initial": "",
+      "sourceWord": "drama-5-w-7",
+      "explanation": "和 · hé\nと",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_7",
+      "kind": "meaning",
+      "prompts": [
+        "和"
+      ],
+      "answer": "と",
+      "choices": [
+        {
+          "value": "と",
+          "text": "と"
+        },
+        {
+          "value": "家",
+          "text": "家"
+        },
+        {
+          "value": "ある；いる",
+          "text": "ある；いる"
+        },
+        {
+          "value": "～人家族",
+          "text": "～人家族"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 7,
+      "initial": "",
+      "sourceWord": "drama-5-w-7",
+      "explanation": "和 · hé\nと",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_7",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/1e9a928bfb012c18.mp3",
+      "answer": "和",
+      "choices": [
+        {
+          "value": "和",
+          "text": "和"
+        },
+        {
+          "value": "家",
+          "text": "家"
+        },
+        {
+          "value": "有",
+          "text": "有"
+        },
+        {
+          "value": "口人",
+          "text": "口人"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 7,
+      "initial": "",
+      "sourceWord": "drama-5-w-7",
+      "explanation": "和 · hé\nと",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_7",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/1e9a928bfb012c18.mp3",
+      "answer": "hé",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 8,
+      "initial": "",
+      "sourceWord": "drama-5-w-8",
+      "explanation": "几岁了 · jǐsuìle\n何歳ですか",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_8",
+      "kind": "meaning",
+      "prompts": [
+        "几岁了"
+      ],
+      "answer": "何歳ですか",
+      "choices": [
+        {
+          "value": "何歳ですか",
+          "text": "何歳ですか"
+        },
+        {
+          "value": "家",
+          "text": "家"
+        },
+        {
+          "value": "ある；いる",
+          "text": "ある；いる"
+        },
+        {
+          "value": "～人家族",
+          "text": "～人家族"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 8,
+      "initial": "",
+      "sourceWord": "drama-5-w-8",
+      "explanation": "几岁了 · jǐsuìle\n何歳ですか",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_8",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/9d20ff4b48d2c550.mp3",
+      "answer": "几岁了",
+      "choices": [
+        {
+          "value": "几岁了",
+          "text": "几岁了"
+        },
+        {
+          "value": "家",
+          "text": "家"
+        },
+        {
+          "value": "有",
+          "text": "有"
+        },
+        {
+          "value": "口人",
+          "text": "口人"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 8,
+      "initial": "",
+      "sourceWord": "drama-5-w-8",
+      "explanation": "几岁了 · jǐsuìle\n何歳ですか",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_8",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/9d20ff4b48d2c550.mp3",
+      "answer": "jǐsuìle",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 9,
+      "initial": "",
+      "sourceWord": "drama-5-w-9",
+      "explanation": "今年 · jīn nián\n今年",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_9",
+      "kind": "meaning",
+      "prompts": [
+        "今年"
+      ],
+      "answer": "今年",
+      "choices": [
+        {
+          "value": "今年",
+          "text": "今年"
+        },
+        {
+          "value": "家",
+          "text": "家"
+        },
+        {
+          "value": "ある；いる",
+          "text": "ある；いる"
+        },
+        {
+          "value": "～人家族",
+          "text": "～人家族"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 9,
+      "initial": "",
+      "sourceWord": "drama-5-w-9",
+      "explanation": "今年 · jīn nián\n今年",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_9",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/10e776e69fb6e263.mp3",
+      "answer": "今年",
+      "choices": [
+        {
+          "value": "今年",
+          "text": "今年"
+        },
+        {
+          "value": "家",
+          "text": "家"
+        },
+        {
+          "value": "有",
+          "text": "有"
+        },
+        {
+          "value": "口人",
+          "text": "口人"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 9,
+      "initial": "",
+      "sourceWord": "drama-5-w-9",
+      "explanation": "今年 · jīn nián\n今年",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_9",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/10e776e69fb6e263.mp3",
+      "answer": "jīn nián",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 10,
+      "initial": "",
+      "sourceWord": "drama-5-w-10",
+      "explanation": "岁 · suì\n歳",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_10",
+      "kind": "meaning",
+      "prompts": [
+        "岁"
+      ],
+      "answer": "歳",
+      "choices": [
+        {
+          "value": "歳",
+          "text": "歳"
+        },
+        {
+          "value": "家",
+          "text": "家"
+        },
+        {
+          "value": "ある；いる",
+          "text": "ある；いる"
+        },
+        {
+          "value": "～人家族",
+          "text": "～人家族"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 10,
+      "initial": "",
+      "sourceWord": "drama-5-w-10",
+      "explanation": "岁 · suì\n歳",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_10",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/71fafe00b73b4d75.mp3",
+      "answer": "岁",
+      "choices": [
+        {
+          "value": "岁",
+          "text": "岁"
+        },
+        {
+          "value": "家",
+          "text": "家"
+        },
+        {
+          "value": "有",
+          "text": "有"
+        },
+        {
+          "value": "口人",
+          "text": "口人"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 10,
+      "initial": "",
+      "sourceWord": "drama-5-w-10",
+      "explanation": "岁 · suì\n歳",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_10",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/71fafe00b73b4d75.mp3",
+      "answer": "suì",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    }
+  ],
+  "homework": null,
+  "drama": []
+}

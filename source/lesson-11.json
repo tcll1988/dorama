@@ -1,0 +1,1268 @@
+{
+  "id": 11,
+  "title": "到北京机场。",
+  "japanese": "タクシーに乗る",
+  "reading": [
+    {
+      "id": "drama-11-r-1",
+      "speaker": "山本",
+      "ch": "您好！司机师傅，到北京机场。",
+      "py": "nín hǎo ！ sī jī shī fu ， dào běi jīng jī chǎng 。",
+      "jp": "こんにちは。運転手さん、北京空港までお願いします。",
+      "audio": "audio/lesson11/reading-01.mp3"
+    },
+    {
+      "id": "drama-11-r-2",
+      "speaker": "司机",
+      "ch": "好的。您是日本人吧？",
+      "py": "hǎo de 。 nín shì rì běn rén ba ？",
+      "jp": "わかりました。日本の方でしょう。",
+      "audio": "audio/lesson11/reading-02.mp3"
+    },
+    {
+      "id": "drama-11-r-3",
+      "speaker": "山本",
+      "ch": "是的。",
+      "py": "shì de 。",
+      "jp": "そうです。",
+      "audio": "audio/lesson11/reading-03.mp3"
+    },
+    {
+      "id": "drama-11-r-4",
+      "speaker": "司机",
+      "ch": "您的中文很好。",
+      "py": "nín de zhōng wén hěn hǎo 。",
+      "jp": "中国語がお上手ですね。",
+      "audio": "audio/lesson11/reading-04.mp3"
+    },
+    {
+      "id": "drama-11-r-5",
+      "speaker": "山本",
+      "ch": "哪里哪里。",
+      "py": "nǎ lǐ nǎ lǐ 。",
+      "jp": "いえいえ、とんでもないです。",
+      "audio": "audio/lesson11/reading-05.mp3"
+    },
+    {
+      "id": "drama-11-r-6",
+      "speaker": "司机",
+      "ch": "到了，一共五十六块。",
+      "py": "dào le ， yí gòng wǔ shí liù kuài 。",
+      "jp": "着きました。全部で56元です。",
+      "audio": "audio/lesson11/reading-06.mp3"
+    },
+    {
+      "id": "drama-11-r-7",
+      "speaker": "山本",
+      "ch": "谢谢。",
+      "py": "xiè xie 。",
+      "jp": "ありがとうございます。",
+      "audio": "audio/lesson11/reading-07.mp3"
+    }
+  ],
+  "words": [
+    {
+      "id": "drama-11-w-1",
+      "ch": "司机师傅",
+      "py": "sījī shīfu",
+      "jp": "運転手さん",
+      "audio": "audio/lesson11/word-01.mp3"
+    },
+    {
+      "id": "drama-11-w-2",
+      "ch": "到",
+      "py": "dào",
+      "jp": "～まで行く",
+      "audio": "audio/lesson11/word-02.mp3"
+    },
+    {
+      "id": "drama-11-w-3",
+      "ch": "北京机场",
+      "py": "Běijīng jīchǎng",
+      "jp": "北京空港",
+      "audio": "audio/lesson11/word-03.mp3"
+    },
+    {
+      "id": "drama-11-w-4",
+      "ch": "日本人",
+      "py": "Rìběnrén",
+      "jp": "日本人",
+      "audio": "audio/lesson11/word-04.mp3"
+    },
+    {
+      "id": "drama-11-w-5",
+      "ch": "吧",
+      "py": "ba",
+      "jp": "～だろう/～でしょう",
+      "audio": "audio/lesson11/word-05.mp3"
+    },
+    {
+      "id": "drama-11-w-6",
+      "ch": "中文",
+      "py": "Zhōngwén",
+      "jp": "中国語",
+      "audio": "audio/lesson11/word-06.mp3"
+    },
+    {
+      "id": "drama-11-w-7",
+      "ch": "很",
+      "py": "hěn",
+      "jp": "とても",
+      "audio": "audio/lesson11/word-07.mp3"
+    },
+    {
+      "id": "drama-11-w-8",
+      "ch": "哪里哪里",
+      "py": "nǎlǐ nǎlǐ",
+      "jp": "とんでもない",
+      "audio": "audio/lesson11/word-08.mp3"
+    },
+    {
+      "id": "drama-11-w-9",
+      "ch": "到了",
+      "py": "dào le",
+      "jp": "着いた",
+      "audio": "audio/lesson11/word-09.mp3"
+    },
+    {
+      "id": "drama-11-w-10",
+      "ch": "一共",
+      "py": "yígòng",
+      "jp": "合計で/全部で",
+      "audio": "audio/lesson11/word-10.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "“吧”について",
+      "html": "<p>意味：“吧”＝「～でしょう」</p><p>使い方：文+吧？</p><p data-audio=\"audio/clips/75e98db6a7b4a459.mp3\">你是北京人吧？Nǐshìběijīngrénba？</p><p>あなたは北京の出身でしょう。</p><p data-audio=\"audio/clips/7a26e96a1dc984b9.mp3\">你有男朋友吧？Nǐyǒunánpéngyǒuba？</p><p>あなたは彼氏がいるでしょう。</p>"
+    },
+    {
+      "title": "形容詞述語文について",
+      "html": "<p>定義：形容詞述語文とは形容詞が述語となる文である</p><p>使い方：肯定：主語+副詞（很）+述語（形容詞）</p><p>爱知淑德大学的留学生很多。Àizhīshūdédàxuédeliúxuéshēnghěnduō。</p><p>愛知淑徳大学の留学生が多いです。</p><p>否定：主語+不+述語（形容詞）</p><p>疑問：主語+述語（形容詞）+吗？</p><p data-audio=\"audio/clips/016bafec94af2de4.mp3\">A：打工辛苦吗？ Dǎgōng xīnkǔ ma？</p><p>アルバイトは大変ですか。</p><p data-audio=\"audio/clips/a2a2b63c1a9da9af.mp3\">B：不辛苦。Bùxīnkǔ。</p><p>大変ではありません。</p>"
+    }
+  ],
+  "pronunciation": [],
+  "exercises": [
+    {
+      "group": 4,
+      "number": 1,
+      "inputId": "4_1",
+      "answer": "こんにちは。運転手さん、北京空港までお願いします。",
+      "initial": "",
+      "prompts": [
+        "您好！司机师傅，到北京机场。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_1",
+          "answer": "こんにちは。運転手さん、北京空港までお願いします。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">您好！司机师傅，到北京机场。</p><label class=\"answer-label\" for=\"4_1\">あなたの答え</label><input id=\"4_1\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-11-r-1"
+    },
+    {
+      "group": 5,
+      "number": 1,
+      "inputId": "5_1",
+      "answer": "您好！司机师傅，到北京机场。",
+      "initial": "",
+      "prompts": [
+        "こんにちは。運転手さん、北京空港までお願いします。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_1",
+          "answer": "您好！司机师傅，到北京机场。",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">こんにちは。運転手さん、北京空港までお願いします。</p><label class=\"answer-label\" for=\"5_1\">あなたの答え</label><input id=\"5_1\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-11-r-1"
+    },
+    {
+      "group": 4,
+      "number": 2,
+      "inputId": "4_2",
+      "answer": "わかりました。日本の方でしょう。",
+      "initial": "",
+      "prompts": [
+        "好的。您是日本人吧？"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_2",
+          "answer": "わかりました。日本の方でしょう。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">好的。您是日本人吧？</p><label class=\"answer-label\" for=\"4_2\">あなたの答え</label><input id=\"4_2\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-11-r-2"
+    },
+    {
+      "group": 5,
+      "number": 2,
+      "inputId": "5_2",
+      "answer": "好的。您是日本人吧？",
+      "initial": "",
+      "prompts": [
+        "わかりました。日本の方でしょう。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_2",
+          "answer": "好的。您是日本人吧？",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">わかりました。日本の方でしょう。</p><label class=\"answer-label\" for=\"5_2\">あなたの答え</label><input id=\"5_2\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-11-r-2"
+    },
+    {
+      "group": 4,
+      "number": 3,
+      "inputId": "4_3",
+      "answer": "そうです。",
+      "initial": "",
+      "prompts": [
+        "是的。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_3",
+          "answer": "そうです。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">是的。</p><label class=\"answer-label\" for=\"4_3\">あなたの答え</label><input id=\"4_3\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-11-r-3"
+    },
+    {
+      "group": 5,
+      "number": 3,
+      "inputId": "5_3",
+      "answer": "是的。",
+      "initial": "",
+      "prompts": [
+        "そうです。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_3",
+          "answer": "是的。",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">そうです。</p><label class=\"answer-label\" for=\"5_3\">あなたの答え</label><input id=\"5_3\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-11-r-3"
+    },
+    {
+      "group": 4,
+      "number": 4,
+      "inputId": "4_4",
+      "answer": "中国語がお上手ですね。",
+      "initial": "",
+      "prompts": [
+        "您的中文很好。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_4",
+          "answer": "中国語がお上手ですね。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">您的中文很好。</p><label class=\"answer-label\" for=\"4_4\">あなたの答え</label><input id=\"4_4\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-11-r-4"
+    },
+    {
+      "group": 5,
+      "number": 4,
+      "inputId": "5_4",
+      "answer": "您的中文很好。",
+      "initial": "",
+      "prompts": [
+        "中国語がお上手ですね。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_4",
+          "answer": "您的中文很好。",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">中国語がお上手ですね。</p><label class=\"answer-label\" for=\"5_4\">あなたの答え</label><input id=\"5_4\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-11-r-4"
+    },
+    {
+      "group": 4,
+      "number": 5,
+      "inputId": "4_5",
+      "answer": "いえいえ、とんでもないです。",
+      "initial": "",
+      "prompts": [
+        "哪里哪里。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_5",
+          "answer": "いえいえ、とんでもないです。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">哪里哪里。</p><label class=\"answer-label\" for=\"4_5\">あなたの答え</label><input id=\"4_5\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-11-r-5"
+    },
+    {
+      "group": 5,
+      "number": 5,
+      "inputId": "5_5",
+      "answer": "哪里哪里。",
+      "initial": "",
+      "prompts": [
+        "いえいえ、とんでもないです。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_5",
+          "answer": "哪里哪里。",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">いえいえ、とんでもないです。</p><label class=\"answer-label\" for=\"5_5\">あなたの答え</label><input id=\"5_5\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-11-r-5"
+    },
+    {
+      "group": 4,
+      "number": 6,
+      "inputId": "4_6",
+      "answer": "着きました。全部で56元です。",
+      "initial": "",
+      "prompts": [
+        "到了，一共五十六块。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_6",
+          "answer": "着きました。全部で56元です。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">到了，一共五十六块。</p><label class=\"answer-label\" for=\"4_6\">あなたの答え</label><input id=\"4_6\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-11-r-6"
+    },
+    {
+      "group": 5,
+      "number": 6,
+      "inputId": "5_6",
+      "answer": "到了，一共五十六块。",
+      "initial": "",
+      "prompts": [
+        "着きました。全部で56元です。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_6",
+          "answer": "到了，一共五十六块。",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">着きました。全部で56元です。</p><label class=\"answer-label\" for=\"5_6\">あなたの答え</label><input id=\"5_6\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-11-r-6"
+    },
+    {
+      "group": 4,
+      "number": 7,
+      "inputId": "4_7",
+      "answer": "ありがとうございます。",
+      "initial": "",
+      "prompts": [
+        "谢谢。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_7",
+          "answer": "ありがとうございます。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">谢谢。</p><label class=\"answer-label\" for=\"4_7\">あなたの答え</label><input id=\"4_7\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-11-r-7"
+    },
+    {
+      "group": 5,
+      "number": 7,
+      "inputId": "5_7",
+      "answer": "谢谢。",
+      "initial": "",
+      "prompts": [
+        "ありがとうございます。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_7",
+          "answer": "谢谢。",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">ありがとうございます。</p><label class=\"answer-label\" for=\"5_7\">あなたの答え</label><input id=\"5_7\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-11-r-7"
+    },
+    {
+      "number": 1,
+      "initial": "",
+      "sourceWord": "drama-11-w-1",
+      "explanation": "司机师傅 · sījī shīfu\n運転手さん",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_1",
+      "kind": "meaning",
+      "prompts": [
+        "司机师傅"
+      ],
+      "answer": "運転手さん",
+      "choices": [
+        {
+          "value": "運転手さん",
+          "text": "運転手さん"
+        },
+        {
+          "value": "～まで行く",
+          "text": "～まで行く"
+        },
+        {
+          "value": "北京空港",
+          "text": "北京空港"
+        },
+        {
+          "value": "日本人",
+          "text": "日本人"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 1,
+      "initial": "",
+      "sourceWord": "drama-11-w-1",
+      "explanation": "司机师傅 · sījī shīfu\n運転手さん",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_1",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/456e07138ada57cb.mp3",
+      "answer": "司机师傅",
+      "choices": [
+        {
+          "value": "司机师傅",
+          "text": "司机师傅"
+        },
+        {
+          "value": "到",
+          "text": "到"
+        },
+        {
+          "value": "北京机场",
+          "text": "北京机场"
+        },
+        {
+          "value": "日本人",
+          "text": "日本人"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 1,
+      "initial": "",
+      "sourceWord": "drama-11-w-1",
+      "explanation": "司机师傅 · sījī shīfu\n運転手さん",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_1",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/456e07138ada57cb.mp3",
+      "answer": "sījī shīfu",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 2,
+      "initial": "",
+      "sourceWord": "drama-11-w-2",
+      "explanation": "到 · dào\n～まで行く",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_2",
+      "kind": "meaning",
+      "prompts": [
+        "到"
+      ],
+      "answer": "～まで行く",
+      "choices": [
+        {
+          "value": "～まで行く",
+          "text": "～まで行く"
+        },
+        {
+          "value": "運転手さん",
+          "text": "運転手さん"
+        },
+        {
+          "value": "北京空港",
+          "text": "北京空港"
+        },
+        {
+          "value": "日本人",
+          "text": "日本人"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 2,
+      "initial": "",
+      "sourceWord": "drama-11-w-2",
+      "explanation": "到 · dào\n～まで行く",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_2",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/2a8d3f24dd5ff68a.mp3",
+      "answer": "到",
+      "choices": [
+        {
+          "value": "到",
+          "text": "到"
+        },
+        {
+          "value": "司机师傅",
+          "text": "司机师傅"
+        },
+        {
+          "value": "北京机场",
+          "text": "北京机场"
+        },
+        {
+          "value": "日本人",
+          "text": "日本人"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 2,
+      "initial": "",
+      "sourceWord": "drama-11-w-2",
+      "explanation": "到 · dào\n～まで行く",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_2",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/2a8d3f24dd5ff68a.mp3",
+      "answer": "dào",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 3,
+      "initial": "",
+      "sourceWord": "drama-11-w-3",
+      "explanation": "北京机场 · Běijīng jīchǎng\n北京空港",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_3",
+      "kind": "meaning",
+      "prompts": [
+        "北京机场"
+      ],
+      "answer": "北京空港",
+      "choices": [
+        {
+          "value": "北京空港",
+          "text": "北京空港"
+        },
+        {
+          "value": "運転手さん",
+          "text": "運転手さん"
+        },
+        {
+          "value": "～まで行く",
+          "text": "～まで行く"
+        },
+        {
+          "value": "日本人",
+          "text": "日本人"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 3,
+      "initial": "",
+      "sourceWord": "drama-11-w-3",
+      "explanation": "北京机场 · Běijīng jīchǎng\n北京空港",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_3",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/56cfca39a27664e1.mp3",
+      "answer": "北京机场",
+      "choices": [
+        {
+          "value": "北京机场",
+          "text": "北京机场"
+        },
+        {
+          "value": "司机师傅",
+          "text": "司机师傅"
+        },
+        {
+          "value": "到",
+          "text": "到"
+        },
+        {
+          "value": "日本人",
+          "text": "日本人"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 3,
+      "initial": "",
+      "sourceWord": "drama-11-w-3",
+      "explanation": "北京机场 · Běijīng jīchǎng\n北京空港",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_3",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/56cfca39a27664e1.mp3",
+      "answer": "Běijīng jīchǎng",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 4,
+      "initial": "",
+      "sourceWord": "drama-11-w-4",
+      "explanation": "日本人 · Rìběnrén\n日本人",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_4",
+      "kind": "meaning",
+      "prompts": [
+        "日本人"
+      ],
+      "answer": "日本人",
+      "choices": [
+        {
+          "value": "日本人",
+          "text": "日本人"
+        },
+        {
+          "value": "運転手さん",
+          "text": "運転手さん"
+        },
+        {
+          "value": "～まで行く",
+          "text": "～まで行く"
+        },
+        {
+          "value": "北京空港",
+          "text": "北京空港"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 4,
+      "initial": "",
+      "sourceWord": "drama-11-w-4",
+      "explanation": "日本人 · Rìběnrén\n日本人",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_4",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/f7846acba3ac3250.mp3",
+      "answer": "日本人",
+      "choices": [
+        {
+          "value": "日本人",
+          "text": "日本人"
+        },
+        {
+          "value": "司机师傅",
+          "text": "司机师傅"
+        },
+        {
+          "value": "到",
+          "text": "到"
+        },
+        {
+          "value": "北京机场",
+          "text": "北京机场"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 4,
+      "initial": "",
+      "sourceWord": "drama-11-w-4",
+      "explanation": "日本人 · Rìběnrén\n日本人",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_4",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/f7846acba3ac3250.mp3",
+      "answer": "Rìběnrén",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 5,
+      "initial": "",
+      "sourceWord": "drama-11-w-5",
+      "explanation": "吧 · ba\n～だろう/～でしょう",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_5",
+      "kind": "meaning",
+      "prompts": [
+        "吧"
+      ],
+      "answer": "～だろう/～でしょう",
+      "choices": [
+        {
+          "value": "～だろう/～でしょう",
+          "text": "～だろう/～でしょう"
+        },
+        {
+          "value": "運転手さん",
+          "text": "運転手さん"
+        },
+        {
+          "value": "～まで行く",
+          "text": "～まで行く"
+        },
+        {
+          "value": "北京空港",
+          "text": "北京空港"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 5,
+      "initial": "",
+      "sourceWord": "drama-11-w-5",
+      "explanation": "吧 · ba\n～だろう/～でしょう",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_5",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/aba0a552ba25f649.mp3",
+      "answer": "吧",
+      "choices": [
+        {
+          "value": "吧",
+          "text": "吧"
+        },
+        {
+          "value": "司机师傅",
+          "text": "司机师傅"
+        },
+        {
+          "value": "到",
+          "text": "到"
+        },
+        {
+          "value": "北京机场",
+          "text": "北京机场"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 5,
+      "initial": "",
+      "sourceWord": "drama-11-w-5",
+      "explanation": "吧 · ba\n～だろう/～でしょう",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_5",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/aba0a552ba25f649.mp3",
+      "answer": "ba",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 6,
+      "initial": "",
+      "sourceWord": "drama-11-w-6",
+      "explanation": "中文 · Zhōngwén\n中国語",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_6",
+      "kind": "meaning",
+      "prompts": [
+        "中文"
+      ],
+      "answer": "中国語",
+      "choices": [
+        {
+          "value": "中国語",
+          "text": "中国語"
+        },
+        {
+          "value": "運転手さん",
+          "text": "運転手さん"
+        },
+        {
+          "value": "～まで行く",
+          "text": "～まで行く"
+        },
+        {
+          "value": "北京空港",
+          "text": "北京空港"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 6,
+      "initial": "",
+      "sourceWord": "drama-11-w-6",
+      "explanation": "中文 · Zhōngwén\n中国語",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_6",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/d9e06d802c803885.mp3",
+      "answer": "中文",
+      "choices": [
+        {
+          "value": "中文",
+          "text": "中文"
+        },
+        {
+          "value": "司机师傅",
+          "text": "司机师傅"
+        },
+        {
+          "value": "到",
+          "text": "到"
+        },
+        {
+          "value": "北京机场",
+          "text": "北京机场"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 6,
+      "initial": "",
+      "sourceWord": "drama-11-w-6",
+      "explanation": "中文 · Zhōngwén\n中国語",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_6",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/d9e06d802c803885.mp3",
+      "answer": "Zhōngwén",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 7,
+      "initial": "",
+      "sourceWord": "drama-11-w-7",
+      "explanation": "很 · hěn\nとても",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_7",
+      "kind": "meaning",
+      "prompts": [
+        "很"
+      ],
+      "answer": "とても",
+      "choices": [
+        {
+          "value": "とても",
+          "text": "とても"
+        },
+        {
+          "value": "運転手さん",
+          "text": "運転手さん"
+        },
+        {
+          "value": "～まで行く",
+          "text": "～まで行く"
+        },
+        {
+          "value": "北京空港",
+          "text": "北京空港"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 7,
+      "initial": "",
+      "sourceWord": "drama-11-w-7",
+      "explanation": "很 · hěn\nとても",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_7",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/1f365a983b8b2138.mp3",
+      "answer": "很",
+      "choices": [
+        {
+          "value": "很",
+          "text": "很"
+        },
+        {
+          "value": "司机师傅",
+          "text": "司机师傅"
+        },
+        {
+          "value": "到",
+          "text": "到"
+        },
+        {
+          "value": "北京机场",
+          "text": "北京机场"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 7,
+      "initial": "",
+      "sourceWord": "drama-11-w-7",
+      "explanation": "很 · hěn\nとても",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_7",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/1f365a983b8b2138.mp3",
+      "answer": "hěn",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 8,
+      "initial": "",
+      "sourceWord": "drama-11-w-8",
+      "explanation": "哪里哪里 · nǎlǐ nǎlǐ\nとんでもない",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_8",
+      "kind": "meaning",
+      "prompts": [
+        "哪里哪里"
+      ],
+      "answer": "とんでもない",
+      "choices": [
+        {
+          "value": "とんでもない",
+          "text": "とんでもない"
+        },
+        {
+          "value": "運転手さん",
+          "text": "運転手さん"
+        },
+        {
+          "value": "～まで行く",
+          "text": "～まで行く"
+        },
+        {
+          "value": "北京空港",
+          "text": "北京空港"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 8,
+      "initial": "",
+      "sourceWord": "drama-11-w-8",
+      "explanation": "哪里哪里 · nǎlǐ nǎlǐ\nとんでもない",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_8",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/567d4cfae884d211.mp3",
+      "answer": "哪里哪里",
+      "choices": [
+        {
+          "value": "哪里哪里",
+          "text": "哪里哪里"
+        },
+        {
+          "value": "司机师傅",
+          "text": "司机师傅"
+        },
+        {
+          "value": "到",
+          "text": "到"
+        },
+        {
+          "value": "北京机场",
+          "text": "北京机场"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 8,
+      "initial": "",
+      "sourceWord": "drama-11-w-8",
+      "explanation": "哪里哪里 · nǎlǐ nǎlǐ\nとんでもない",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_8",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/567d4cfae884d211.mp3",
+      "answer": "nǎlǐ nǎlǐ",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 9,
+      "initial": "",
+      "sourceWord": "drama-11-w-9",
+      "explanation": "到了 · dào le\n着いた",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_9",
+      "kind": "meaning",
+      "prompts": [
+        "到了"
+      ],
+      "answer": "着いた",
+      "choices": [
+        {
+          "value": "着いた",
+          "text": "着いた"
+        },
+        {
+          "value": "運転手さん",
+          "text": "運転手さん"
+        },
+        {
+          "value": "～まで行く",
+          "text": "～まで行く"
+        },
+        {
+          "value": "北京空港",
+          "text": "北京空港"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 9,
+      "initial": "",
+      "sourceWord": "drama-11-w-9",
+      "explanation": "到了 · dào le\n着いた",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_9",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/30c7d7dd98377714.mp3",
+      "answer": "到了",
+      "choices": [
+        {
+          "value": "到了",
+          "text": "到了"
+        },
+        {
+          "value": "司机师傅",
+          "text": "司机师傅"
+        },
+        {
+          "value": "到",
+          "text": "到"
+        },
+        {
+          "value": "北京机场",
+          "text": "北京机场"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 9,
+      "initial": "",
+      "sourceWord": "drama-11-w-9",
+      "explanation": "到了 · dào le\n着いた",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_9",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/30c7d7dd98377714.mp3",
+      "answer": "dào le",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 10,
+      "initial": "",
+      "sourceWord": "drama-11-w-10",
+      "explanation": "一共 · yígòng\n合計で/全部で",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_10",
+      "kind": "meaning",
+      "prompts": [
+        "一共"
+      ],
+      "answer": "合計で/全部で",
+      "choices": [
+        {
+          "value": "合計で/全部で",
+          "text": "合計で/全部で"
+        },
+        {
+          "value": "運転手さん",
+          "text": "運転手さん"
+        },
+        {
+          "value": "～まで行く",
+          "text": "～まで行く"
+        },
+        {
+          "value": "北京空港",
+          "text": "北京空港"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 10,
+      "initial": "",
+      "sourceWord": "drama-11-w-10",
+      "explanation": "一共 · yígòng\n合計で/全部で",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_10",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/bc499201eca00cad.mp3",
+      "answer": "一共",
+      "choices": [
+        {
+          "value": "一共",
+          "text": "一共"
+        },
+        {
+          "value": "司机师傅",
+          "text": "司机师傅"
+        },
+        {
+          "value": "到",
+          "text": "到"
+        },
+        {
+          "value": "北京机场",
+          "text": "北京机场"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 10,
+      "initial": "",
+      "sourceWord": "drama-11-w-10",
+      "explanation": "一共 · yígòng\n合計で/全部で",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_10",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/bc499201eca00cad.mp3",
+      "answer": "yígòng",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    }
+  ],
+  "homework": null,
+  "drama": []
+}

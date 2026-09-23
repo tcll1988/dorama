@@ -1,0 +1,992 @@
+{
+  "id": 9,
+  "title": "你好！要一个油焖茄子。",
+  "japanese": "料理を注文する",
+  "reading": [
+    {
+      "id": "drama-9-r-1",
+      "speaker": "山本",
+      "ch": "你好！点菜！",
+      "py": "nǐ hǎo ！ diǎn cài ！",
+      "jp": "すみません、注文をお願いします。",
+      "audio": "audio/lesson09/reading-01.mp3"
+    },
+    {
+      "id": "drama-9-r-2",
+      "speaker": "店员",
+      "ch": "你好！",
+      "py": "nǐ hǎo ！",
+      "jp": "こんにちは。",
+      "audio": "audio/lesson09/reading-02.mp3"
+    },
+    {
+      "id": "drama-9-r-3",
+      "speaker": "山本",
+      "ch": "要一个油焖茄子、一个红烧排骨和一个锅包肉。",
+      "py": "yào yí gè yóu mèn qié zi 、 yí gè hóng shāo pái gǔ hé yí gè guō bāo ròu 。",
+      "jp": "ナスの油煮込みと豚スペアリブの醤油煮込みと揚げ豚肉の甘酢あんかけを一つずつください。",
+      "audio": "audio/lesson09/reading-03.mp3"
+    },
+    {
+      "id": "drama-9-r-4",
+      "speaker": "店员",
+      "ch": "还要喝的吗？",
+      "py": "hái yào hē de ma ？",
+      "jp": "お飲み物もいかがですか。",
+      "audio": "audio/lesson09/reading-04.mp3"
+    },
+    {
+      "id": "drama-9-r-5",
+      "speaker": "山本",
+      "ch": "不要，谢谢！",
+      "py": "bú yào ， xiè xie ！",
+      "jp": "いりません。ありがとうございます。",
+      "audio": "audio/lesson09/reading-05.mp3"
+    }
+  ],
+  "words": [
+    {
+      "id": "drama-9-w-1",
+      "ch": "要",
+      "py": "yào",
+      "jp": "～がほしい／～をください",
+      "audio": "audio/lesson09/word-01.mp3"
+    },
+    {
+      "id": "drama-9-w-2",
+      "ch": "个",
+      "py": "gè",
+      "jp": "個",
+      "audio": "audio/lesson09/word-02.mp3"
+    },
+    {
+      "id": "drama-9-w-3",
+      "ch": "油焖茄子",
+      "py": "yóumèn qiézi",
+      "jp": "ナスの油煮込み",
+      "audio": "audio/lesson09/word-03.mp3"
+    },
+    {
+      "id": "drama-9-w-4",
+      "ch": "点菜",
+      "py": "diǎn cài",
+      "jp": "料理を注文する",
+      "audio": "audio/lesson09/word-04.mp3"
+    },
+    {
+      "id": "drama-9-w-5",
+      "ch": "红烧排骨",
+      "py": "hóngshāo páigǔ",
+      "jp": "豚スペアリブの醤油煮込み",
+      "audio": "audio/lesson09/word-05.mp3"
+    },
+    {
+      "id": "drama-9-w-6",
+      "ch": "锅包肉",
+      "py": "guōbāoròu",
+      "jp": "揚げ豚肉の甘酢あんかけ",
+      "audio": "audio/lesson09/word-06.mp3"
+    },
+    {
+      "id": "drama-9-w-7",
+      "ch": "还",
+      "py": "hái",
+      "jp": "さらに/また",
+      "audio": "audio/lesson09/word-07.mp3"
+    },
+    {
+      "id": "drama-9-w-8",
+      "ch": "喝的",
+      "py": "hē de",
+      "jp": "飲み物",
+      "audio": "audio/lesson09/word-08.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "注文用語の“要”について",
+      "html": "<p>意味：“要”＝「～がほしい/～をください。」</p><p>使い方：要+数字+助数詞（个，份など）+料理名/商品名</p><p data-audio=\"audio/clips/2bcb94920279235d.mp3\">要三杯奶茶。Yàosānbēinǎichá.</p><p>ミルクティーを３杯ください。</p><p data-audio=\"audio/clips/c85dd5d932f76473.mp3\">要一个麻辣烫和两杯乌龙茶。Yào yí gèmálàtànghéliǎngbēiwūlóngchá.</p><p>マーラータン１つとウーロン茶を２杯ください。</p>"
+    },
+    {
+      "title": "中国語で料理の名前を読んでみましょう。（その２）",
+      "html": "<div class=\"table-scroll\"><table><tr><td>中国語</td><td>ピンイン</td><td>日本語</td></tr><tr><td>北京烤鸭</td><td>Běijīngkǎoyā</td><td>北京ダック</td></tr><tr><td>水饺</td><td>Shuǐjiǎo</td><td>水餃子</td></tr><tr><td>麻婆豆腐</td><td>Mápódòufu</td><td>麻婆豆腐</td></tr><tr><td>糖醋里脊</td><td>Tángcùlǐji</td><td>酢豚</td></tr><tr><td>红烧肉</td><td>Hóngshāoròu</td><td>ホンシャオロウ</td></tr><tr><td>寿司</td><td>shòusī</td><td>お寿司</td></tr><tr><td>咖喱饭</td><td>gālifàn</td><td>カレーライス</td></tr><tr><td>牛肉饭</td><td>niúròufàn</td><td>牛丼</td></tr><tr><td>拉面</td><td>lāmiàn</td><td>ラーメン</td></tr><tr><td>乌冬面</td><td>wūdōngmiàn</td><td>うどん</td></tr></table></div>"
+    }
+  ],
+  "pronunciation": [],
+  "exercises": [
+    {
+      "group": 4,
+      "number": 1,
+      "inputId": "4_1",
+      "answer": "すみません、注文をお願いします。",
+      "initial": "",
+      "prompts": [
+        "你好！点菜！"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_1",
+          "answer": "すみません、注文をお願いします。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">你好！点菜！</p><label class=\"answer-label\" for=\"4_1\">あなたの答え</label><input id=\"4_1\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-9-r-1"
+    },
+    {
+      "group": 5,
+      "number": 1,
+      "inputId": "5_1",
+      "answer": "你好！点菜！",
+      "initial": "",
+      "prompts": [
+        "すみません、注文をお願いします。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_1",
+          "answer": "你好！点菜！",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">すみません、注文をお願いします。</p><label class=\"answer-label\" for=\"5_1\">あなたの答え</label><input id=\"5_1\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-9-r-1"
+    },
+    {
+      "group": 4,
+      "number": 2,
+      "inputId": "4_2",
+      "answer": "こんにちは。",
+      "initial": "",
+      "prompts": [
+        "你好！"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_2",
+          "answer": "こんにちは。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">你好！</p><label class=\"answer-label\" for=\"4_2\">あなたの答え</label><input id=\"4_2\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-9-r-2"
+    },
+    {
+      "group": 5,
+      "number": 2,
+      "inputId": "5_2",
+      "answer": "你好！",
+      "initial": "",
+      "prompts": [
+        "こんにちは。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_2",
+          "answer": "你好！",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">こんにちは。</p><label class=\"answer-label\" for=\"5_2\">あなたの答え</label><input id=\"5_2\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-9-r-2"
+    },
+    {
+      "group": 4,
+      "number": 3,
+      "inputId": "4_3",
+      "answer": "ナスの油煮込みと豚スペアリブの醤油煮込みと揚げ豚肉の甘酢あんかけを一つずつください。",
+      "initial": "",
+      "prompts": [
+        "要一个油焖茄子、一个红烧排骨和一个锅包肉。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_3",
+          "answer": "ナスの油煮込みと豚スペアリブの醤油煮込みと揚げ豚肉の甘酢あんかけを一つずつください。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">要一个油焖茄子、一个红烧排骨和一个锅包肉。</p><label class=\"answer-label\" for=\"4_3\">あなたの答え</label><input id=\"4_3\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-9-r-3"
+    },
+    {
+      "group": 5,
+      "number": 3,
+      "inputId": "5_3",
+      "answer": "要一个油焖茄子、一个红烧排骨和一个锅包肉。",
+      "initial": "",
+      "prompts": [
+        "ナスの油煮込みと豚スペアリブの醤油煮込みと揚げ豚肉の甘酢あんかけを一つずつください。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_3",
+          "answer": "要一个油焖茄子、一个红烧排骨和一个锅包肉。",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">ナスの油煮込みと豚スペアリブの醤油煮込みと揚げ豚肉の甘酢あんかけを一つずつください。</p><label class=\"answer-label\" for=\"5_3\">あなたの答え</label><input id=\"5_3\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-9-r-3"
+    },
+    {
+      "group": 4,
+      "number": 4,
+      "inputId": "4_4",
+      "answer": "お飲み物もいかがですか。",
+      "initial": "",
+      "prompts": [
+        "还要喝的吗？"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_4",
+          "answer": "お飲み物もいかがですか。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">还要喝的吗？</p><label class=\"answer-label\" for=\"4_4\">あなたの答え</label><input id=\"4_4\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-9-r-4"
+    },
+    {
+      "group": 5,
+      "number": 4,
+      "inputId": "5_4",
+      "answer": "还要喝的吗？",
+      "initial": "",
+      "prompts": [
+        "お飲み物もいかがですか。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_4",
+          "answer": "还要喝的吗？",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">お飲み物もいかがですか。</p><label class=\"answer-label\" for=\"5_4\">あなたの答え</label><input id=\"5_4\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-9-r-4"
+    },
+    {
+      "group": 4,
+      "number": 5,
+      "inputId": "4_5",
+      "answer": "いりません。ありがとうございます。",
+      "initial": "",
+      "prompts": [
+        "不要，谢谢！"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_5",
+          "answer": "いりません。ありがとうございます。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">不要，谢谢！</p><label class=\"answer-label\" for=\"4_5\">あなたの答え</label><input id=\"4_5\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-9-r-5"
+    },
+    {
+      "group": 5,
+      "number": 5,
+      "inputId": "5_5",
+      "answer": "不要，谢谢！",
+      "initial": "",
+      "prompts": [
+        "いりません。ありがとうございます。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_5",
+          "answer": "不要，谢谢！",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">いりません。ありがとうございます。</p><label class=\"answer-label\" for=\"5_5\">あなたの答え</label><input id=\"5_5\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-9-r-5"
+    },
+    {
+      "number": 1,
+      "initial": "",
+      "sourceWord": "drama-9-w-1",
+      "explanation": "要 · yào\n～がほしい／～をください",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_1",
+      "kind": "meaning",
+      "prompts": [
+        "要"
+      ],
+      "answer": "～がほしい／～をください",
+      "choices": [
+        {
+          "value": "～がほしい／～をください",
+          "text": "～がほしい／～をください"
+        },
+        {
+          "value": "個",
+          "text": "個"
+        },
+        {
+          "value": "ナスの油煮込み",
+          "text": "ナスの油煮込み"
+        },
+        {
+          "value": "料理を注文する",
+          "text": "料理を注文する"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 1,
+      "initial": "",
+      "sourceWord": "drama-9-w-1",
+      "explanation": "要 · yào\n～がほしい／～をください",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_1",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/71d83824ecdff0cf.mp3",
+      "answer": "要",
+      "choices": [
+        {
+          "value": "要",
+          "text": "要"
+        },
+        {
+          "value": "个",
+          "text": "个"
+        },
+        {
+          "value": "油焖茄子",
+          "text": "油焖茄子"
+        },
+        {
+          "value": "点菜",
+          "text": "点菜"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 1,
+      "initial": "",
+      "sourceWord": "drama-9-w-1",
+      "explanation": "要 · yào\n～がほしい／～をください",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_1",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/71d83824ecdff0cf.mp3",
+      "answer": "yào",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 2,
+      "initial": "",
+      "sourceWord": "drama-9-w-2",
+      "explanation": "个 · gè\n個",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_2",
+      "kind": "meaning",
+      "prompts": [
+        "个"
+      ],
+      "answer": "個",
+      "choices": [
+        {
+          "value": "個",
+          "text": "個"
+        },
+        {
+          "value": "～がほしい／～をください",
+          "text": "～がほしい／～をください"
+        },
+        {
+          "value": "ナスの油煮込み",
+          "text": "ナスの油煮込み"
+        },
+        {
+          "value": "料理を注文する",
+          "text": "料理を注文する"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 2,
+      "initial": "",
+      "sourceWord": "drama-9-w-2",
+      "explanation": "个 · gè\n個",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_2",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/906bbc3a30c7ab4e.mp3",
+      "answer": "个",
+      "choices": [
+        {
+          "value": "个",
+          "text": "个"
+        },
+        {
+          "value": "要",
+          "text": "要"
+        },
+        {
+          "value": "油焖茄子",
+          "text": "油焖茄子"
+        },
+        {
+          "value": "点菜",
+          "text": "点菜"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 2,
+      "initial": "",
+      "sourceWord": "drama-9-w-2",
+      "explanation": "个 · gè\n個",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_2",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/906bbc3a30c7ab4e.mp3",
+      "answer": "gè",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 3,
+      "initial": "",
+      "sourceWord": "drama-9-w-3",
+      "explanation": "油焖茄子 · yóumèn qiézi\nナスの油煮込み",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_3",
+      "kind": "meaning",
+      "prompts": [
+        "油焖茄子"
+      ],
+      "answer": "ナスの油煮込み",
+      "choices": [
+        {
+          "value": "ナスの油煮込み",
+          "text": "ナスの油煮込み"
+        },
+        {
+          "value": "～がほしい／～をください",
+          "text": "～がほしい／～をください"
+        },
+        {
+          "value": "個",
+          "text": "個"
+        },
+        {
+          "value": "料理を注文する",
+          "text": "料理を注文する"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 3,
+      "initial": "",
+      "sourceWord": "drama-9-w-3",
+      "explanation": "油焖茄子 · yóumèn qiézi\nナスの油煮込み",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_3",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/a283efa929b9490b.mp3",
+      "answer": "油焖茄子",
+      "choices": [
+        {
+          "value": "油焖茄子",
+          "text": "油焖茄子"
+        },
+        {
+          "value": "要",
+          "text": "要"
+        },
+        {
+          "value": "个",
+          "text": "个"
+        },
+        {
+          "value": "点菜",
+          "text": "点菜"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 3,
+      "initial": "",
+      "sourceWord": "drama-9-w-3",
+      "explanation": "油焖茄子 · yóumèn qiézi\nナスの油煮込み",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_3",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/a283efa929b9490b.mp3",
+      "answer": "yóumèn qiézi",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 4,
+      "initial": "",
+      "sourceWord": "drama-9-w-4",
+      "explanation": "点菜 · diǎn cài\n料理を注文する",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_4",
+      "kind": "meaning",
+      "prompts": [
+        "点菜"
+      ],
+      "answer": "料理を注文する",
+      "choices": [
+        {
+          "value": "料理を注文する",
+          "text": "料理を注文する"
+        },
+        {
+          "value": "～がほしい／～をください",
+          "text": "～がほしい／～をください"
+        },
+        {
+          "value": "個",
+          "text": "個"
+        },
+        {
+          "value": "ナスの油煮込み",
+          "text": "ナスの油煮込み"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 4,
+      "initial": "",
+      "sourceWord": "drama-9-w-4",
+      "explanation": "点菜 · diǎn cài\n料理を注文する",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_4",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/07cebf46af9daa53.mp3",
+      "answer": "点菜",
+      "choices": [
+        {
+          "value": "点菜",
+          "text": "点菜"
+        },
+        {
+          "value": "要",
+          "text": "要"
+        },
+        {
+          "value": "个",
+          "text": "个"
+        },
+        {
+          "value": "油焖茄子",
+          "text": "油焖茄子"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 4,
+      "initial": "",
+      "sourceWord": "drama-9-w-4",
+      "explanation": "点菜 · diǎn cài\n料理を注文する",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_4",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/07cebf46af9daa53.mp3",
+      "answer": "diǎn cài",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 5,
+      "initial": "",
+      "sourceWord": "drama-9-w-5",
+      "explanation": "红烧排骨 · hóngshāo páigǔ\n豚スペアリブの醤油煮込み",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_5",
+      "kind": "meaning",
+      "prompts": [
+        "红烧排骨"
+      ],
+      "answer": "豚スペアリブの醤油煮込み",
+      "choices": [
+        {
+          "value": "豚スペアリブの醤油煮込み",
+          "text": "豚スペアリブの醤油煮込み"
+        },
+        {
+          "value": "～がほしい／～をください",
+          "text": "～がほしい／～をください"
+        },
+        {
+          "value": "個",
+          "text": "個"
+        },
+        {
+          "value": "ナスの油煮込み",
+          "text": "ナスの油煮込み"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 5,
+      "initial": "",
+      "sourceWord": "drama-9-w-5",
+      "explanation": "红烧排骨 · hóngshāo páigǔ\n豚スペアリブの醤油煮込み",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_5",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/8bbd28f183622d9c.mp3",
+      "answer": "红烧排骨",
+      "choices": [
+        {
+          "value": "红烧排骨",
+          "text": "红烧排骨"
+        },
+        {
+          "value": "要",
+          "text": "要"
+        },
+        {
+          "value": "个",
+          "text": "个"
+        },
+        {
+          "value": "油焖茄子",
+          "text": "油焖茄子"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 5,
+      "initial": "",
+      "sourceWord": "drama-9-w-5",
+      "explanation": "红烧排骨 · hóngshāo páigǔ\n豚スペアリブの醤油煮込み",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_5",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/8bbd28f183622d9c.mp3",
+      "answer": "hóngshāo páigǔ",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 6,
+      "initial": "",
+      "sourceWord": "drama-9-w-6",
+      "explanation": "锅包肉 · guōbāoròu\n揚げ豚肉の甘酢あんかけ",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_6",
+      "kind": "meaning",
+      "prompts": [
+        "锅包肉"
+      ],
+      "answer": "揚げ豚肉の甘酢あんかけ",
+      "choices": [
+        {
+          "value": "揚げ豚肉の甘酢あんかけ",
+          "text": "揚げ豚肉の甘酢あんかけ"
+        },
+        {
+          "value": "～がほしい／～をください",
+          "text": "～がほしい／～をください"
+        },
+        {
+          "value": "個",
+          "text": "個"
+        },
+        {
+          "value": "ナスの油煮込み",
+          "text": "ナスの油煮込み"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 6,
+      "initial": "",
+      "sourceWord": "drama-9-w-6",
+      "explanation": "锅包肉 · guōbāoròu\n揚げ豚肉の甘酢あんかけ",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_6",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/fd911ee9118dfc1f.mp3",
+      "answer": "锅包肉",
+      "choices": [
+        {
+          "value": "锅包肉",
+          "text": "锅包肉"
+        },
+        {
+          "value": "要",
+          "text": "要"
+        },
+        {
+          "value": "个",
+          "text": "个"
+        },
+        {
+          "value": "油焖茄子",
+          "text": "油焖茄子"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 6,
+      "initial": "",
+      "sourceWord": "drama-9-w-6",
+      "explanation": "锅包肉 · guōbāoròu\n揚げ豚肉の甘酢あんかけ",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_6",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/fd911ee9118dfc1f.mp3",
+      "answer": "guōbāoròu",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 7,
+      "initial": "",
+      "sourceWord": "drama-9-w-7",
+      "explanation": "还 · hái\nさらに/また",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_7",
+      "kind": "meaning",
+      "prompts": [
+        "还"
+      ],
+      "answer": "さらに/また",
+      "choices": [
+        {
+          "value": "さらに/また",
+          "text": "さらに/また"
+        },
+        {
+          "value": "～がほしい／～をください",
+          "text": "～がほしい／～をください"
+        },
+        {
+          "value": "個",
+          "text": "個"
+        },
+        {
+          "value": "ナスの油煮込み",
+          "text": "ナスの油煮込み"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 7,
+      "initial": "",
+      "sourceWord": "drama-9-w-7",
+      "explanation": "还 · hái\nさらに/また",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_7",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/02edea35c79ef6c3.mp3",
+      "answer": "还",
+      "choices": [
+        {
+          "value": "还",
+          "text": "还"
+        },
+        {
+          "value": "要",
+          "text": "要"
+        },
+        {
+          "value": "个",
+          "text": "个"
+        },
+        {
+          "value": "油焖茄子",
+          "text": "油焖茄子"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 7,
+      "initial": "",
+      "sourceWord": "drama-9-w-7",
+      "explanation": "还 · hái\nさらに/また",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_7",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/02edea35c79ef6c3.mp3",
+      "answer": "hái",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 8,
+      "initial": "",
+      "sourceWord": "drama-9-w-8",
+      "explanation": "喝的 · hē de\n飲み物",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_8",
+      "kind": "meaning",
+      "prompts": [
+        "喝的"
+      ],
+      "answer": "飲み物",
+      "choices": [
+        {
+          "value": "飲み物",
+          "text": "飲み物"
+        },
+        {
+          "value": "～がほしい／～をください",
+          "text": "～がほしい／～をください"
+        },
+        {
+          "value": "個",
+          "text": "個"
+        },
+        {
+          "value": "ナスの油煮込み",
+          "text": "ナスの油煮込み"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 8,
+      "initial": "",
+      "sourceWord": "drama-9-w-8",
+      "explanation": "喝的 · hē de\n飲み物",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_8",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/957438dc29b97115.mp3",
+      "answer": "喝的",
+      "choices": [
+        {
+          "value": "喝的",
+          "text": "喝的"
+        },
+        {
+          "value": "要",
+          "text": "要"
+        },
+        {
+          "value": "个",
+          "text": "个"
+        },
+        {
+          "value": "油焖茄子",
+          "text": "油焖茄子"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 8,
+      "initial": "",
+      "sourceWord": "drama-9-w-8",
+      "explanation": "喝的 · hē de\n飲み物",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_8",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/957438dc29b97115.mp3",
+      "answer": "hē de",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    }
+  ],
+  "homework": null,
+  "drama": [
+    "『致我们单纯的小美好』は、中国の人気青春ラブコメドラマです。",
+    "物語は、高校生の女の子が長い間好きだった男の子に一生懸命アプローチするところから始まります。明るくて元気な彼女と、少しクールで頭のいい彼との関係が、高校から大学、社会人へと少しずつ変わっていく様子が描かれています。",
+    "このドラマは、初恋の甘さや青春の思い出がたくさん詰まっていて、軽くて楽しく見ることができます。中国でもとても人気があり、多くの若い人に愛されたドラマです。"
+  ]
+}

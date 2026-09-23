@@ -1,0 +1,1254 @@
+{
+  "id": 7,
+  "title": "你喜欢干什么？",
+  "japanese": "好きなこと",
+  "reading": [
+    {
+      "id": "drama-7-r-1",
+      "speaker": "王",
+      "ch": "你平时喜欢干什么？",
+      "py": "nǐ píng shí xǐ huan gàn shén me ？",
+      "jp": "ふだん何をするのが好きですか。",
+      "audio": "audio/lesson07/reading-01.mp3"
+    },
+    {
+      "id": "drama-7-r-2",
+      "speaker": "山本",
+      "ch": "我喜欢爬山。",
+      "py": "wǒ xǐ huan pá shān 。",
+      "jp": "私は山登りが好きです。",
+      "audio": "audio/lesson07/reading-02.mp3"
+    },
+    {
+      "id": "drama-7-r-3",
+      "speaker": "王",
+      "ch": "我也特别喜欢户外活动。",
+      "py": "wǒ yě tè bié xǐ huan hù wài huó dòng 。",
+      "jp": "私もアウトドア活動がとても好きです。",
+      "audio": "audio/lesson07/reading-03.mp3"
+    },
+    {
+      "id": "drama-7-r-4",
+      "speaker": "王",
+      "ch": "你喜欢听音乐吗？",
+      "py": "nǐ xǐ huan tīng yīn yuè ma ？",
+      "jp": "音楽を聞くのは好きですか。",
+      "audio": "audio/lesson07/reading-04.mp3"
+    },
+    {
+      "id": "drama-7-r-5",
+      "speaker": "山本",
+      "ch": "不喜欢。",
+      "py": "bù xǐ huan 。",
+      "jp": "好きではありません。",
+      "audio": "audio/lesson07/reading-05.mp3"
+    }
+  ],
+  "words": [
+    {
+      "id": "drama-7-w-1",
+      "ch": "平时",
+      "py": "píngshí",
+      "jp": "ふだん",
+      "audio": "audio/lesson07/word-01.mp3"
+    },
+    {
+      "id": "drama-7-w-2",
+      "ch": "喜欢",
+      "py": "xǐhuan",
+      "jp": "好き",
+      "audio": "audio/lesson07/word-02.mp3"
+    },
+    {
+      "id": "drama-7-w-3",
+      "ch": "干",
+      "py": "gàn",
+      "jp": "する",
+      "audio": "audio/lesson07/word-03.mp3"
+    },
+    {
+      "id": "drama-7-w-4",
+      "ch": "什么",
+      "py": "shénme",
+      "jp": "なに",
+      "audio": "audio/lesson07/word-04.mp3"
+    },
+    {
+      "id": "drama-7-w-5",
+      "ch": "爬山",
+      "py": "páshān",
+      "jp": "山登りをする",
+      "audio": "audio/lesson07/word-05.mp3"
+    },
+    {
+      "id": "drama-7-w-6",
+      "ch": "也",
+      "py": "yě",
+      "jp": "～も",
+      "audio": "audio/lesson07/word-06.mp3"
+    },
+    {
+      "id": "drama-7-w-7",
+      "ch": "特别",
+      "py": "tèbié",
+      "jp": "とても／特に",
+      "audio": "audio/lesson07/word-07.mp3"
+    },
+    {
+      "id": "drama-7-w-8",
+      "ch": "户外运动",
+      "py": "hùwài yùndòng",
+      "jp": "アウトドア活動",
+      "audio": "audio/lesson07/word-08.mp3"
+    },
+    {
+      "id": "drama-7-w-9",
+      "ch": "听音乐",
+      "py": "tīng yīnyuè",
+      "jp": "音楽を聞く",
+      "audio": "audio/lesson07/word-09.mp3"
+    },
+    {
+      "id": "drama-7-w-10",
+      "ch": "吗",
+      "py": "ma",
+      "jp": "～か",
+      "audio": "audio/lesson07/word-10.mp3"
+    },
+    {
+      "id": "drama-7-w-11",
+      "ch": "不",
+      "py": "bù",
+      "jp": "いいえ／～ない",
+      "audio": "audio/lesson07/word-11.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "“喜欢”について",
+      "html": "<p>意味：“喜欢”＝「好き」</p><p>使い方：肯定：主語+（很/非常/最など）+喜欢+目的語（動詞文・名詞）。</p><p data-audio=\"audio/clips/3b5a5917e29005b0.mp3\">我喜欢名古屋。WǒxǐhuanMínggǔwū.</p><p>私は名古屋が好きです。</p><p>否定：主語+（很/非常/最など）+不+喜欢+目的語（動詞文・名詞）。</p><p data-audio=\"audio/clips/10f5013b5c2a9b02.mp3\">我不喜欢看小说。Wǒbùxǐhuankànxiǎoshuō.</p><p>私は小説を読むのが好きではありません。</p><p>疑問：主語+喜欢+目的語（動詞文・名詞）+吗？</p><p data-audio=\"audio/clips/75fabf1dea155e91.mp3\">你喜欢看漫画吗？Nǐxǐhuankànmànhuàma？</p><p>あなたは漫画を読むのが好きですか。</p>"
+    },
+    {
+      "title": "“吗”について",
+      "html": "<p>意味：“吗”=「か」</p><p>使い方：文+吗？</p><p data-audio=\"audio/clips/8a83757574c97b45.mp3\">⓵ A: 今天是星期天吗？Jīntiān shì xīngqītiān ma？</p><p>今日は日曜日ですか。</p><p data-audio=\"audio/clips/5ba6fcf7b959a3bb.mp3\">B: 是，今天是星期天。Shì，Jīntiān shì xīngqītiān.</p><p>はい、今日は日曜日です。</p><p data-audio=\"audio/clips/fd92c6a386b8bb8e.mp3\">⓶ A: 今天是11月12号吗？Jīntiān shì shíyī yuè shíèr hào ma？</p><p>今日は11月12日ですか。</p><p data-audio=\"audio/clips/1d6a73e608bbc5d0.mp3\">B: 不是，今天是11月13号。Búshì，Jīntiān shì shíyī yuè shísān hào.</p><p>いいえ、今日は11月13日です。</p>"
+    }
+  ],
+  "pronunciation": [],
+  "exercises": [
+    {
+      "group": 4,
+      "number": 1,
+      "inputId": "4_1",
+      "answer": "ふだん何をするのが好きですか。",
+      "initial": "",
+      "prompts": [
+        "你平时喜欢干什么？"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_1",
+          "answer": "ふだん何をするのが好きですか。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">你平时喜欢干什么？</p><label class=\"answer-label\" for=\"4_1\">あなたの答え</label><input id=\"4_1\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-7-r-1"
+    },
+    {
+      "group": 5,
+      "number": 1,
+      "inputId": "5_1",
+      "answer": "你平时喜欢干什么？",
+      "initial": "",
+      "prompts": [
+        "ふだん何をするのが好きですか。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_1",
+          "answer": "你平时喜欢干什么？",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">ふだん何をするのが好きですか。</p><label class=\"answer-label\" for=\"5_1\">あなたの答え</label><input id=\"5_1\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-7-r-1"
+    },
+    {
+      "group": 4,
+      "number": 2,
+      "inputId": "4_2",
+      "answer": "私は山登りが好きです。",
+      "initial": "",
+      "prompts": [
+        "我喜欢爬山。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_2",
+          "answer": "私は山登りが好きです。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">我喜欢爬山。</p><label class=\"answer-label\" for=\"4_2\">あなたの答え</label><input id=\"4_2\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-7-r-2"
+    },
+    {
+      "group": 5,
+      "number": 2,
+      "inputId": "5_2",
+      "answer": "我喜欢爬山。",
+      "initial": "",
+      "prompts": [
+        "私は山登りが好きです。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_2",
+          "answer": "我喜欢爬山。",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">私は山登りが好きです。</p><label class=\"answer-label\" for=\"5_2\">あなたの答え</label><input id=\"5_2\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-7-r-2"
+    },
+    {
+      "group": 4,
+      "number": 3,
+      "inputId": "4_3",
+      "answer": "私もアウトドア活動がとても好きです。",
+      "initial": "",
+      "prompts": [
+        "我也特别喜欢户外活动。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_3",
+          "answer": "私もアウトドア活動がとても好きです。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">我也特别喜欢户外活动。</p><label class=\"answer-label\" for=\"4_3\">あなたの答え</label><input id=\"4_3\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-7-r-3"
+    },
+    {
+      "group": 5,
+      "number": 3,
+      "inputId": "5_3",
+      "answer": "我也特别喜欢户外活动。",
+      "initial": "",
+      "prompts": [
+        "私もアウトドア活動がとても好きです。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_3",
+          "answer": "我也特别喜欢户外活动。",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">私もアウトドア活動がとても好きです。</p><label class=\"answer-label\" for=\"5_3\">あなたの答え</label><input id=\"5_3\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-7-r-3"
+    },
+    {
+      "group": 4,
+      "number": 4,
+      "inputId": "4_4",
+      "answer": "音楽を聞くのは好きですか。",
+      "initial": "",
+      "prompts": [
+        "你喜欢听音乐吗？"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_4",
+          "answer": "音楽を聞くのは好きですか。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">你喜欢听音乐吗？</p><label class=\"answer-label\" for=\"4_4\">あなたの答え</label><input id=\"4_4\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-7-r-4"
+    },
+    {
+      "group": 5,
+      "number": 4,
+      "inputId": "5_4",
+      "answer": "你喜欢听音乐吗？",
+      "initial": "",
+      "prompts": [
+        "音楽を聞くのは好きですか。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_4",
+          "answer": "你喜欢听音乐吗？",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">音楽を聞くのは好きですか。</p><label class=\"answer-label\" for=\"5_4\">あなたの答え</label><input id=\"5_4\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-7-r-4"
+    },
+    {
+      "group": 4,
+      "number": 5,
+      "inputId": "4_5",
+      "answer": "好きではありません。",
+      "initial": "",
+      "prompts": [
+        "不喜欢。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_5",
+          "answer": "好きではありません。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">不喜欢。</p><label class=\"answer-label\" for=\"4_5\">あなたの答え</label><input id=\"4_5\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-7-r-5"
+    },
+    {
+      "group": 5,
+      "number": 5,
+      "inputId": "5_5",
+      "answer": "不喜欢。",
+      "initial": "",
+      "prompts": [
+        "好きではありません。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_5",
+          "answer": "不喜欢。",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">好きではありません。</p><label class=\"answer-label\" for=\"5_5\">あなたの答え</label><input id=\"5_5\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-7-r-5"
+    },
+    {
+      "number": 1,
+      "initial": "",
+      "sourceWord": "drama-7-w-1",
+      "explanation": "平时 · píngshí\nふだん",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_1",
+      "kind": "meaning",
+      "prompts": [
+        "平时"
+      ],
+      "answer": "ふだん",
+      "choices": [
+        {
+          "value": "ふだん",
+          "text": "ふだん"
+        },
+        {
+          "value": "好き",
+          "text": "好き"
+        },
+        {
+          "value": "する",
+          "text": "する"
+        },
+        {
+          "value": "なに",
+          "text": "なに"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 1,
+      "initial": "",
+      "sourceWord": "drama-7-w-1",
+      "explanation": "平时 · píngshí\nふだん",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_1",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/4f6b019f78938b4d.mp3",
+      "answer": "平时",
+      "choices": [
+        {
+          "value": "平时",
+          "text": "平时"
+        },
+        {
+          "value": "喜欢",
+          "text": "喜欢"
+        },
+        {
+          "value": "干",
+          "text": "干"
+        },
+        {
+          "value": "什么",
+          "text": "什么"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 1,
+      "initial": "",
+      "sourceWord": "drama-7-w-1",
+      "explanation": "平时 · píngshí\nふだん",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_1",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/4f6b019f78938b4d.mp3",
+      "answer": "píngshí",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 2,
+      "initial": "",
+      "sourceWord": "drama-7-w-2",
+      "explanation": "喜欢 · xǐhuan\n好き",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_2",
+      "kind": "meaning",
+      "prompts": [
+        "喜欢"
+      ],
+      "answer": "好き",
+      "choices": [
+        {
+          "value": "好き",
+          "text": "好き"
+        },
+        {
+          "value": "ふだん",
+          "text": "ふだん"
+        },
+        {
+          "value": "する",
+          "text": "する"
+        },
+        {
+          "value": "なに",
+          "text": "なに"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 2,
+      "initial": "",
+      "sourceWord": "drama-7-w-2",
+      "explanation": "喜欢 · xǐhuan\n好き",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_2",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/0c1de9f4828a82f5.mp3",
+      "answer": "喜欢",
+      "choices": [
+        {
+          "value": "喜欢",
+          "text": "喜欢"
+        },
+        {
+          "value": "平时",
+          "text": "平时"
+        },
+        {
+          "value": "干",
+          "text": "干"
+        },
+        {
+          "value": "什么",
+          "text": "什么"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 2,
+      "initial": "",
+      "sourceWord": "drama-7-w-2",
+      "explanation": "喜欢 · xǐhuan\n好き",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_2",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/0c1de9f4828a82f5.mp3",
+      "answer": "xǐhuan",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 3,
+      "initial": "",
+      "sourceWord": "drama-7-w-3",
+      "explanation": "干 · gàn\nする",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_3",
+      "kind": "meaning",
+      "prompts": [
+        "干"
+      ],
+      "answer": "する",
+      "choices": [
+        {
+          "value": "する",
+          "text": "する"
+        },
+        {
+          "value": "ふだん",
+          "text": "ふだん"
+        },
+        {
+          "value": "好き",
+          "text": "好き"
+        },
+        {
+          "value": "なに",
+          "text": "なに"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 3,
+      "initial": "",
+      "sourceWord": "drama-7-w-3",
+      "explanation": "干 · gàn\nする",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_3",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/e1a1ddedcca4b9dd.mp3",
+      "answer": "干",
+      "choices": [
+        {
+          "value": "干",
+          "text": "干"
+        },
+        {
+          "value": "平时",
+          "text": "平时"
+        },
+        {
+          "value": "喜欢",
+          "text": "喜欢"
+        },
+        {
+          "value": "什么",
+          "text": "什么"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 3,
+      "initial": "",
+      "sourceWord": "drama-7-w-3",
+      "explanation": "干 · gàn\nする",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_3",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/e1a1ddedcca4b9dd.mp3",
+      "answer": "gàn",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 4,
+      "initial": "",
+      "sourceWord": "drama-7-w-4",
+      "explanation": "什么 · shénme\nなに",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_4",
+      "kind": "meaning",
+      "prompts": [
+        "什么"
+      ],
+      "answer": "なに",
+      "choices": [
+        {
+          "value": "なに",
+          "text": "なに"
+        },
+        {
+          "value": "ふだん",
+          "text": "ふだん"
+        },
+        {
+          "value": "好き",
+          "text": "好き"
+        },
+        {
+          "value": "する",
+          "text": "する"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 4,
+      "initial": "",
+      "sourceWord": "drama-7-w-4",
+      "explanation": "什么 · shénme\nなに",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_4",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/e6055a91d9f3d055.mp3",
+      "answer": "什么",
+      "choices": [
+        {
+          "value": "什么",
+          "text": "什么"
+        },
+        {
+          "value": "平时",
+          "text": "平时"
+        },
+        {
+          "value": "喜欢",
+          "text": "喜欢"
+        },
+        {
+          "value": "干",
+          "text": "干"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 4,
+      "initial": "",
+      "sourceWord": "drama-7-w-4",
+      "explanation": "什么 · shénme\nなに",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_4",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/e6055a91d9f3d055.mp3",
+      "answer": "shénme",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 5,
+      "initial": "",
+      "sourceWord": "drama-7-w-5",
+      "explanation": "爬山 · páshān\n山登りをする",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_5",
+      "kind": "meaning",
+      "prompts": [
+        "爬山"
+      ],
+      "answer": "山登りをする",
+      "choices": [
+        {
+          "value": "山登りをする",
+          "text": "山登りをする"
+        },
+        {
+          "value": "ふだん",
+          "text": "ふだん"
+        },
+        {
+          "value": "好き",
+          "text": "好き"
+        },
+        {
+          "value": "する",
+          "text": "する"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 5,
+      "initial": "",
+      "sourceWord": "drama-7-w-5",
+      "explanation": "爬山 · páshān\n山登りをする",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_5",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/22ef7827e0151618.mp3",
+      "answer": "爬山",
+      "choices": [
+        {
+          "value": "爬山",
+          "text": "爬山"
+        },
+        {
+          "value": "平时",
+          "text": "平时"
+        },
+        {
+          "value": "喜欢",
+          "text": "喜欢"
+        },
+        {
+          "value": "干",
+          "text": "干"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 5,
+      "initial": "",
+      "sourceWord": "drama-7-w-5",
+      "explanation": "爬山 · páshān\n山登りをする",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_5",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/22ef7827e0151618.mp3",
+      "answer": "páshān",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 6,
+      "initial": "",
+      "sourceWord": "drama-7-w-6",
+      "explanation": "也 · yě\n～も",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_6",
+      "kind": "meaning",
+      "prompts": [
+        "也"
+      ],
+      "answer": "～も",
+      "choices": [
+        {
+          "value": "～も",
+          "text": "～も"
+        },
+        {
+          "value": "ふだん",
+          "text": "ふだん"
+        },
+        {
+          "value": "好き",
+          "text": "好き"
+        },
+        {
+          "value": "する",
+          "text": "する"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 6,
+      "initial": "",
+      "sourceWord": "drama-7-w-6",
+      "explanation": "也 · yě\n～も",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_6",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/82a2fa4ae0c153c7.mp3",
+      "answer": "也",
+      "choices": [
+        {
+          "value": "也",
+          "text": "也"
+        },
+        {
+          "value": "平时",
+          "text": "平时"
+        },
+        {
+          "value": "喜欢",
+          "text": "喜欢"
+        },
+        {
+          "value": "干",
+          "text": "干"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 6,
+      "initial": "",
+      "sourceWord": "drama-7-w-6",
+      "explanation": "也 · yě\n～も",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_6",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/82a2fa4ae0c153c7.mp3",
+      "answer": "yě",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 7,
+      "initial": "",
+      "sourceWord": "drama-7-w-7",
+      "explanation": "特别 · tèbié\nとても／特に",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_7",
+      "kind": "meaning",
+      "prompts": [
+        "特别"
+      ],
+      "answer": "とても／特に",
+      "choices": [
+        {
+          "value": "とても／特に",
+          "text": "とても／特に"
+        },
+        {
+          "value": "ふだん",
+          "text": "ふだん"
+        },
+        {
+          "value": "好き",
+          "text": "好き"
+        },
+        {
+          "value": "する",
+          "text": "する"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 7,
+      "initial": "",
+      "sourceWord": "drama-7-w-7",
+      "explanation": "特别 · tèbié\nとても／特に",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_7",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/5dfcc070ffa63ae9.mp3",
+      "answer": "特别",
+      "choices": [
+        {
+          "value": "特别",
+          "text": "特别"
+        },
+        {
+          "value": "平时",
+          "text": "平时"
+        },
+        {
+          "value": "喜欢",
+          "text": "喜欢"
+        },
+        {
+          "value": "干",
+          "text": "干"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 7,
+      "initial": "",
+      "sourceWord": "drama-7-w-7",
+      "explanation": "特别 · tèbié\nとても／特に",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_7",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/5dfcc070ffa63ae9.mp3",
+      "answer": "tèbié",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 8,
+      "initial": "",
+      "sourceWord": "drama-7-w-8",
+      "explanation": "户外活动 · hùwài huódòng\nアウトドア活動",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_8",
+      "kind": "meaning",
+      "prompts": [
+        "户外活动"
+      ],
+      "answer": "アウトドア活動",
+      "choices": [
+        {
+          "value": "アウトドア活動",
+          "text": "アウトドア活動"
+        },
+        {
+          "value": "ふだん",
+          "text": "ふだん"
+        },
+        {
+          "value": "好き",
+          "text": "好き"
+        },
+        {
+          "value": "する",
+          "text": "する"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 8,
+      "initial": "",
+      "sourceWord": "drama-7-w-8",
+      "explanation": "户外活动 · hùwài huódòng\nアウトドア活動",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_8",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/618483854e60d1ad.mp3",
+      "answer": "户外活动",
+      "choices": [
+        {
+          "value": "户外活动",
+          "text": "户外活动"
+        },
+        {
+          "value": "平时",
+          "text": "平时"
+        },
+        {
+          "value": "喜欢",
+          "text": "喜欢"
+        },
+        {
+          "value": "干",
+          "text": "干"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 8,
+      "initial": "",
+      "sourceWord": "drama-7-w-8",
+      "explanation": "户外活动 · hùwài huódòng\nアウトドア活動",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_8",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/618483854e60d1ad.mp3",
+      "answer": "hùwài huódòng",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 9,
+      "initial": "",
+      "sourceWord": "drama-7-w-9",
+      "explanation": "听音乐 · tīng yīnyuè\n音楽を聞く",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_9",
+      "kind": "meaning",
+      "prompts": [
+        "听音乐"
+      ],
+      "answer": "音楽を聞く",
+      "choices": [
+        {
+          "value": "音楽を聞く",
+          "text": "音楽を聞く"
+        },
+        {
+          "value": "ふだん",
+          "text": "ふだん"
+        },
+        {
+          "value": "好き",
+          "text": "好き"
+        },
+        {
+          "value": "する",
+          "text": "する"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 9,
+      "initial": "",
+      "sourceWord": "drama-7-w-9",
+      "explanation": "听音乐 · tīng yīnyuè\n音楽を聞く",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_9",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/d9dd7d82ed612887.mp3",
+      "answer": "听音乐",
+      "choices": [
+        {
+          "value": "听音乐",
+          "text": "听音乐"
+        },
+        {
+          "value": "平时",
+          "text": "平时"
+        },
+        {
+          "value": "喜欢",
+          "text": "喜欢"
+        },
+        {
+          "value": "干",
+          "text": "干"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 9,
+      "initial": "",
+      "sourceWord": "drama-7-w-9",
+      "explanation": "听音乐 · tīng yīnyuè\n音楽を聞く",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_9",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/d9dd7d82ed612887.mp3",
+      "answer": "tīng yīnyuè",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 10,
+      "initial": "",
+      "sourceWord": "drama-7-w-10",
+      "explanation": "吗 · ma\n～か",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_10",
+      "kind": "meaning",
+      "prompts": [
+        "吗"
+      ],
+      "answer": "～か",
+      "choices": [
+        {
+          "value": "～か",
+          "text": "～か"
+        },
+        {
+          "value": "ふだん",
+          "text": "ふだん"
+        },
+        {
+          "value": "好き",
+          "text": "好き"
+        },
+        {
+          "value": "する",
+          "text": "する"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 10,
+      "initial": "",
+      "sourceWord": "drama-7-w-10",
+      "explanation": "吗 · ma\n～か",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_10",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/beb75177422fa957.mp3",
+      "answer": "吗",
+      "choices": [
+        {
+          "value": "吗",
+          "text": "吗"
+        },
+        {
+          "value": "平时",
+          "text": "平时"
+        },
+        {
+          "value": "喜欢",
+          "text": "喜欢"
+        },
+        {
+          "value": "干",
+          "text": "干"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 10,
+      "initial": "",
+      "sourceWord": "drama-7-w-10",
+      "explanation": "吗 · ma\n～か",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_10",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/beb75177422fa957.mp3",
+      "answer": "ma",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 11,
+      "initial": "",
+      "sourceWord": "drama-7-w-11",
+      "explanation": "不 · bù\nいいえ／～ない",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_11",
+      "kind": "meaning",
+      "prompts": [
+        "不"
+      ],
+      "answer": "いいえ／～ない",
+      "choices": [
+        {
+          "value": "いいえ／～ない",
+          "text": "いいえ／～ない"
+        },
+        {
+          "value": "ふだん",
+          "text": "ふだん"
+        },
+        {
+          "value": "好き",
+          "text": "好き"
+        },
+        {
+          "value": "する",
+          "text": "する"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 11,
+      "initial": "",
+      "sourceWord": "drama-7-w-11",
+      "explanation": "不 · bù\nいいえ／～ない",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_11",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/6f1fe61f98628b2d.mp3",
+      "answer": "不",
+      "choices": [
+        {
+          "value": "不",
+          "text": "不"
+        },
+        {
+          "value": "平时",
+          "text": "平时"
+        },
+        {
+          "value": "喜欢",
+          "text": "喜欢"
+        },
+        {
+          "value": "干",
+          "text": "干"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 11,
+      "initial": "",
+      "sourceWord": "drama-7-w-11",
+      "explanation": "不 · bù\nいいえ／～ない",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_11",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/6f1fe61f98628b2d.mp3",
+      "answer": "bù",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    }
+  ],
+  "homework": null,
+  "drama": [
+    "『去有风的地方』は、中国の美しい田舎を舞台にしたドラマです。 仕事に疲れた女性が田舎で新しい生活を始め、いろいろな人と出会いながら、人生や本当に大切なものを見つけていきます。 きれいな風景、おいしそうな食べ物、そして少しロマンチックなストーリーもあって、とても癒やされるドラマです。"
+  ]
+}

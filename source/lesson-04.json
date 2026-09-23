@@ -1,0 +1,939 @@
+{
+  "id": 4,
+  "title": "现在9点20分",
+  "japanese": "時間と授業",
+  "reading": [
+    {
+      "id": "drama-4-r-1",
+      "speaker": "山本",
+      "ch": "王老师，现在几点？",
+      "py": "wáng lǎo shī ， xiàn zài jǐ diǎn ？",
+      "jp": "王先生、今何時ですか。",
+      "audio": "audio/lesson04/reading-01.mp3"
+    },
+    {
+      "id": "drama-4-r-2",
+      "speaker": "王",
+      "ch": "优子同学，现在九点二十分，要上课了。",
+      "py": "yōu zǐ tóng xué ， xiàn zài jiǔ diǎn èr shí fēn ， yào shàng kè le 。",
+      "jp": "優子さん、今9時20分です。もうすぐ授業が始まります。",
+      "audio": "audio/lesson04/reading-02.mp3"
+    },
+    {
+      "id": "drama-4-r-3",
+      "speaker": "山本",
+      "ch": "王老师，您几点下课？",
+      "py": "wáng lǎo shī ， nín jǐ diǎn xià kè ？",
+      "jp": "王先生、何時に授業が終わりますか。",
+      "audio": "audio/lesson04/reading-03.mp3"
+    },
+    {
+      "id": "drama-4-r-4",
+      "speaker": "王",
+      "ch": "我今天下午三点半下课。",
+      "py": "wǒ jīn tiān xià wǔ sān diǎn bàn xià kè 。",
+      "jp": "私は今日午後3時半に授業が終わります。",
+      "audio": "audio/lesson04/reading-04.mp3"
+    }
+  ],
+  "words": [
+    {
+      "id": "drama-4-w-1",
+      "ch": "现在",
+      "py": "xiàn zài",
+      "jp": "今、いま",
+      "audio": "audio/lesson04/word-01.mp3"
+    },
+    {
+      "id": "drama-4-w-2",
+      "ch": "点",
+      "py": "diǎn",
+      "jp": "時",
+      "audio": "audio/lesson04/word-02.mp3"
+    },
+    {
+      "id": "drama-4-w-3",
+      "ch": "分",
+      "py": "fēn",
+      "jp": "分",
+      "audio": "audio/lesson04/word-03.mp3"
+    },
+    {
+      "id": "drama-4-w-4",
+      "ch": "要……了",
+      "py": "yào……le",
+      "jp": "もうすぐ～する",
+      "audio": "audio/lesson04/word-04.mp3"
+    },
+    {
+      "id": "drama-4-w-5",
+      "ch": "上课",
+      "py": "shàng kè",
+      "jp": "授業が始まる",
+      "audio": "audio/lesson04/word-05.mp3"
+    },
+    {
+      "id": "drama-4-w-6",
+      "ch": "下课",
+      "py": "xià kè",
+      "jp": "授業が終わる",
+      "audio": "audio/lesson04/word-06.mp3"
+    },
+    {
+      "id": "drama-4-w-7",
+      "ch": "下午",
+      "py": "xià wǔ",
+      "jp": "午後",
+      "audio": "audio/lesson04/word-07.mp3"
+    },
+    {
+      "id": "drama-4-w-8",
+      "ch": "半",
+      "py": "bàn",
+      "jp": "半",
+      "audio": "audio/lesson04/word-08.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "時刻の言い方について",
+      "html": "<p>6：00　六点</p><p>2：10　两点十分  ※２時は“二”とは言わず、“两”という。</p><p>8：15　八点十五分/八点一刻</p><p>9：30　九点三十分/九点半</p><p>11：56　十一点五十六分/差四分十二点</p>"
+    },
+    {
+      "title": "“要……了”について",
+      "html": "<p>意味：“要……了”＝「もうすぐ～」</p><p data-audio=\"audio/clips/e07ec8899287ceee.mp3\">要下雨了。Yào xiàyǔ le。</p><p>もうすぐ雨が降る。</p><p data-audio=\"audio/clips/4f8451b5b357e083.mp3\">优子要毕业了。Yōuzǐ yàobìyè le。</p><p>優子はもうすぐ卒業する。</p>"
+    }
+  ],
+  "pronunciation": [],
+  "exercises": [
+    {
+      "group": 4,
+      "number": 1,
+      "inputId": "4_1",
+      "answer": "王先生、今何時ですか。",
+      "initial": "",
+      "prompts": [
+        "王老师，现在几点？"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_1",
+          "answer": "王先生、今何時ですか。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">王老师，现在几点？</p><label class=\"answer-label\" for=\"4_1\">あなたの答え</label><input id=\"4_1\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-4-r-1"
+    },
+    {
+      "group": 5,
+      "number": 1,
+      "inputId": "5_1",
+      "answer": "王老师，现在几点？",
+      "initial": "",
+      "prompts": [
+        "王先生、今何時ですか。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_1",
+          "answer": "王老师，现在几点？",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">王先生、今何時ですか。</p><label class=\"answer-label\" for=\"5_1\">あなたの答え</label><input id=\"5_1\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-4-r-1"
+    },
+    {
+      "group": 4,
+      "number": 2,
+      "inputId": "4_2",
+      "answer": "優子さん、今9時20分です。もうすぐ授業が始まります。",
+      "initial": "",
+      "prompts": [
+        "优子同学，现在九点二十分，要上课了。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_2",
+          "answer": "優子さん、今9時20分です。もうすぐ授業が始まります。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">优子同学，现在九点二十分，要上课了。</p><label class=\"answer-label\" for=\"4_2\">あなたの答え</label><input id=\"4_2\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-4-r-2"
+    },
+    {
+      "group": 5,
+      "number": 2,
+      "inputId": "5_2",
+      "answer": "优子同学，现在九点二十分，要上课了。",
+      "initial": "",
+      "prompts": [
+        "優子さん、今9時20分です。もうすぐ授業が始まります。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_2",
+          "answer": "优子同学，现在九点二十分，要上课了。",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">優子さん、今9時20分です。もうすぐ授業が始まります。</p><label class=\"answer-label\" for=\"5_2\">あなたの答え</label><input id=\"5_2\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-4-r-2"
+    },
+    {
+      "group": 4,
+      "number": 3,
+      "inputId": "4_3",
+      "answer": "王先生、何時に授業が終わりますか。",
+      "initial": "",
+      "prompts": [
+        "王老师，您几点下课？"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_3",
+          "answer": "王先生、何時に授業が終わりますか。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">王老师，您几点下课？</p><label class=\"answer-label\" for=\"4_3\">あなたの答え</label><input id=\"4_3\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-4-r-3"
+    },
+    {
+      "group": 5,
+      "number": 3,
+      "inputId": "5_3",
+      "answer": "王老师，您几点下课？",
+      "initial": "",
+      "prompts": [
+        "王先生、何時に授業が終わりますか。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_3",
+          "answer": "王老师，您几点下课？",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">王先生、何時に授業が終わりますか。</p><label class=\"answer-label\" for=\"5_3\">あなたの答え</label><input id=\"5_3\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-4-r-3"
+    },
+    {
+      "group": 4,
+      "number": 4,
+      "inputId": "4_4",
+      "answer": "私は今日午後3時半に授業が終わります。",
+      "initial": "",
+      "prompts": [
+        "我今天下午三点半下课。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_4",
+          "answer": "私は今日午後3時半に授業が終わります。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">我今天下午三点半下课。</p><label class=\"answer-label\" for=\"4_4\">あなたの答え</label><input id=\"4_4\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-4-r-4"
+    },
+    {
+      "group": 5,
+      "number": 4,
+      "inputId": "5_4",
+      "answer": "我今天下午三点半下课。",
+      "initial": "",
+      "prompts": [
+        "私は今日午後3時半に授業が終わります。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_4",
+          "answer": "我今天下午三点半下课。",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">私は今日午後3時半に授業が終わります。</p><label class=\"answer-label\" for=\"5_4\">あなたの答え</label><input id=\"5_4\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-4-r-4"
+    },
+    {
+      "number": 1,
+      "initial": "",
+      "sourceWord": "drama-4-w-1",
+      "explanation": "现在 · xiàn zài\n今、いま",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_1",
+      "kind": "meaning",
+      "prompts": [
+        "现在"
+      ],
+      "answer": "今、いま",
+      "choices": [
+        {
+          "value": "今、いま",
+          "text": "今、いま"
+        },
+        {
+          "value": "時",
+          "text": "時"
+        },
+        {
+          "value": "分",
+          "text": "分"
+        },
+        {
+          "value": "もうすぐ～する",
+          "text": "もうすぐ～する"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 1,
+      "initial": "",
+      "sourceWord": "drama-4-w-1",
+      "explanation": "现在 · xiàn zài\n今、いま",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_1",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/16578675a8a4a198.mp3",
+      "answer": "现在",
+      "choices": [
+        {
+          "value": "现在",
+          "text": "现在"
+        },
+        {
+          "value": "点",
+          "text": "点"
+        },
+        {
+          "value": "分",
+          "text": "分"
+        },
+        {
+          "value": "要……了",
+          "text": "要……了"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 1,
+      "initial": "",
+      "sourceWord": "drama-4-w-1",
+      "explanation": "现在 · xiàn zài\n今、いま",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_1",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/16578675a8a4a198.mp3",
+      "answer": "xiàn zài",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 2,
+      "initial": "",
+      "sourceWord": "drama-4-w-2",
+      "explanation": "点 · diǎn\n時",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_2",
+      "kind": "meaning",
+      "prompts": [
+        "点"
+      ],
+      "answer": "時",
+      "choices": [
+        {
+          "value": "時",
+          "text": "時"
+        },
+        {
+          "value": "今、いま",
+          "text": "今、いま"
+        },
+        {
+          "value": "分",
+          "text": "分"
+        },
+        {
+          "value": "もうすぐ～する",
+          "text": "もうすぐ～する"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 2,
+      "initial": "",
+      "sourceWord": "drama-4-w-2",
+      "explanation": "点 · diǎn\n時",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_2",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/30cb3035e7b42c86.mp3",
+      "answer": "点",
+      "choices": [
+        {
+          "value": "点",
+          "text": "点"
+        },
+        {
+          "value": "现在",
+          "text": "现在"
+        },
+        {
+          "value": "分",
+          "text": "分"
+        },
+        {
+          "value": "要……了",
+          "text": "要……了"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 2,
+      "initial": "",
+      "sourceWord": "drama-4-w-2",
+      "explanation": "点 · diǎn\n時",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_2",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/30cb3035e7b42c86.mp3",
+      "answer": "diǎn",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 3,
+      "initial": "",
+      "sourceWord": "drama-4-w-3",
+      "explanation": "分 · fēn\n分",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_3",
+      "kind": "meaning",
+      "prompts": [
+        "分"
+      ],
+      "answer": "分",
+      "choices": [
+        {
+          "value": "分",
+          "text": "分"
+        },
+        {
+          "value": "今、いま",
+          "text": "今、いま"
+        },
+        {
+          "value": "時",
+          "text": "時"
+        },
+        {
+          "value": "もうすぐ～する",
+          "text": "もうすぐ～する"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 3,
+      "initial": "",
+      "sourceWord": "drama-4-w-3",
+      "explanation": "分 · fēn\n分",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_3",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/0d4b4ddc5c8e4cd6.mp3",
+      "answer": "分",
+      "choices": [
+        {
+          "value": "分",
+          "text": "分"
+        },
+        {
+          "value": "现在",
+          "text": "现在"
+        },
+        {
+          "value": "点",
+          "text": "点"
+        },
+        {
+          "value": "要……了",
+          "text": "要……了"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 3,
+      "initial": "",
+      "sourceWord": "drama-4-w-3",
+      "explanation": "分 · fēn\n分",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_3",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/0d4b4ddc5c8e4cd6.mp3",
+      "answer": "fēn",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 4,
+      "initial": "",
+      "sourceWord": "drama-4-w-4",
+      "explanation": "要……了 · yào……le\nもうすぐ～する",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_4",
+      "kind": "meaning",
+      "prompts": [
+        "要……了"
+      ],
+      "answer": "もうすぐ～する",
+      "choices": [
+        {
+          "value": "もうすぐ～する",
+          "text": "もうすぐ～する"
+        },
+        {
+          "value": "今、いま",
+          "text": "今、いま"
+        },
+        {
+          "value": "時",
+          "text": "時"
+        },
+        {
+          "value": "分",
+          "text": "分"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 4,
+      "initial": "",
+      "sourceWord": "drama-4-w-4",
+      "explanation": "要……了 · yào……le\nもうすぐ～する",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_4",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/c84cc2d057316472.mp3",
+      "answer": "要……了",
+      "choices": [
+        {
+          "value": "要……了",
+          "text": "要……了"
+        },
+        {
+          "value": "现在",
+          "text": "现在"
+        },
+        {
+          "value": "点",
+          "text": "点"
+        },
+        {
+          "value": "分",
+          "text": "分"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 4,
+      "initial": "",
+      "sourceWord": "drama-4-w-4",
+      "explanation": "要……了 · yào……le\nもうすぐ～する",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_4",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/c84cc2d057316472.mp3",
+      "answer": "yàole",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 5,
+      "initial": "",
+      "sourceWord": "drama-4-w-5",
+      "explanation": "上课 · shàng kè\n授業が始まる",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_5",
+      "kind": "meaning",
+      "prompts": [
+        "上课"
+      ],
+      "answer": "授業が始まる",
+      "choices": [
+        {
+          "value": "授業が始まる",
+          "text": "授業が始まる"
+        },
+        {
+          "value": "今、いま",
+          "text": "今、いま"
+        },
+        {
+          "value": "時",
+          "text": "時"
+        },
+        {
+          "value": "分",
+          "text": "分"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 5,
+      "initial": "",
+      "sourceWord": "drama-4-w-5",
+      "explanation": "上课 · shàng kè\n授業が始まる",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_5",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/d781917be5cfa389.mp3",
+      "answer": "上课",
+      "choices": [
+        {
+          "value": "上课",
+          "text": "上课"
+        },
+        {
+          "value": "现在",
+          "text": "现在"
+        },
+        {
+          "value": "点",
+          "text": "点"
+        },
+        {
+          "value": "分",
+          "text": "分"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 5,
+      "initial": "",
+      "sourceWord": "drama-4-w-5",
+      "explanation": "上课 · shàng kè\n授業が始まる",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_5",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/d781917be5cfa389.mp3",
+      "answer": "shàng kè",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 6,
+      "initial": "",
+      "sourceWord": "drama-4-w-6",
+      "explanation": "下课 · xià kè\n授業が終わる",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_6",
+      "kind": "meaning",
+      "prompts": [
+        "下课"
+      ],
+      "answer": "授業が終わる",
+      "choices": [
+        {
+          "value": "授業が終わる",
+          "text": "授業が終わる"
+        },
+        {
+          "value": "今、いま",
+          "text": "今、いま"
+        },
+        {
+          "value": "時",
+          "text": "時"
+        },
+        {
+          "value": "分",
+          "text": "分"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 6,
+      "initial": "",
+      "sourceWord": "drama-4-w-6",
+      "explanation": "下课 · xià kè\n授業が終わる",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_6",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/1cff23e9b00e3540.mp3",
+      "answer": "下课",
+      "choices": [
+        {
+          "value": "下课",
+          "text": "下课"
+        },
+        {
+          "value": "现在",
+          "text": "现在"
+        },
+        {
+          "value": "点",
+          "text": "点"
+        },
+        {
+          "value": "分",
+          "text": "分"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 6,
+      "initial": "",
+      "sourceWord": "drama-4-w-6",
+      "explanation": "下课 · xià kè\n授業が終わる",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_6",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/1cff23e9b00e3540.mp3",
+      "answer": "xià kè",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 7,
+      "initial": "",
+      "sourceWord": "drama-4-w-7",
+      "explanation": "下午 · xià wǔ\n午後",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_7",
+      "kind": "meaning",
+      "prompts": [
+        "下午"
+      ],
+      "answer": "午後",
+      "choices": [
+        {
+          "value": "午後",
+          "text": "午後"
+        },
+        {
+          "value": "今、いま",
+          "text": "今、いま"
+        },
+        {
+          "value": "時",
+          "text": "時"
+        },
+        {
+          "value": "分",
+          "text": "分"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 7,
+      "initial": "",
+      "sourceWord": "drama-4-w-7",
+      "explanation": "下午 · xià wǔ\n午後",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_7",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/8b9bb321c5ed3a3b.mp3",
+      "answer": "下午",
+      "choices": [
+        {
+          "value": "下午",
+          "text": "下午"
+        },
+        {
+          "value": "现在",
+          "text": "现在"
+        },
+        {
+          "value": "点",
+          "text": "点"
+        },
+        {
+          "value": "分",
+          "text": "分"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 7,
+      "initial": "",
+      "sourceWord": "drama-4-w-7",
+      "explanation": "下午 · xià wǔ\n午後",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_7",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/8b9bb321c5ed3a3b.mp3",
+      "answer": "xià wǔ",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 8,
+      "initial": "",
+      "sourceWord": "drama-4-w-8",
+      "explanation": "半 · bàn\n半",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_8",
+      "kind": "meaning",
+      "prompts": [
+        "半"
+      ],
+      "answer": "半",
+      "choices": [
+        {
+          "value": "半",
+          "text": "半"
+        },
+        {
+          "value": "今、いま",
+          "text": "今、いま"
+        },
+        {
+          "value": "時",
+          "text": "時"
+        },
+        {
+          "value": "分",
+          "text": "分"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 8,
+      "initial": "",
+      "sourceWord": "drama-4-w-8",
+      "explanation": "半 · bàn\n半",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_8",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/6bfd588de12898d1.mp3",
+      "answer": "半",
+      "choices": [
+        {
+          "value": "半",
+          "text": "半"
+        },
+        {
+          "value": "现在",
+          "text": "现在"
+        },
+        {
+          "value": "点",
+          "text": "点"
+        },
+        {
+          "value": "分",
+          "text": "分"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 8,
+      "initial": "",
+      "sourceWord": "drama-4-w-8",
+      "explanation": "半 · bàn\n半",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_8",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/6bfd588de12898d1.mp3",
+      "answer": "bàn",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    }
+  ],
+  "homework": null,
+  "drama": [
+    "『以家人之名』は、血のつながりのない3人の子どもが、同じ家で一緒に育ち、支え合いながら成長していく物語です。本当の兄弟姉妹ではありませんが、まるで本当の家族のように暮らしています。",
+    "このドラマには、家族愛だけでなく、成長、友情、恋愛の要素もあります。あたたかくて現実的なストーリーを通して、家族にとって本当に大切なのは血縁だけではなく、理解・思いやり・寄り添いであることを描いています。"
+  ]
+}

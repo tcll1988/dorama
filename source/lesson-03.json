@@ -1,0 +1,1040 @@
+{
+  "id": 3,
+  "title": "今天星期天。",
+  "japanese": "日付と曜日",
+  "reading": [
+    {
+      "id": "drama-3-r-1",
+      "speaker": "山本",
+      "ch": "王老师，您好！今天几月几号？",
+      "py": "wáng lǎo shī ， nín hǎo ！ jīn tiān jǐ yuè jǐ hào ？",
+      "jp": "王先生、こんにちは。今日は何月何日ですか。",
+      "audio": "audio/lesson03/reading-01.mp3"
+    },
+    {
+      "id": "drama-3-r-2",
+      "speaker": "王",
+      "ch": "优子同学，你好！今天是一月二十五号。",
+      "py": "yōu zǐ tóng xué ， nǐ hǎo ！ jīn tiān shì yī yuè èr shí wǔ hào 。",
+      "jp": "優子さん、こんにちは。今日は1月25日です。",
+      "audio": "audio/lesson03/reading-02.mp3"
+    },
+    {
+      "id": "drama-3-r-3",
+      "speaker": "山本",
+      "ch": "今天星期几？",
+      "py": "jīn tiān xīng qī jǐ ？",
+      "jp": "今日は何曜日ですか。",
+      "audio": "audio/lesson03/reading-03.mp3"
+    },
+    {
+      "id": "drama-3-r-4",
+      "speaker": "王",
+      "ch": "今天星期天。",
+      "py": "jīn tiān xīng qī tiān 。",
+      "jp": "今日は日曜日です。",
+      "audio": "audio/lesson03/reading-04.mp3"
+    },
+    {
+      "id": "drama-3-r-5",
+      "speaker": "山本",
+      "ch": "谢谢！",
+      "py": "xiè xie ！",
+      "jp": "ありがとうございます。",
+      "audio": "audio/lesson03/reading-05.mp3"
+    },
+    {
+      "id": "drama-3-r-6",
+      "speaker": "王",
+      "ch": "不客气！",
+      "py": "bú kè qi ！",
+      "jp": "どういたしまして。",
+      "audio": "audio/lesson03/reading-06.mp3"
+    }
+  ],
+  "words": [
+    {
+      "id": "drama-3-w-1",
+      "ch": "今天",
+      "py": "jīn tiān",
+      "jp": "今日",
+      "audio": "audio/lesson03/word-01.mp3"
+    },
+    {
+      "id": "drama-3-w-2",
+      "ch": "星期",
+      "py": "xīng qī",
+      "jp": "週、曜日",
+      "audio": "audio/lesson03/word-02.mp3"
+    },
+    {
+      "id": "drama-3-w-3",
+      "ch": "几",
+      "py": "jǐ",
+      "jp": "何、いくつ",
+      "audio": "audio/lesson03/word-03.mp3"
+    },
+    {
+      "id": "drama-3-w-4",
+      "ch": "月",
+      "py": "yuè",
+      "jp": "月",
+      "audio": "audio/lesson03/word-04.mp3"
+    },
+    {
+      "id": "drama-3-w-5",
+      "ch": "号",
+      "py": "hào",
+      "jp": "日",
+      "audio": "audio/lesson03/word-05.mp3"
+    },
+    {
+      "id": "drama-3-w-6",
+      "ch": "星期天",
+      "py": "xīng qī tiān",
+      "jp": "日曜日",
+      "audio": "audio/lesson03/word-06.mp3"
+    },
+    {
+      "id": "drama-3-w-7",
+      "ch": "谢谢",
+      "py": "xiè xie",
+      "jp": "ありがとう",
+      "audio": "audio/lesson03/word-07.mp3"
+    },
+    {
+      "id": "drama-3-w-8",
+      "ch": "不客气",
+      "py": "bú kè qi",
+      "jp": "どういたしまして",
+      "audio": "audio/lesson03/word-08.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "曜日と日付について",
+      "html": "<p>曜日は「星期＋数字」、日付は「…月…号」で表します。</p><div class=\"table-scroll\"><table><tr><td>星期一</td><td>xīng qī yī</td><td>月曜日</td></tr><tr><td>星期二</td><td>xīng qī èr</td><td>火曜日</td></tr><tr><td>星期三</td><td>xīng qī sān</td><td>水曜日</td></tr><tr><td>星期四</td><td>xīng qī sì</td><td>木曜日</td></tr><tr><td>星期五</td><td>xīng qī wǔ</td><td>金曜日</td></tr><tr><td>星期六</td><td>xīng qī liù</td><td>土曜日</td></tr><tr><td>星期天</td><td>xīng qī tiān</td><td>日曜日</td></tr><tr><td>星期几</td><td>xīng qī jǐ</td><td>何曜日</td></tr></table></div><div class=\"table-scroll\"><table><tr><td>一月</td><td>yī yuè</td><td>1月</td></tr><tr><td>十二月</td><td>shí èr yuè</td><td>12月</td></tr><tr><td>一月五号</td><td>yī yuè wǔ hào</td><td>1月5日</td></tr><tr><td>几月几号</td><td>jǐ yuè jǐ hào</td><td>何月何日</td></tr></table></div>"
+    },
+    {
+      "title": "名詞述語文について",
+      "html": "<p>定義：名詞述語文とは名詞が述語となる文である。</p><p>使い方：肯定：主語+(是)+述語（名詞）</p><p data-audio=\"audio/clips/8fcb65b199cf29d6.mp3\">今天(是)星期三。Jīntiān (shì) xīngqīsān.</p><p>今日は水曜日です。</p><p>否定：主語+不是+述語（名詞）</p><p data-audio=\"audio/clips/bf7fa771bbd729fb.mp3\">今天不是9月10号。Jīntiān búshì jiǔyuè shíhào.</p><p>今日は９月10日ではありません。</p>"
+    }
+  ],
+  "pronunciation": [],
+  "exercises": [
+    {
+      "group": 4,
+      "number": 1,
+      "inputId": "4_1",
+      "answer": "王先生、こんにちは。今日は何月何日ですか。",
+      "initial": "",
+      "prompts": [
+        "王老师，您好！今天几月几号？"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_1",
+          "answer": "王先生、こんにちは。今日は何月何日ですか。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">王老师，您好！今天几月几号？</p><label class=\"answer-label\" for=\"4_1\">あなたの答え</label><input id=\"4_1\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-3-r-1"
+    },
+    {
+      "group": 5,
+      "number": 1,
+      "inputId": "5_1",
+      "answer": "王老师，您好！今天几月几号？",
+      "initial": "",
+      "prompts": [
+        "王先生、こんにちは。今日は何月何日ですか。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_1",
+          "answer": "王老师，您好！今天几月几号？",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">王先生、こんにちは。今日は何月何日ですか。</p><label class=\"answer-label\" for=\"5_1\">あなたの答え</label><input id=\"5_1\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-3-r-1"
+    },
+    {
+      "group": 4,
+      "number": 2,
+      "inputId": "4_2",
+      "answer": "優子さん、こんにちは。今日は1月25日です。",
+      "initial": "",
+      "prompts": [
+        "优子同学，你好！今天是一月二十五号。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_2",
+          "answer": "優子さん、こんにちは。今日は1月25日です。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">优子同学，你好！今天是一月二十五号。</p><label class=\"answer-label\" for=\"4_2\">あなたの答え</label><input id=\"4_2\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-3-r-2"
+    },
+    {
+      "group": 5,
+      "number": 2,
+      "inputId": "5_2",
+      "answer": "优子同学，你好！今天是一月二十五号。",
+      "initial": "",
+      "prompts": [
+        "優子さん、こんにちは。今日は1月25日です。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_2",
+          "answer": "优子同学，你好！今天是一月二十五号。",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">優子さん、こんにちは。今日は1月25日です。</p><label class=\"answer-label\" for=\"5_2\">あなたの答え</label><input id=\"5_2\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-3-r-2"
+    },
+    {
+      "group": 4,
+      "number": 3,
+      "inputId": "4_3",
+      "answer": "今日は何曜日ですか。",
+      "initial": "",
+      "prompts": [
+        "今天星期几？"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_3",
+          "answer": "今日は何曜日ですか。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">今天星期几？</p><label class=\"answer-label\" for=\"4_3\">あなたの答え</label><input id=\"4_3\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-3-r-3"
+    },
+    {
+      "group": 5,
+      "number": 3,
+      "inputId": "5_3",
+      "answer": "今天星期几？",
+      "initial": "",
+      "prompts": [
+        "今日は何曜日ですか。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_3",
+          "answer": "今天星期几？",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">今日は何曜日ですか。</p><label class=\"answer-label\" for=\"5_3\">あなたの答え</label><input id=\"5_3\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-3-r-3"
+    },
+    {
+      "group": 4,
+      "number": 4,
+      "inputId": "4_4",
+      "answer": "今日は日曜日です。",
+      "initial": "",
+      "prompts": [
+        "今天星期天。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_4",
+          "answer": "今日は日曜日です。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">今天星期天。</p><label class=\"answer-label\" for=\"4_4\">あなたの答え</label><input id=\"4_4\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-3-r-4"
+    },
+    {
+      "group": 5,
+      "number": 4,
+      "inputId": "5_4",
+      "answer": "今天星期天。",
+      "initial": "",
+      "prompts": [
+        "今日は日曜日です。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_4",
+          "answer": "今天星期天。",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">今日は日曜日です。</p><label class=\"answer-label\" for=\"5_4\">あなたの答え</label><input id=\"5_4\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-3-r-4"
+    },
+    {
+      "group": 4,
+      "number": 5,
+      "inputId": "4_5",
+      "answer": "ありがとうございます。",
+      "initial": "",
+      "prompts": [
+        "谢谢！"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_5",
+          "answer": "ありがとうございます。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">谢谢！</p><label class=\"answer-label\" for=\"4_5\">あなたの答え</label><input id=\"4_5\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-3-r-5"
+    },
+    {
+      "group": 5,
+      "number": 5,
+      "inputId": "5_5",
+      "answer": "谢谢！",
+      "initial": "",
+      "prompts": [
+        "ありがとうございます。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_5",
+          "answer": "谢谢！",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">ありがとうございます。</p><label class=\"answer-label\" for=\"5_5\">あなたの答え</label><input id=\"5_5\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-3-r-5"
+    },
+    {
+      "group": 4,
+      "number": 6,
+      "inputId": "4_6",
+      "answer": "どういたしまして。",
+      "initial": "",
+      "prompts": [
+        "不客气！"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_6",
+          "answer": "どういたしまして。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">不客气！</p><label class=\"answer-label\" for=\"4_6\">あなたの答え</label><input id=\"4_6\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-3-r-6"
+    },
+    {
+      "group": 5,
+      "number": 6,
+      "inputId": "5_6",
+      "answer": "不客气！",
+      "initial": "",
+      "prompts": [
+        "どういたしまして。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_6",
+          "answer": "不客气！",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">どういたしまして。</p><label class=\"answer-label\" for=\"5_6\">あなたの答え</label><input id=\"5_6\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-3-r-6"
+    },
+    {
+      "number": 1,
+      "initial": "",
+      "sourceWord": "drama-3-w-1",
+      "explanation": "今天 · jīn tiān\n今日",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_1",
+      "kind": "meaning",
+      "prompts": [
+        "今天"
+      ],
+      "answer": "今日",
+      "choices": [
+        {
+          "value": "今日",
+          "text": "今日"
+        },
+        {
+          "value": "週、曜日",
+          "text": "週、曜日"
+        },
+        {
+          "value": "何、いくつ",
+          "text": "何、いくつ"
+        },
+        {
+          "value": "月",
+          "text": "月"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 1,
+      "initial": "",
+      "sourceWord": "drama-3-w-1",
+      "explanation": "今天 · jīn tiān\n今日",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_1",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/7a78665063d23d76.mp3",
+      "answer": "今天",
+      "choices": [
+        {
+          "value": "今天",
+          "text": "今天"
+        },
+        {
+          "value": "星期",
+          "text": "星期"
+        },
+        {
+          "value": "几",
+          "text": "几"
+        },
+        {
+          "value": "月",
+          "text": "月"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 1,
+      "initial": "",
+      "sourceWord": "drama-3-w-1",
+      "explanation": "今天 · jīn tiān\n今日",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_1",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/7a78665063d23d76.mp3",
+      "answer": "jīn tiān",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 2,
+      "initial": "",
+      "sourceWord": "drama-3-w-2",
+      "explanation": "星期 · xīng qī\n週、曜日",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_2",
+      "kind": "meaning",
+      "prompts": [
+        "星期"
+      ],
+      "answer": "週、曜日",
+      "choices": [
+        {
+          "value": "週、曜日",
+          "text": "週、曜日"
+        },
+        {
+          "value": "今日",
+          "text": "今日"
+        },
+        {
+          "value": "何、いくつ",
+          "text": "何、いくつ"
+        },
+        {
+          "value": "月",
+          "text": "月"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 2,
+      "initial": "",
+      "sourceWord": "drama-3-w-2",
+      "explanation": "星期 · xīng qī\n週、曜日",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_2",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/c85d6c026dc55b9c.mp3",
+      "answer": "星期",
+      "choices": [
+        {
+          "value": "星期",
+          "text": "星期"
+        },
+        {
+          "value": "今天",
+          "text": "今天"
+        },
+        {
+          "value": "几",
+          "text": "几"
+        },
+        {
+          "value": "月",
+          "text": "月"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 2,
+      "initial": "",
+      "sourceWord": "drama-3-w-2",
+      "explanation": "星期 · xīng qī\n週、曜日",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_2",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/c85d6c026dc55b9c.mp3",
+      "answer": "xīng qī",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 3,
+      "initial": "",
+      "sourceWord": "drama-3-w-3",
+      "explanation": "几 · jǐ\n何、いくつ",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_3",
+      "kind": "meaning",
+      "prompts": [
+        "几"
+      ],
+      "answer": "何、いくつ",
+      "choices": [
+        {
+          "value": "何、いくつ",
+          "text": "何、いくつ"
+        },
+        {
+          "value": "今日",
+          "text": "今日"
+        },
+        {
+          "value": "週、曜日",
+          "text": "週、曜日"
+        },
+        {
+          "value": "月",
+          "text": "月"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 3,
+      "initial": "",
+      "sourceWord": "drama-3-w-3",
+      "explanation": "几 · jǐ\n何、いくつ",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_3",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/daf92eb0593fd5ac.mp3",
+      "answer": "几",
+      "choices": [
+        {
+          "value": "几",
+          "text": "几"
+        },
+        {
+          "value": "今天",
+          "text": "今天"
+        },
+        {
+          "value": "星期",
+          "text": "星期"
+        },
+        {
+          "value": "月",
+          "text": "月"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 3,
+      "initial": "",
+      "sourceWord": "drama-3-w-3",
+      "explanation": "几 · jǐ\n何、いくつ",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_3",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/daf92eb0593fd5ac.mp3",
+      "answer": "jǐ",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 4,
+      "initial": "",
+      "sourceWord": "drama-3-w-4",
+      "explanation": "月 · yuè\n月",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_4",
+      "kind": "meaning",
+      "prompts": [
+        "月"
+      ],
+      "answer": "月",
+      "choices": [
+        {
+          "value": "月",
+          "text": "月"
+        },
+        {
+          "value": "今日",
+          "text": "今日"
+        },
+        {
+          "value": "週、曜日",
+          "text": "週、曜日"
+        },
+        {
+          "value": "何、いくつ",
+          "text": "何、いくつ"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 4,
+      "initial": "",
+      "sourceWord": "drama-3-w-4",
+      "explanation": "月 · yuè\n月",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_4",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/2bf141c5ef1d5dde.mp3",
+      "answer": "月",
+      "choices": [
+        {
+          "value": "月",
+          "text": "月"
+        },
+        {
+          "value": "今天",
+          "text": "今天"
+        },
+        {
+          "value": "星期",
+          "text": "星期"
+        },
+        {
+          "value": "几",
+          "text": "几"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 4,
+      "initial": "",
+      "sourceWord": "drama-3-w-4",
+      "explanation": "月 · yuè\n月",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_4",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/2bf141c5ef1d5dde.mp3",
+      "answer": "yuè",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 5,
+      "initial": "",
+      "sourceWord": "drama-3-w-5",
+      "explanation": "号 · hào\n日",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_5",
+      "kind": "meaning",
+      "prompts": [
+        "号"
+      ],
+      "answer": "日",
+      "choices": [
+        {
+          "value": "日",
+          "text": "日"
+        },
+        {
+          "value": "今日",
+          "text": "今日"
+        },
+        {
+          "value": "週、曜日",
+          "text": "週、曜日"
+        },
+        {
+          "value": "何、いくつ",
+          "text": "何、いくつ"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 5,
+      "initial": "",
+      "sourceWord": "drama-3-w-5",
+      "explanation": "号 · hào\n日",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_5",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/0b7a9f7b9225f0f0.mp3",
+      "answer": "号",
+      "choices": [
+        {
+          "value": "号",
+          "text": "号"
+        },
+        {
+          "value": "今天",
+          "text": "今天"
+        },
+        {
+          "value": "星期",
+          "text": "星期"
+        },
+        {
+          "value": "几",
+          "text": "几"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 5,
+      "initial": "",
+      "sourceWord": "drama-3-w-5",
+      "explanation": "号 · hào\n日",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_5",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/0b7a9f7b9225f0f0.mp3",
+      "answer": "hào",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 6,
+      "initial": "",
+      "sourceWord": "drama-3-w-6",
+      "explanation": "星期天 · xīng qī tiān\n日曜日",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_6",
+      "kind": "meaning",
+      "prompts": [
+        "星期天"
+      ],
+      "answer": "日曜日",
+      "choices": [
+        {
+          "value": "日曜日",
+          "text": "日曜日"
+        },
+        {
+          "value": "今日",
+          "text": "今日"
+        },
+        {
+          "value": "週、曜日",
+          "text": "週、曜日"
+        },
+        {
+          "value": "何、いくつ",
+          "text": "何、いくつ"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 6,
+      "initial": "",
+      "sourceWord": "drama-3-w-6",
+      "explanation": "星期天 · xīng qī tiān\n日曜日",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_6",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/81a8fc4e6fe945ff.mp3",
+      "answer": "星期天",
+      "choices": [
+        {
+          "value": "星期天",
+          "text": "星期天"
+        },
+        {
+          "value": "今天",
+          "text": "今天"
+        },
+        {
+          "value": "星期",
+          "text": "星期"
+        },
+        {
+          "value": "几",
+          "text": "几"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 6,
+      "initial": "",
+      "sourceWord": "drama-3-w-6",
+      "explanation": "星期天 · xīng qī tiān\n日曜日",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_6",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/81a8fc4e6fe945ff.mp3",
+      "answer": "xīng qī tiān",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 7,
+      "initial": "",
+      "sourceWord": "drama-3-w-7",
+      "explanation": "谢谢 · xiè xie\nありがとう",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_7",
+      "kind": "meaning",
+      "prompts": [
+        "谢谢"
+      ],
+      "answer": "ありがとう",
+      "choices": [
+        {
+          "value": "ありがとう",
+          "text": "ありがとう"
+        },
+        {
+          "value": "今日",
+          "text": "今日"
+        },
+        {
+          "value": "週、曜日",
+          "text": "週、曜日"
+        },
+        {
+          "value": "何、いくつ",
+          "text": "何、いくつ"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 7,
+      "initial": "",
+      "sourceWord": "drama-3-w-7",
+      "explanation": "谢谢 · xiè xie\nありがとう",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_7",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/a07b02030e787126.mp3",
+      "answer": "谢谢",
+      "choices": [
+        {
+          "value": "谢谢",
+          "text": "谢谢"
+        },
+        {
+          "value": "今天",
+          "text": "今天"
+        },
+        {
+          "value": "星期",
+          "text": "星期"
+        },
+        {
+          "value": "几",
+          "text": "几"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 7,
+      "initial": "",
+      "sourceWord": "drama-3-w-7",
+      "explanation": "谢谢 · xiè xie\nありがとう",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_7",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/a07b02030e787126.mp3",
+      "answer": "xiè xie",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 8,
+      "initial": "",
+      "sourceWord": "drama-3-w-8",
+      "explanation": "不客气 · bú kè qi\nどういたしまして",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_8",
+      "kind": "meaning",
+      "prompts": [
+        "不客气"
+      ],
+      "answer": "どういたしまして",
+      "choices": [
+        {
+          "value": "どういたしまして",
+          "text": "どういたしまして"
+        },
+        {
+          "value": "今日",
+          "text": "今日"
+        },
+        {
+          "value": "週、曜日",
+          "text": "週、曜日"
+        },
+        {
+          "value": "何、いくつ",
+          "text": "何、いくつ"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 8,
+      "initial": "",
+      "sourceWord": "drama-3-w-8",
+      "explanation": "不客气 · bú kè qi\nどういたしまして",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_8",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/85ddca19e1ee8d36.mp3",
+      "answer": "不客气",
+      "choices": [
+        {
+          "value": "不客气",
+          "text": "不客气"
+        },
+        {
+          "value": "今天",
+          "text": "今天"
+        },
+        {
+          "value": "星期",
+          "text": "星期"
+        },
+        {
+          "value": "几",
+          "text": "几"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 8,
+      "initial": "",
+      "sourceWord": "drama-3-w-8",
+      "explanation": "不客气 · bú kè qi\nどういたしまして",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_8",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/85ddca19e1ee8d36.mp3",
+      "answer": "bú kè qi",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    }
+  ],
+  "homework": null,
+  "drama": []
+}

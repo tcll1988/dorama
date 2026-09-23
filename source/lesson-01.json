@@ -1,0 +1,497 @@
+{
+  "id": 1,
+  "title": "你好！",
+  "japanese": "あいさつ",
+  "reading": [
+    {
+      "id": "drama-1-r-1",
+      "speaker": "王明",
+      "ch": "你好！",
+      "py": "nǐ hǎo ！",
+      "jp": "こんにちは。",
+      "audio": "audio/lesson01/reading-01.mp3"
+    },
+    {
+      "id": "drama-1-r-2",
+      "speaker": "山本优子",
+      "ch": "你好！",
+      "py": "nǐ hǎo ！",
+      "jp": "こんにちは。",
+      "audio": "audio/lesson01/reading-02.mp3"
+    },
+    {
+      "id": "drama-1-r-3",
+      "speaker": "王明",
+      "ch": "再见！",
+      "py": "zài jiàn ！",
+      "jp": "さようなら。",
+      "audio": "audio/lesson01/reading-03.mp3"
+    },
+    {
+      "id": "drama-1-r-4",
+      "speaker": "山本优子",
+      "ch": "再见！",
+      "py": "zài jiàn ！",
+      "jp": "さようなら。",
+      "audio": "audio/lesson01/reading-04.mp3"
+    }
+  ],
+  "words": [
+    {
+      "id": "drama-1-w-1",
+      "ch": "王明",
+      "py": "Wáng Míng",
+      "jp": "王明（人名）",
+      "audio": "audio/lesson01/word-01.mp3"
+    },
+    {
+      "id": "drama-1-w-2",
+      "ch": "你好",
+      "py": "nǐ hǎo",
+      "jp": "こんにちは",
+      "audio": "audio/lesson01/word-02.mp3"
+    },
+    {
+      "id": "drama-1-w-3",
+      "ch": "山本优子",
+      "py": "Shānběn Yōuzǐ",
+      "jp": "山本優子（人名）",
+      "audio": "audio/lesson01/word-03.mp3"
+    },
+    {
+      "id": "drama-1-w-4",
+      "ch": "再见",
+      "py": "zài jiàn",
+      "jp": "さようなら",
+      "audio": "audio/lesson01/word-04.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "中国語の数字の言い方（1～99）について",
+      "html": "<div class=\"table-scroll\"><table><tr><td>一yī</td><td>二èr</td><td>三sān</td><td>四sì</td><td>五wǔ</td></tr><tr><td>六liù</td><td>七qī</td><td>八bā</td><td>九jiǔ</td><td>十shí</td></tr><tr><td>十一shíyī</td><td>十七shíqī</td><td>二十一èrshíyī</td><td>三十sānshí</td><td>四十九sìshíjiǔ</td></tr><tr><td>五十八wǔshíbā</td><td>六十三liùshísān</td><td>七十七qīshíqī</td><td>八十二Bāshí èr</td><td>九十九jiǔshíjiǔ</td></tr></table></div>"
+    }
+  ],
+  "pronunciation": [],
+  "exercises": [
+    {
+      "group": 4,
+      "number": 1,
+      "inputId": "4_1",
+      "answer": "こんにちは。",
+      "initial": "",
+      "prompts": [
+        "你好！"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_1",
+          "answer": "こんにちは。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">你好！</p><label class=\"answer-label\" for=\"4_1\">あなたの答え</label><input id=\"4_1\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-1-r-1"
+    },
+    {
+      "group": 5,
+      "number": 1,
+      "inputId": "5_1",
+      "answer": "你好！",
+      "initial": "",
+      "prompts": [
+        "こんにちは。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_1",
+          "answer": "你好！",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">こんにちは。</p><label class=\"answer-label\" for=\"5_1\">あなたの答え</label><input id=\"5_1\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-1-r-1"
+    },
+    {
+      "group": 4,
+      "number": 2,
+      "inputId": "4_2",
+      "answer": "さようなら。",
+      "initial": "",
+      "prompts": [
+        "再见！"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_2",
+          "answer": "さようなら。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">再见！</p><label class=\"answer-label\" for=\"4_2\">あなたの答え</label><input id=\"4_2\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-1-r-3"
+    },
+    {
+      "group": 5,
+      "number": 2,
+      "inputId": "5_2",
+      "answer": "再见！",
+      "initial": "",
+      "prompts": [
+        "さようなら。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_2",
+          "answer": "再见！",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">さようなら。</p><label class=\"answer-label\" for=\"5_2\">あなたの答え</label><input id=\"5_2\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-1-r-3"
+    },
+    {
+      "number": 1,
+      "initial": "",
+      "sourceWord": "drama-1-w-1",
+      "explanation": "王明 · Wáng Míng\n王明（人名）",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_1",
+      "kind": "meaning",
+      "prompts": [
+        "王明"
+      ],
+      "answer": "王明（人名）",
+      "choices": [
+        {
+          "value": "王明（人名）",
+          "text": "王明（人名）"
+        },
+        {
+          "value": "こんにちは",
+          "text": "こんにちは"
+        },
+        {
+          "value": "山本優子（人名）",
+          "text": "山本優子（人名）"
+        },
+        {
+          "value": "さようなら",
+          "text": "さようなら"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 1,
+      "initial": "",
+      "sourceWord": "drama-1-w-1",
+      "explanation": "王明 · Wáng Míng\n王明（人名）",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_1",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/ce60a7446b3d1bc3.mp3",
+      "answer": "王明",
+      "choices": [
+        {
+          "value": "王明",
+          "text": "王明"
+        },
+        {
+          "value": "你好",
+          "text": "你好"
+        },
+        {
+          "value": "山本优子",
+          "text": "山本优子"
+        },
+        {
+          "value": "再见",
+          "text": "再见"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 1,
+      "initial": "",
+      "sourceWord": "drama-1-w-1",
+      "explanation": "王明 · Wáng Míng\n王明（人名）",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_1",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/ce60a7446b3d1bc3.mp3",
+      "answer": "Wáng Míng",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 2,
+      "initial": "",
+      "sourceWord": "drama-1-w-2",
+      "explanation": "你好 · nǐ hǎo\nこんにちは",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_2",
+      "kind": "meaning",
+      "prompts": [
+        "你好"
+      ],
+      "answer": "こんにちは",
+      "choices": [
+        {
+          "value": "こんにちは",
+          "text": "こんにちは"
+        },
+        {
+          "value": "王明（人名）",
+          "text": "王明（人名）"
+        },
+        {
+          "value": "山本優子（人名）",
+          "text": "山本優子（人名）"
+        },
+        {
+          "value": "さようなら",
+          "text": "さようなら"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 2,
+      "initial": "",
+      "sourceWord": "drama-1-w-2",
+      "explanation": "你好 · nǐ hǎo\nこんにちは",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_2",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/db7407685503d086.mp3",
+      "answer": "你好",
+      "choices": [
+        {
+          "value": "你好",
+          "text": "你好"
+        },
+        {
+          "value": "王明",
+          "text": "王明"
+        },
+        {
+          "value": "山本优子",
+          "text": "山本优子"
+        },
+        {
+          "value": "再见",
+          "text": "再见"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 2,
+      "initial": "",
+      "sourceWord": "drama-1-w-2",
+      "explanation": "你好 · nǐ hǎo\nこんにちは",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_2",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/db7407685503d086.mp3",
+      "answer": "nǐ hǎo",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 3,
+      "initial": "",
+      "sourceWord": "drama-1-w-3",
+      "explanation": "山本优子 · Shānběn Yōuzǐ\n山本優子（人名）",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_3",
+      "kind": "meaning",
+      "prompts": [
+        "山本优子"
+      ],
+      "answer": "山本優子（人名）",
+      "choices": [
+        {
+          "value": "山本優子（人名）",
+          "text": "山本優子（人名）"
+        },
+        {
+          "value": "王明（人名）",
+          "text": "王明（人名）"
+        },
+        {
+          "value": "こんにちは",
+          "text": "こんにちは"
+        },
+        {
+          "value": "さようなら",
+          "text": "さようなら"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 3,
+      "initial": "",
+      "sourceWord": "drama-1-w-3",
+      "explanation": "山本优子 · Shānběn Yōuzǐ\n山本優子（人名）",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_3",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/622eff023eb8c3bb.mp3",
+      "answer": "山本优子",
+      "choices": [
+        {
+          "value": "山本优子",
+          "text": "山本优子"
+        },
+        {
+          "value": "王明",
+          "text": "王明"
+        },
+        {
+          "value": "你好",
+          "text": "你好"
+        },
+        {
+          "value": "再见",
+          "text": "再见"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 3,
+      "initial": "",
+      "sourceWord": "drama-1-w-3",
+      "explanation": "山本优子 · Shānběn Yōuzǐ\n山本優子（人名）",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_3",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/622eff023eb8c3bb.mp3",
+      "answer": "Shānběn Yōuzǐ",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 4,
+      "initial": "",
+      "sourceWord": "drama-1-w-4",
+      "explanation": "再见 · zài jiàn\nさようなら",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_4",
+      "kind": "meaning",
+      "prompts": [
+        "再见"
+      ],
+      "answer": "さようなら",
+      "choices": [
+        {
+          "value": "さようなら",
+          "text": "さようなら"
+        },
+        {
+          "value": "王明（人名）",
+          "text": "王明（人名）"
+        },
+        {
+          "value": "こんにちは",
+          "text": "こんにちは"
+        },
+        {
+          "value": "山本優子（人名）",
+          "text": "山本優子（人名）"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 4,
+      "initial": "",
+      "sourceWord": "drama-1-w-4",
+      "explanation": "再见 · zài jiàn\nさようなら",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_4",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/34488491f36cfa22.mp3",
+      "answer": "再见",
+      "choices": [
+        {
+          "value": "再见",
+          "text": "再见"
+        },
+        {
+          "value": "王明",
+          "text": "王明"
+        },
+        {
+          "value": "你好",
+          "text": "你好"
+        },
+        {
+          "value": "山本优子",
+          "text": "山本优子"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 4,
+      "initial": "",
+      "sourceWord": "drama-1-w-4",
+      "explanation": "再见 · zài jiàn\nさようなら",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_4",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/34488491f36cfa22.mp3",
+      "answer": "zài jiàn",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    }
+  ],
+  "homework": null,
+  "drama": [
+    "『小歓喜』は、中国の高校生とその家族を描いたドラマです。大学入試を前に、子どもたちは勉強や将来のことで悩み、親たちも大きな不安を感じています。",
+    "このドラマでは、受験だけでなく、親子の愛情、友情、成長も丁寧に描かれています。",
+    "笑いと涙の両方がある、あたたかくて現実的な作品です。",
+    "中国の学校生活や家庭の様子を知ることができるので、中国語学習者にもおすすめです。"
+  ]
+}

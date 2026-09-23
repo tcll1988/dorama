@@ -1,0 +1,1024 @@
+{
+  "id": 12,
+  "title": "洗手间在哪儿？",
+  "japanese": "場所と道案内",
+  "reading": [
+    {
+      "id": "drama-12-r-1",
+      "speaker": "山本",
+      "ch": "请问，洗手间在哪儿？",
+      "py": "qǐng wèn ， xǐ shǒu jiān zài nǎ r ？",
+      "jp": "すみません、トイレはどこですか。",
+      "audio": "audio/lesson12/reading-01.mp3"
+    },
+    {
+      "id": "drama-12-r-2",
+      "speaker": "店员",
+      "ch": "洗手间在那儿。",
+      "py": "xǐ shǒu jiān zài nà r 。",
+      "jp": "トイレはあそこです。",
+      "audio": "audio/lesson12/reading-02.mp3"
+    },
+    {
+      "id": "drama-12-r-3",
+      "speaker": "山本",
+      "ch": "请问，去文明小区二号楼怎么走？",
+      "py": "qǐng wèn ， qù wén míng xiǎo qū èr hào lóu zěn me zǒu ？",
+      "jp": "すみません、文明団地の2号棟へはどう行けばいいですか。",
+      "audio": "audio/lesson12/reading-03.mp3"
+    },
+    {
+      "id": "drama-12-r-4",
+      "speaker": "店员",
+      "ch": "往前走就是。",
+      "py": "wǎng qián zǒu jiù shì 。",
+      "jp": "前へ進めばそこです。",
+      "audio": "audio/lesson12/reading-04.mp3"
+    }
+  ],
+  "words": [
+    {
+      "id": "drama-12-w-1",
+      "ch": "洗手间",
+      "py": "xǐshǒujiān",
+      "jp": "トイレ",
+      "audio": "audio/lesson12/word-01.mp3"
+    },
+    {
+      "id": "drama-12-w-2",
+      "ch": "在",
+      "py": "zài",
+      "jp": "～にある／～にいる",
+      "audio": "audio/lesson12/word-02.mp3"
+    },
+    {
+      "id": "drama-12-w-3",
+      "ch": "哪儿",
+      "py": "nǎr",
+      "jp": "どこ",
+      "audio": "audio/lesson12/word-03.mp3"
+    },
+    {
+      "id": "drama-12-w-4",
+      "ch": "那儿",
+      "py": "nàr",
+      "jp": "あそこ／そこ",
+      "audio": "audio/lesson12/word-04.mp3"
+    },
+    {
+      "id": "drama-12-w-5",
+      "ch": "文明小区",
+      "py": "Wénmíng xiǎoqū",
+      "jp": "文明団地",
+      "audio": "audio/lesson12/word-05.mp3"
+    },
+    {
+      "id": "drama-12-w-6",
+      "ch": "二号楼",
+      "py": "èr hào lóu",
+      "jp": "2号棟",
+      "audio": "audio/lesson12/word-06.mp3"
+    },
+    {
+      "id": "drama-12-w-7",
+      "ch": "怎么走",
+      "py": "zěnme zǒu",
+      "jp": "どうやって行きますか",
+      "audio": "audio/lesson12/word-07.mp3"
+    },
+    {
+      "id": "drama-12-w-8",
+      "ch": "往前走",
+      "py": "wǎng qián zǒu",
+      "jp": "前へ進む",
+      "audio": "audio/lesson12/word-08.mp3"
+    },
+    {
+      "id": "drama-12-w-9",
+      "ch": "就是",
+      "py": "jiùshì",
+      "jp": "そのまま「～です」",
+      "audio": "audio/lesson12/word-09.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "“在”について",
+      "html": "<p>意味：“在”＝「～にいる」「～にある」</p><p>使い方：肯定：主語（人・もの）+在＋場所</p><p data-audio=\"audio/clips/f852fd38efd95b2d.mp3\">⓵ A: 李明在大学吗？李明さんは大学にいますか。</p><p data-audio=\"audio/clips/98f4733fba927b11.mp3\">B: 他在大学。彼は大学にいます。</p><p>否定：主語（人・もの）+不在＋場所</p><p>疑問：主語（人・もの）+在＋場所+吗?</p><p data-audio=\"audio/clips/296a4fcf5bce3031.mp3\">⓶ A: 你家在名古屋吗？あなたの家は名古屋にありますか。</p><p data-audio=\"audio/clips/a0ad59e5fe180fdd.mp3\">B: 我家不在名古屋。私の家は名古屋にありません。</p>"
+    },
+    {
+      "title": "“往……”の使い方",
+      "html": "<p>意味：“往”＝「～へ向かって」</p><p>使い方：往+場所/方向+動詞</p><p data-audio=\"audio/clips/b1942550135694ef.mp3\">往北走就是。北に行けばそこです。</p><p data-audio=\"audio/clips/1ad819de5f5a30c7.mp3\">请一直往前走。まっすぐ前へ行ってください。</p>"
+    }
+  ],
+  "pronunciation": [],
+  "exercises": [
+    {
+      "group": 4,
+      "number": 1,
+      "inputId": "4_1",
+      "answer": "すみません、トイレはどこですか。",
+      "initial": "",
+      "prompts": [
+        "请问，洗手间在哪儿？"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_1",
+          "answer": "すみません、トイレはどこですか。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">请问，洗手间在哪儿？</p><label class=\"answer-label\" for=\"4_1\">あなたの答え</label><input id=\"4_1\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-12-r-1"
+    },
+    {
+      "group": 5,
+      "number": 1,
+      "inputId": "5_1",
+      "answer": "请问，洗手间在哪儿？",
+      "initial": "",
+      "prompts": [
+        "すみません、トイレはどこですか。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_1",
+          "answer": "请问，洗手间在哪儿？",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">すみません、トイレはどこですか。</p><label class=\"answer-label\" for=\"5_1\">あなたの答え</label><input id=\"5_1\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-12-r-1"
+    },
+    {
+      "group": 4,
+      "number": 2,
+      "inputId": "4_2",
+      "answer": "トイレはあそこです。",
+      "initial": "",
+      "prompts": [
+        "洗手间在那儿。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_2",
+          "answer": "トイレはあそこです。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">洗手间在那儿。</p><label class=\"answer-label\" for=\"4_2\">あなたの答え</label><input id=\"4_2\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-12-r-2"
+    },
+    {
+      "group": 5,
+      "number": 2,
+      "inputId": "5_2",
+      "answer": "洗手间在那儿。",
+      "initial": "",
+      "prompts": [
+        "トイレはあそこです。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_2",
+          "answer": "洗手间在那儿。",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">トイレはあそこです。</p><label class=\"answer-label\" for=\"5_2\">あなたの答え</label><input id=\"5_2\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-12-r-2"
+    },
+    {
+      "group": 4,
+      "number": 3,
+      "inputId": "4_3",
+      "answer": "すみません、文明団地の2号棟へはどう行けばいいですか。",
+      "initial": "",
+      "prompts": [
+        "请问，去文明小区二号楼怎么走？"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_3",
+          "answer": "すみません、文明団地の2号棟へはどう行けばいいですか。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">请问，去文明小区二号楼怎么走？</p><label class=\"answer-label\" for=\"4_3\">あなたの答え</label><input id=\"4_3\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-12-r-3"
+    },
+    {
+      "group": 5,
+      "number": 3,
+      "inputId": "5_3",
+      "answer": "请问，去文明小区二号楼怎么走？",
+      "initial": "",
+      "prompts": [
+        "すみません、文明団地の2号棟へはどう行けばいいですか。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_3",
+          "answer": "请问，去文明小区二号楼怎么走？",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">すみません、文明団地の2号棟へはどう行けばいいですか。</p><label class=\"answer-label\" for=\"5_3\">あなたの答え</label><input id=\"5_3\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-12-r-3"
+    },
+    {
+      "group": 4,
+      "number": 4,
+      "inputId": "4_4",
+      "answer": "前へ進めばそこです。",
+      "initial": "",
+      "prompts": [
+        "往前走就是。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_4",
+          "answer": "前へ進めばそこです。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">往前走就是。</p><label class=\"answer-label\" for=\"4_4\">あなたの答え</label><input id=\"4_4\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-12-r-4"
+    },
+    {
+      "group": 5,
+      "number": 4,
+      "inputId": "5_4",
+      "answer": "往前走就是。",
+      "initial": "",
+      "prompts": [
+        "前へ進めばそこです。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_4",
+          "answer": "往前走就是。",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">前へ進めばそこです。</p><label class=\"answer-label\" for=\"5_4\">あなたの答え</label><input id=\"5_4\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-12-r-4"
+    },
+    {
+      "number": 1,
+      "initial": "",
+      "sourceWord": "drama-12-w-1",
+      "explanation": "洗手间 · xǐshǒujiān\nトイレ",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_1",
+      "kind": "meaning",
+      "prompts": [
+        "洗手间"
+      ],
+      "answer": "トイレ",
+      "choices": [
+        {
+          "value": "トイレ",
+          "text": "トイレ"
+        },
+        {
+          "value": "～にある／～にいる",
+          "text": "～にある／～にいる"
+        },
+        {
+          "value": "どこ",
+          "text": "どこ"
+        },
+        {
+          "value": "あそこ／そこ",
+          "text": "あそこ／そこ"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 1,
+      "initial": "",
+      "sourceWord": "drama-12-w-1",
+      "explanation": "洗手间 · xǐshǒujiān\nトイレ",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_1",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/1dd3aa4d05511ffe.mp3",
+      "answer": "洗手间",
+      "choices": [
+        {
+          "value": "洗手间",
+          "text": "洗手间"
+        },
+        {
+          "value": "在",
+          "text": "在"
+        },
+        {
+          "value": "哪儿",
+          "text": "哪儿"
+        },
+        {
+          "value": "那儿",
+          "text": "那儿"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 1,
+      "initial": "",
+      "sourceWord": "drama-12-w-1",
+      "explanation": "洗手间 · xǐshǒujiān\nトイレ",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_1",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/1dd3aa4d05511ffe.mp3",
+      "answer": "xǐshǒujiān",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 2,
+      "initial": "",
+      "sourceWord": "drama-12-w-2",
+      "explanation": "在 · zài\n～にある／～にいる",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_2",
+      "kind": "meaning",
+      "prompts": [
+        "在"
+      ],
+      "answer": "～にある／～にいる",
+      "choices": [
+        {
+          "value": "～にある／～にいる",
+          "text": "～にある／～にいる"
+        },
+        {
+          "value": "トイレ",
+          "text": "トイレ"
+        },
+        {
+          "value": "どこ",
+          "text": "どこ"
+        },
+        {
+          "value": "あそこ／そこ",
+          "text": "あそこ／そこ"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 2,
+      "initial": "",
+      "sourceWord": "drama-12-w-2",
+      "explanation": "在 · zài\n～にある／～にいる",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_2",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/788612d50a18f4c5.mp3",
+      "answer": "在",
+      "choices": [
+        {
+          "value": "在",
+          "text": "在"
+        },
+        {
+          "value": "洗手间",
+          "text": "洗手间"
+        },
+        {
+          "value": "哪儿",
+          "text": "哪儿"
+        },
+        {
+          "value": "那儿",
+          "text": "那儿"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 2,
+      "initial": "",
+      "sourceWord": "drama-12-w-2",
+      "explanation": "在 · zài\n～にある／～にいる",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_2",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/788612d50a18f4c5.mp3",
+      "answer": "zài",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 3,
+      "initial": "",
+      "sourceWord": "drama-12-w-3",
+      "explanation": "哪儿 · nǎr\nどこ",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_3",
+      "kind": "meaning",
+      "prompts": [
+        "哪儿"
+      ],
+      "answer": "どこ",
+      "choices": [
+        {
+          "value": "どこ",
+          "text": "どこ"
+        },
+        {
+          "value": "トイレ",
+          "text": "トイレ"
+        },
+        {
+          "value": "～にある／～にいる",
+          "text": "～にある／～にいる"
+        },
+        {
+          "value": "あそこ／そこ",
+          "text": "あそこ／そこ"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 3,
+      "initial": "",
+      "sourceWord": "drama-12-w-3",
+      "explanation": "哪儿 · nǎr\nどこ",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_3",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/a91c326d6e230ba7.mp3",
+      "answer": "哪儿",
+      "choices": [
+        {
+          "value": "哪儿",
+          "text": "哪儿"
+        },
+        {
+          "value": "洗手间",
+          "text": "洗手间"
+        },
+        {
+          "value": "在",
+          "text": "在"
+        },
+        {
+          "value": "那儿",
+          "text": "那儿"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 3,
+      "initial": "",
+      "sourceWord": "drama-12-w-3",
+      "explanation": "哪儿 · nǎr\nどこ",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_3",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/a91c326d6e230ba7.mp3",
+      "answer": "nǎr",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 4,
+      "initial": "",
+      "sourceWord": "drama-12-w-4",
+      "explanation": "那儿 · nàr\nあそこ／そこ",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_4",
+      "kind": "meaning",
+      "prompts": [
+        "那儿"
+      ],
+      "answer": "あそこ／そこ",
+      "choices": [
+        {
+          "value": "あそこ／そこ",
+          "text": "あそこ／そこ"
+        },
+        {
+          "value": "トイレ",
+          "text": "トイレ"
+        },
+        {
+          "value": "～にある／～にいる",
+          "text": "～にある／～にいる"
+        },
+        {
+          "value": "どこ",
+          "text": "どこ"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 4,
+      "initial": "",
+      "sourceWord": "drama-12-w-4",
+      "explanation": "那儿 · nàr\nあそこ／そこ",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_4",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/0e4f18b8fd9de093.mp3",
+      "answer": "那儿",
+      "choices": [
+        {
+          "value": "那儿",
+          "text": "那儿"
+        },
+        {
+          "value": "洗手间",
+          "text": "洗手间"
+        },
+        {
+          "value": "在",
+          "text": "在"
+        },
+        {
+          "value": "哪儿",
+          "text": "哪儿"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 4,
+      "initial": "",
+      "sourceWord": "drama-12-w-4",
+      "explanation": "那儿 · nàr\nあそこ／そこ",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_4",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/0e4f18b8fd9de093.mp3",
+      "answer": "nàr",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 5,
+      "initial": "",
+      "sourceWord": "drama-12-w-5",
+      "explanation": "文明小区 · Wénmíng xiǎoqū\n文明団地",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_5",
+      "kind": "meaning",
+      "prompts": [
+        "文明小区"
+      ],
+      "answer": "文明団地",
+      "choices": [
+        {
+          "value": "文明団地",
+          "text": "文明団地"
+        },
+        {
+          "value": "トイレ",
+          "text": "トイレ"
+        },
+        {
+          "value": "～にある／～にいる",
+          "text": "～にある／～にいる"
+        },
+        {
+          "value": "どこ",
+          "text": "どこ"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 5,
+      "initial": "",
+      "sourceWord": "drama-12-w-5",
+      "explanation": "文明小区 · Wénmíng xiǎoqū\n文明団地",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_5",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/dfc8a806f144a89d.mp3",
+      "answer": "文明小区",
+      "choices": [
+        {
+          "value": "文明小区",
+          "text": "文明小区"
+        },
+        {
+          "value": "洗手间",
+          "text": "洗手间"
+        },
+        {
+          "value": "在",
+          "text": "在"
+        },
+        {
+          "value": "哪儿",
+          "text": "哪儿"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 5,
+      "initial": "",
+      "sourceWord": "drama-12-w-5",
+      "explanation": "文明小区 · Wénmíng xiǎoqū\n文明団地",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_5",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/dfc8a806f144a89d.mp3",
+      "answer": "Wénmíng xiǎoqū",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 6,
+      "initial": "",
+      "sourceWord": "drama-12-w-6",
+      "explanation": "二号楼 · èr hào lóu\n2号棟",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_6",
+      "kind": "meaning",
+      "prompts": [
+        "二号楼"
+      ],
+      "answer": "2号棟",
+      "choices": [
+        {
+          "value": "2号棟",
+          "text": "2号棟"
+        },
+        {
+          "value": "トイレ",
+          "text": "トイレ"
+        },
+        {
+          "value": "～にある／～にいる",
+          "text": "～にある／～にいる"
+        },
+        {
+          "value": "どこ",
+          "text": "どこ"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 6,
+      "initial": "",
+      "sourceWord": "drama-12-w-6",
+      "explanation": "二号楼 · èr hào lóu\n2号棟",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_6",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/c2920f8c195d5c4c.mp3",
+      "answer": "二号楼",
+      "choices": [
+        {
+          "value": "二号楼",
+          "text": "二号楼"
+        },
+        {
+          "value": "洗手间",
+          "text": "洗手间"
+        },
+        {
+          "value": "在",
+          "text": "在"
+        },
+        {
+          "value": "哪儿",
+          "text": "哪儿"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 6,
+      "initial": "",
+      "sourceWord": "drama-12-w-6",
+      "explanation": "二号楼 · èr hào lóu\n2号棟",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_6",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/c2920f8c195d5c4c.mp3",
+      "answer": "èr hào lóu",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 7,
+      "initial": "",
+      "sourceWord": "drama-12-w-7",
+      "explanation": "怎么走 · zěnme zǒu\nどうやって行きますか",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_7",
+      "kind": "meaning",
+      "prompts": [
+        "怎么走"
+      ],
+      "answer": "どうやって行きますか",
+      "choices": [
+        {
+          "value": "どうやって行きますか",
+          "text": "どうやって行きますか"
+        },
+        {
+          "value": "トイレ",
+          "text": "トイレ"
+        },
+        {
+          "value": "～にある／～にいる",
+          "text": "～にある／～にいる"
+        },
+        {
+          "value": "どこ",
+          "text": "どこ"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 7,
+      "initial": "",
+      "sourceWord": "drama-12-w-7",
+      "explanation": "怎么走 · zěnme zǒu\nどうやって行きますか",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_7",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/c754bd99b6c394d5.mp3",
+      "answer": "怎么走",
+      "choices": [
+        {
+          "value": "怎么走",
+          "text": "怎么走"
+        },
+        {
+          "value": "洗手间",
+          "text": "洗手间"
+        },
+        {
+          "value": "在",
+          "text": "在"
+        },
+        {
+          "value": "哪儿",
+          "text": "哪儿"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 7,
+      "initial": "",
+      "sourceWord": "drama-12-w-7",
+      "explanation": "怎么走 · zěnme zǒu\nどうやって行きますか",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_7",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/c754bd99b6c394d5.mp3",
+      "answer": "zěnme zǒu",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 8,
+      "initial": "",
+      "sourceWord": "drama-12-w-8",
+      "explanation": "往前走 · wǎng qián zǒu\n前へ進む",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_8",
+      "kind": "meaning",
+      "prompts": [
+        "往前走"
+      ],
+      "answer": "前へ進む",
+      "choices": [
+        {
+          "value": "前へ進む",
+          "text": "前へ進む"
+        },
+        {
+          "value": "トイレ",
+          "text": "トイレ"
+        },
+        {
+          "value": "～にある／～にいる",
+          "text": "～にある／～にいる"
+        },
+        {
+          "value": "どこ",
+          "text": "どこ"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 8,
+      "initial": "",
+      "sourceWord": "drama-12-w-8",
+      "explanation": "往前走 · wǎng qián zǒu\n前へ進む",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_8",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/4fe5addb1794da42.mp3",
+      "answer": "往前走",
+      "choices": [
+        {
+          "value": "往前走",
+          "text": "往前走"
+        },
+        {
+          "value": "洗手间",
+          "text": "洗手间"
+        },
+        {
+          "value": "在",
+          "text": "在"
+        },
+        {
+          "value": "哪儿",
+          "text": "哪儿"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 8,
+      "initial": "",
+      "sourceWord": "drama-12-w-8",
+      "explanation": "往前走 · wǎng qián zǒu\n前へ進む",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_8",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/4fe5addb1794da42.mp3",
+      "answer": "wǎng qián zǒu",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 9,
+      "initial": "",
+      "sourceWord": "drama-12-w-9",
+      "explanation": "就是 · jiùshì\nそのまま「～です」",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_9",
+      "kind": "meaning",
+      "prompts": [
+        "就是"
+      ],
+      "answer": "そのまま「～です」",
+      "choices": [
+        {
+          "value": "そのまま「～です」",
+          "text": "そのまま「～です」"
+        },
+        {
+          "value": "トイレ",
+          "text": "トイレ"
+        },
+        {
+          "value": "～にある／～にいる",
+          "text": "～にある／～にいる"
+        },
+        {
+          "value": "どこ",
+          "text": "どこ"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 9,
+      "initial": "",
+      "sourceWord": "drama-12-w-9",
+      "explanation": "就是 · jiùshì\nそのまま「～です」",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_9",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/8720436daed31982.mp3",
+      "answer": "就是",
+      "choices": [
+        {
+          "value": "就是",
+          "text": "就是"
+        },
+        {
+          "value": "洗手间",
+          "text": "洗手间"
+        },
+        {
+          "value": "在",
+          "text": "在"
+        },
+        {
+          "value": "哪儿",
+          "text": "哪儿"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 9,
+      "initial": "",
+      "sourceWord": "drama-12-w-9",
+      "explanation": "就是 · jiùshì\nそのまま「～です」",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_9",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/8720436daed31982.mp3",
+      "answer": "jiùshì",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    }
+  ],
+  "homework": null,
+  "drama": []
+}

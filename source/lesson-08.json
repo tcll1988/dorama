@@ -1,0 +1,848 @@
+{
+  "id": 8,
+  "title": "你想喝什么？",
+  "japanese": "食べたいもの・飲みたいもの",
+  "reading": [
+    {
+      "id": "drama-8-r-1",
+      "speaker": "王",
+      "ch": "你想喝什么？",
+      "py": "nǐ xiǎng hē shén me ？",
+      "jp": "何を飲みたいですか。",
+      "audio": "audio/lesson08/reading-01.mp3"
+    },
+    {
+      "id": "drama-8-r-2",
+      "speaker": "山本",
+      "ch": "我想喝可乐和奶茶。",
+      "py": "wǒ xiǎng hē kě lè hé nǎi chá 。",
+      "jp": "コーラとミルクティーを飲みたいです。",
+      "audio": "audio/lesson08/reading-02.mp3"
+    },
+    {
+      "id": "drama-8-r-3",
+      "speaker": "王",
+      "ch": "你想吃什么？",
+      "py": "nǐ xiǎng chī shén me ？",
+      "jp": "何を食べたいですか。",
+      "audio": "audio/lesson08/reading-03.mp3"
+    },
+    {
+      "id": "drama-8-r-4",
+      "speaker": "山本",
+      "ch": "我想吃麻辣烫和米饭。",
+      "py": "wǒ xiǎng chī má là tàng hé mǐ fàn 。",
+      "jp": "マーラータンとご飯を食べたいです。",
+      "audio": "audio/lesson08/reading-04.mp3"
+    }
+  ],
+  "words": [
+    {
+      "id": "drama-8-w-1",
+      "ch": "想",
+      "py": "xiǎng",
+      "jp": "～したい",
+      "audio": "audio/lesson08/word-01.mp3"
+    },
+    {
+      "id": "drama-8-w-2",
+      "ch": "喝",
+      "py": "hē",
+      "jp": "飲む",
+      "audio": "audio/lesson08/word-02.mp3"
+    },
+    {
+      "id": "drama-8-w-3",
+      "ch": "可乐",
+      "py": "Kělè",
+      "jp": "コーラ",
+      "audio": "audio/lesson08/word-03.mp3"
+    },
+    {
+      "id": "drama-8-w-4",
+      "ch": "奶茶",
+      "py": "nǎichá",
+      "jp": "ミルクティー",
+      "audio": "audio/lesson08/word-04.mp3"
+    },
+    {
+      "id": "drama-8-w-5",
+      "ch": "吃",
+      "py": "chī",
+      "jp": "食べる",
+      "audio": "audio/lesson08/word-05.mp3"
+    },
+    {
+      "id": "drama-8-w-6",
+      "ch": "麻辣烫",
+      "py": "málàtàng",
+      "jp": "マーラータン",
+      "audio": "audio/lesson08/word-06.mp3"
+    },
+    {
+      "id": "drama-8-w-7",
+      "ch": "米饭",
+      "py": "mǐfàn",
+      "jp": "ライス",
+      "audio": "audio/lesson08/word-07.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "“想”について",
+      "html": "<p>意味：“想”＝「〜したいと思う」</p><p>使い方：肯定：想+動詞/動詞文</p><p>⓵ A： 今天我请你，你想吃什么？Jīntiānwǒqǐngnǐ，nǐxiǎngchīshénme？</p><p>今日は私がおごります。何が食べたいですか。</p><p data-audio=\"audio/clips/cbe356264143812b.mp3\">B： 我想吃小笼包。Wǒxiǎngchīxiǎolóngbāo.</p><p>小籠包を食べたいです。</p><p>否定：不+想+動詞/動詞文</p><p>疑問：想+動詞/動詞文+吗？</p><p data-audio=\"audio/clips/c62815815efecf7a.mp3\">⓶ A： 你想去图书馆吗？Nǐxiǎngqùtúshūguǎn ma？</p><p>図書館に行きたいですか。</p><p>B： 我不想去，我想睡觉。Wǒbùxiǎngqù，wǒxiǎngshuìjiào。</p><p>行きたくないです。私は寝たいです。</p>"
+    },
+    {
+      "title": "中国語で料理の名前を読んでみましょう。(その１)",
+      "html": "<div class=\"table-scroll\"><table><tr><td>中国語</td><td>ピンイン</td><td>日本語</td></tr><tr><td>北京烤鸭</td><td>Běijīngkǎoyā</td><td>北京ダック</td></tr><tr><td>水饺</td><td>Shuǐjiǎo</td><td>水餃子</td></tr><tr><td>麻婆豆腐</td><td>Mápódòufu</td><td>麻婆豆腐</td></tr><tr><td>糖醋里脊</td><td>Tángcùlǐji</td><td>酢豚</td></tr><tr><td>红烧肉</td><td>Hóngshāoròu</td><td>ホンシャオロウ</td></tr><tr><td>寿司</td><td>shòusī</td><td>お寿司</td></tr><tr><td>咖喱饭</td><td>gālifàn</td><td>カレーライス</td></tr><tr><td>牛肉饭</td><td>niúròufàn</td><td>牛丼</td></tr><tr><td>拉面</td><td>lāmiàn</td><td>ラーメン</td></tr><tr><td>乌冬面</td><td>wūdōngmiàn</td><td>うどん</td></tr></table></div>"
+    }
+  ],
+  "pronunciation": [],
+  "exercises": [
+    {
+      "group": 4,
+      "number": 1,
+      "inputId": "4_1",
+      "answer": "何を飲みたいですか。",
+      "initial": "",
+      "prompts": [
+        "你想喝什么？"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_1",
+          "answer": "何を飲みたいですか。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">你想喝什么？</p><label class=\"answer-label\" for=\"4_1\">あなたの答え</label><input id=\"4_1\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-8-r-1"
+    },
+    {
+      "group": 5,
+      "number": 1,
+      "inputId": "5_1",
+      "answer": "你想喝什么？",
+      "initial": "",
+      "prompts": [
+        "何を飲みたいですか。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_1",
+          "answer": "你想喝什么？",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">何を飲みたいですか。</p><label class=\"answer-label\" for=\"5_1\">あなたの答え</label><input id=\"5_1\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-8-r-1"
+    },
+    {
+      "group": 4,
+      "number": 2,
+      "inputId": "4_2",
+      "answer": "コーラとミルクティーを飲みたいです。",
+      "initial": "",
+      "prompts": [
+        "我想喝可乐和奶茶。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_2",
+          "answer": "コーラとミルクティーを飲みたいです。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">我想喝可乐和奶茶。</p><label class=\"answer-label\" for=\"4_2\">あなたの答え</label><input id=\"4_2\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-8-r-2"
+    },
+    {
+      "group": 5,
+      "number": 2,
+      "inputId": "5_2",
+      "answer": "我想喝可乐和奶茶。",
+      "initial": "",
+      "prompts": [
+        "コーラとミルクティーを飲みたいです。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_2",
+          "answer": "我想喝可乐和奶茶。",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">コーラとミルクティーを飲みたいです。</p><label class=\"answer-label\" for=\"5_2\">あなたの答え</label><input id=\"5_2\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-8-r-2"
+    },
+    {
+      "group": 4,
+      "number": 3,
+      "inputId": "4_3",
+      "answer": "何を食べたいですか。",
+      "initial": "",
+      "prompts": [
+        "你想吃什么？"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_3",
+          "answer": "何を食べたいですか。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">你想吃什么？</p><label class=\"answer-label\" for=\"4_3\">あなたの答え</label><input id=\"4_3\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-8-r-3"
+    },
+    {
+      "group": 5,
+      "number": 3,
+      "inputId": "5_3",
+      "answer": "你想吃什么？",
+      "initial": "",
+      "prompts": [
+        "何を食べたいですか。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_3",
+          "answer": "你想吃什么？",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">何を食べたいですか。</p><label class=\"answer-label\" for=\"5_3\">あなたの答え</label><input id=\"5_3\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-8-r-3"
+    },
+    {
+      "group": 4,
+      "number": 4,
+      "inputId": "4_4",
+      "answer": "マーラータンとご飯を食べたいです。",
+      "initial": "",
+      "prompts": [
+        "我想吃麻辣烫和米饭。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_4",
+          "answer": "マーラータンとご飯を食べたいです。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">我想吃麻辣烫和米饭。</p><label class=\"answer-label\" for=\"4_4\">あなたの答え</label><input id=\"4_4\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-8-r-4"
+    },
+    {
+      "group": 5,
+      "number": 4,
+      "inputId": "5_4",
+      "answer": "我想吃麻辣烫和米饭。",
+      "initial": "",
+      "prompts": [
+        "マーラータンとご飯を食べたいです。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_4",
+          "answer": "我想吃麻辣烫和米饭。",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">マーラータンとご飯を食べたいです。</p><label class=\"answer-label\" for=\"5_4\">あなたの答え</label><input id=\"5_4\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-8-r-4"
+    },
+    {
+      "number": 1,
+      "initial": "",
+      "sourceWord": "drama-8-w-1",
+      "explanation": "想 · xiǎng\n～したい",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_1",
+      "kind": "meaning",
+      "prompts": [
+        "想"
+      ],
+      "answer": "～したい",
+      "choices": [
+        {
+          "value": "～したい",
+          "text": "～したい"
+        },
+        {
+          "value": "飲む",
+          "text": "飲む"
+        },
+        {
+          "value": "コーラ",
+          "text": "コーラ"
+        },
+        {
+          "value": "ミルクティー",
+          "text": "ミルクティー"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 1,
+      "initial": "",
+      "sourceWord": "drama-8-w-1",
+      "explanation": "想 · xiǎng\n～したい",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_1",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/e0b1322151a16cf9.mp3",
+      "answer": "想",
+      "choices": [
+        {
+          "value": "想",
+          "text": "想"
+        },
+        {
+          "value": "喝",
+          "text": "喝"
+        },
+        {
+          "value": "可乐",
+          "text": "可乐"
+        },
+        {
+          "value": "奶茶",
+          "text": "奶茶"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 1,
+      "initial": "",
+      "sourceWord": "drama-8-w-1",
+      "explanation": "想 · xiǎng\n～したい",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_1",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/e0b1322151a16cf9.mp3",
+      "answer": "xiǎng",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 2,
+      "initial": "",
+      "sourceWord": "drama-8-w-2",
+      "explanation": "喝 · hē\n飲む",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_2",
+      "kind": "meaning",
+      "prompts": [
+        "喝"
+      ],
+      "answer": "飲む",
+      "choices": [
+        {
+          "value": "飲む",
+          "text": "飲む"
+        },
+        {
+          "value": "～したい",
+          "text": "～したい"
+        },
+        {
+          "value": "コーラ",
+          "text": "コーラ"
+        },
+        {
+          "value": "ミルクティー",
+          "text": "ミルクティー"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 2,
+      "initial": "",
+      "sourceWord": "drama-8-w-2",
+      "explanation": "喝 · hē\n飲む",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_2",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/c2c1c522e616d009.mp3",
+      "answer": "喝",
+      "choices": [
+        {
+          "value": "喝",
+          "text": "喝"
+        },
+        {
+          "value": "想",
+          "text": "想"
+        },
+        {
+          "value": "可乐",
+          "text": "可乐"
+        },
+        {
+          "value": "奶茶",
+          "text": "奶茶"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 2,
+      "initial": "",
+      "sourceWord": "drama-8-w-2",
+      "explanation": "喝 · hē\n飲む",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_2",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/c2c1c522e616d009.mp3",
+      "answer": "hē",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 3,
+      "initial": "",
+      "sourceWord": "drama-8-w-3",
+      "explanation": "可乐 · Kělè\nコーラ",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_3",
+      "kind": "meaning",
+      "prompts": [
+        "可乐"
+      ],
+      "answer": "コーラ",
+      "choices": [
+        {
+          "value": "コーラ",
+          "text": "コーラ"
+        },
+        {
+          "value": "～したい",
+          "text": "～したい"
+        },
+        {
+          "value": "飲む",
+          "text": "飲む"
+        },
+        {
+          "value": "ミルクティー",
+          "text": "ミルクティー"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 3,
+      "initial": "",
+      "sourceWord": "drama-8-w-3",
+      "explanation": "可乐 · Kělè\nコーラ",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_3",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/d9bdd44762b6294b.mp3",
+      "answer": "可乐",
+      "choices": [
+        {
+          "value": "可乐",
+          "text": "可乐"
+        },
+        {
+          "value": "想",
+          "text": "想"
+        },
+        {
+          "value": "喝",
+          "text": "喝"
+        },
+        {
+          "value": "奶茶",
+          "text": "奶茶"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 3,
+      "initial": "",
+      "sourceWord": "drama-8-w-3",
+      "explanation": "可乐 · Kělè\nコーラ",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_3",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/d9bdd44762b6294b.mp3",
+      "answer": "Kělè",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 4,
+      "initial": "",
+      "sourceWord": "drama-8-w-4",
+      "explanation": "奶茶 · nǎichá\nミルクティー",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_4",
+      "kind": "meaning",
+      "prompts": [
+        "奶茶"
+      ],
+      "answer": "ミルクティー",
+      "choices": [
+        {
+          "value": "ミルクティー",
+          "text": "ミルクティー"
+        },
+        {
+          "value": "～したい",
+          "text": "～したい"
+        },
+        {
+          "value": "飲む",
+          "text": "飲む"
+        },
+        {
+          "value": "コーラ",
+          "text": "コーラ"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 4,
+      "initial": "",
+      "sourceWord": "drama-8-w-4",
+      "explanation": "奶茶 · nǎichá\nミルクティー",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_4",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/96a220e662c13eec.mp3",
+      "answer": "奶茶",
+      "choices": [
+        {
+          "value": "奶茶",
+          "text": "奶茶"
+        },
+        {
+          "value": "想",
+          "text": "想"
+        },
+        {
+          "value": "喝",
+          "text": "喝"
+        },
+        {
+          "value": "可乐",
+          "text": "可乐"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 4,
+      "initial": "",
+      "sourceWord": "drama-8-w-4",
+      "explanation": "奶茶 · nǎichá\nミルクティー",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_4",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/96a220e662c13eec.mp3",
+      "answer": "nǎichá",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 5,
+      "initial": "",
+      "sourceWord": "drama-8-w-5",
+      "explanation": "吃 · chī\n食べる",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_5",
+      "kind": "meaning",
+      "prompts": [
+        "吃"
+      ],
+      "answer": "食べる",
+      "choices": [
+        {
+          "value": "食べる",
+          "text": "食べる"
+        },
+        {
+          "value": "～したい",
+          "text": "～したい"
+        },
+        {
+          "value": "飲む",
+          "text": "飲む"
+        },
+        {
+          "value": "コーラ",
+          "text": "コーラ"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 5,
+      "initial": "",
+      "sourceWord": "drama-8-w-5",
+      "explanation": "吃 · chī\n食べる",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_5",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/503447649bd02084.mp3",
+      "answer": "吃",
+      "choices": [
+        {
+          "value": "吃",
+          "text": "吃"
+        },
+        {
+          "value": "想",
+          "text": "想"
+        },
+        {
+          "value": "喝",
+          "text": "喝"
+        },
+        {
+          "value": "可乐",
+          "text": "可乐"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 5,
+      "initial": "",
+      "sourceWord": "drama-8-w-5",
+      "explanation": "吃 · chī\n食べる",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_5",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/503447649bd02084.mp3",
+      "answer": "chī",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 6,
+      "initial": "",
+      "sourceWord": "drama-8-w-6",
+      "explanation": "麻辣烫 · málàtàng\nマーラータン",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_6",
+      "kind": "meaning",
+      "prompts": [
+        "麻辣烫"
+      ],
+      "answer": "マーラータン",
+      "choices": [
+        {
+          "value": "マーラータン",
+          "text": "マーラータン"
+        },
+        {
+          "value": "～したい",
+          "text": "～したい"
+        },
+        {
+          "value": "飲む",
+          "text": "飲む"
+        },
+        {
+          "value": "コーラ",
+          "text": "コーラ"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 6,
+      "initial": "",
+      "sourceWord": "drama-8-w-6",
+      "explanation": "麻辣烫 · málàtàng\nマーラータン",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_6",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/9eae869c5fc4cdbe.mp3",
+      "answer": "麻辣烫",
+      "choices": [
+        {
+          "value": "麻辣烫",
+          "text": "麻辣烫"
+        },
+        {
+          "value": "想",
+          "text": "想"
+        },
+        {
+          "value": "喝",
+          "text": "喝"
+        },
+        {
+          "value": "可乐",
+          "text": "可乐"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 6,
+      "initial": "",
+      "sourceWord": "drama-8-w-6",
+      "explanation": "麻辣烫 · málàtàng\nマーラータン",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_6",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/9eae869c5fc4cdbe.mp3",
+      "answer": "málàtàng",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 7,
+      "initial": "",
+      "sourceWord": "drama-8-w-7",
+      "explanation": "米饭 · mǐfàn\nライス",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_7",
+      "kind": "meaning",
+      "prompts": [
+        "米饭"
+      ],
+      "answer": "ライス",
+      "choices": [
+        {
+          "value": "ライス",
+          "text": "ライス"
+        },
+        {
+          "value": "～したい",
+          "text": "～したい"
+        },
+        {
+          "value": "飲む",
+          "text": "飲む"
+        },
+        {
+          "value": "コーラ",
+          "text": "コーラ"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 7,
+      "initial": "",
+      "sourceWord": "drama-8-w-7",
+      "explanation": "米饭 · mǐfàn\nライス",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_7",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/b897f7419b57ba79.mp3",
+      "answer": "米饭",
+      "choices": [
+        {
+          "value": "米饭",
+          "text": "米饭"
+        },
+        {
+          "value": "想",
+          "text": "想"
+        },
+        {
+          "value": "喝",
+          "text": "喝"
+        },
+        {
+          "value": "可乐",
+          "text": "可乐"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 7,
+      "initial": "",
+      "sourceWord": "drama-8-w-7",
+      "explanation": "米饭 · mǐfàn\nライス",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_7",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/b897f7419b57ba79.mp3",
+      "answer": "mǐfàn",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    }
+  ],
+  "homework": null,
+  "drama": []
+}

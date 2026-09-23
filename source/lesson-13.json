@@ -1,0 +1,936 @@
+{
+  "id": 13,
+  "title": "你去过上海迪士尼乐园吗？",
+  "japanese": "経験を話す",
+  "reading": [
+    {
+      "id": "drama-13-r-1",
+      "speaker": "王",
+      "ch": "你去过上海迪士尼乐园吗？",
+      "py": "nǐ qù guo shàng hǎi dí shì ní lè yuán ma ？",
+      "jp": "上海ディズニーランドに行ったことがありますか。",
+      "audio": "audio/lesson13/reading-01.mp3"
+    },
+    {
+      "id": "drama-13-r-2",
+      "speaker": "山本",
+      "ch": "我没去过。",
+      "py": "wǒ méi qù guo 。",
+      "jp": "行ったことがありません。",
+      "audio": "audio/lesson13/reading-02.mp3"
+    },
+    {
+      "id": "drama-13-r-3",
+      "speaker": "王",
+      "ch": "昨天我们去上海迪士尼乐园了。",
+      "py": "zuó tiān wǒ men qù shàng hǎi dí shì ní lè yuán le 。",
+      "jp": "昨日、私たちは上海ディズニーランドに行きました。",
+      "audio": "audio/lesson13/reading-03.mp3"
+    },
+    {
+      "id": "drama-13-r-4",
+      "speaker": "山本",
+      "ch": "真的吗？太羡慕了。我也想去。",
+      "py": "zhēn de ma ？ tài xiàn mù le 。 wǒ yě xiǎng qù 。",
+      "jp": "本当ですか。うらやましいです。私も行きたいです。",
+      "audio": "audio/lesson13/reading-04.mp3"
+    }
+  ],
+  "words": [
+    {
+      "id": "drama-13-w-1",
+      "ch": "过",
+      "py": "guo",
+      "jp": "〜したことがある（経験）",
+      "audio": "audio/lesson13/word-01.mp3"
+    },
+    {
+      "id": "drama-13-w-2",
+      "ch": "上海迪士尼乐园",
+      "py": "Shànghǎi Díshìní lèyuán",
+      "jp": "上海ディズニーランド",
+      "audio": "audio/lesson13/word-02.mp3"
+    },
+    {
+      "id": "drama-13-w-3",
+      "ch": "昨天",
+      "py": "zuótiān",
+      "jp": "昨日",
+      "audio": "audio/lesson13/word-03.mp3"
+    },
+    {
+      "id": "drama-13-w-4",
+      "ch": "我们",
+      "py": "wǒmen",
+      "jp": "私たち",
+      "audio": "audio/lesson13/word-04.mp3"
+    },
+    {
+      "id": "drama-13-w-5",
+      "ch": "了",
+      "py": "le",
+      "jp": "完了・変化を表す助詞",
+      "audio": "audio/lesson13/word-05.mp3"
+    },
+    {
+      "id": "drama-13-w-6",
+      "ch": "真的",
+      "py": "zhēnde",
+      "jp": "本当に",
+      "audio": "audio/lesson13/word-06.mp3"
+    },
+    {
+      "id": "drama-13-w-7",
+      "ch": "太……了",
+      "py": "tài…le",
+      "jp": "すごく…だ／…すぎる",
+      "audio": "audio/lesson13/word-07.mp3"
+    },
+    {
+      "id": "drama-13-w-8",
+      "ch": "羡慕",
+      "py": "xiànmù",
+      "jp": "うらやましい",
+      "audio": "audio/lesson13/word-08.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "過去の経験を表わす“……过”について",
+      "html": "<p>意味：“过”＝「～をしたことがある」</p><p>使い方：肯定：動詞+过</p><p data-audio=\"audio/clips/52c0d850435998b1.mp3\">我去过北京。私は北京に行ったことがある。</p><p data-audio=\"audio/clips/2b3be6178a22e826.mp3\">优子学过中文。優子さんは中国語を勉強したことがある。</p><p>否定：没+動詞+过</p><p data-audio=\"audio/clips/f78577e1de03430f.mp3\">我没去过北京。私は北京に行ったことはない。</p><p data-audio=\"audio/clips/23c64f31a72d8542.mp3\">优子没学过中文。優子さんは中国語を勉強したことはない。</p>"
+    },
+    {
+      "title": "“了”について",
+      "html": "<p>「了」は動作の完了や、新しい状況・変化を表します。過去を表すだけの語ではありません。</p><p>使い方：肯定：主語+動詞+（短い目的語）+了。</p><p data-audio=\"audio/clips/14213c24d28d9c6f.mp3\">昨天我去（大学）了。昨日私は（大学に）行きました。</p><p>否定：主語+没/没有+動詞+（目的語）。</p><p data-audio=\"audio/clips/b88ff3deb5de8e6a.mp3\">昨天我没/没有打工。昨日アルバイトをしませんでした。</p><p>疑問：主語+動詞+（目的語）+了+吗？</p><p data-audio=\"audio/clips/a62cc685c9cf6ff3.mp3\">昨天你打工了吗？昨日アルバイトをしましたか。</p>"
+    }
+  ],
+  "pronunciation": [],
+  "exercises": [
+    {
+      "group": 4,
+      "number": 1,
+      "inputId": "4_1",
+      "answer": "上海ディズニーランドに行ったことがありますか。",
+      "initial": "",
+      "prompts": [
+        "你去过上海迪士尼乐园吗？"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_1",
+          "answer": "上海ディズニーランドに行ったことがありますか。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">你去过上海迪士尼乐园吗？</p><label class=\"answer-label\" for=\"4_1\">あなたの答え</label><input id=\"4_1\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-13-r-1"
+    },
+    {
+      "group": 5,
+      "number": 1,
+      "inputId": "5_1",
+      "answer": "你去过上海迪士尼乐园吗？",
+      "initial": "",
+      "prompts": [
+        "上海ディズニーランドに行ったことがありますか。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_1",
+          "answer": "你去过上海迪士尼乐园吗？",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">上海ディズニーランドに行ったことがありますか。</p><label class=\"answer-label\" for=\"5_1\">あなたの答え</label><input id=\"5_1\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-13-r-1"
+    },
+    {
+      "group": 4,
+      "number": 2,
+      "inputId": "4_2",
+      "answer": "行ったことがありません。",
+      "initial": "",
+      "prompts": [
+        "我没去过。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_2",
+          "answer": "行ったことがありません。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">我没去过。</p><label class=\"answer-label\" for=\"4_2\">あなたの答え</label><input id=\"4_2\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-13-r-2"
+    },
+    {
+      "group": 5,
+      "number": 2,
+      "inputId": "5_2",
+      "answer": "我没去过。",
+      "initial": "",
+      "prompts": [
+        "行ったことがありません。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_2",
+          "answer": "我没去过。",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">行ったことがありません。</p><label class=\"answer-label\" for=\"5_2\">あなたの答え</label><input id=\"5_2\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-13-r-2"
+    },
+    {
+      "group": 4,
+      "number": 3,
+      "inputId": "4_3",
+      "answer": "昨日、私たちは上海ディズニーランドに行きました。",
+      "initial": "",
+      "prompts": [
+        "昨天我们去上海迪士尼乐园了。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_3",
+          "answer": "昨日、私たちは上海ディズニーランドに行きました。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">昨天我们去上海迪士尼乐园了。</p><label class=\"answer-label\" for=\"4_3\">あなたの答え</label><input id=\"4_3\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-13-r-3"
+    },
+    {
+      "group": 5,
+      "number": 3,
+      "inputId": "5_3",
+      "answer": "昨天我们去上海迪士尼乐园了。",
+      "initial": "",
+      "prompts": [
+        "昨日、私たちは上海ディズニーランドに行きました。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_3",
+          "answer": "昨天我们去上海迪士尼乐园了。",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">昨日、私たちは上海ディズニーランドに行きました。</p><label class=\"answer-label\" for=\"5_3\">あなたの答え</label><input id=\"5_3\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-13-r-3"
+    },
+    {
+      "group": 4,
+      "number": 4,
+      "inputId": "4_4",
+      "answer": "本当ですか。うらやましいです。私も行きたいです。",
+      "initial": "",
+      "prompts": [
+        "真的吗？太羡慕了。我也想去。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_4",
+          "answer": "本当ですか。うらやましいです。私も行きたいです。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">真的吗？太羡慕了。我也想去。</p><label class=\"answer-label\" for=\"4_4\">あなたの答え</label><input id=\"4_4\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-13-r-4"
+    },
+    {
+      "group": 5,
+      "number": 4,
+      "inputId": "5_4",
+      "answer": "真的吗？太羡慕了。我也想去。",
+      "initial": "",
+      "prompts": [
+        "本当ですか。うらやましいです。私も行きたいです。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_4",
+          "answer": "真的吗？太羡慕了。我也想去。",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">本当ですか。うらやましいです。私も行きたいです。</p><label class=\"answer-label\" for=\"5_4\">あなたの答え</label><input id=\"5_4\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-13-r-4"
+    },
+    {
+      "number": 1,
+      "initial": "",
+      "sourceWord": "drama-13-w-1",
+      "explanation": "过 · guo\n〜したことがある（経験）",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_1",
+      "kind": "meaning",
+      "prompts": [
+        "过"
+      ],
+      "answer": "〜したことがある（経験）",
+      "choices": [
+        {
+          "value": "〜したことがある（経験）",
+          "text": "〜したことがある（経験）"
+        },
+        {
+          "value": "上海ディズニーランド",
+          "text": "上海ディズニーランド"
+        },
+        {
+          "value": "昨日",
+          "text": "昨日"
+        },
+        {
+          "value": "私たち",
+          "text": "私たち"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 1,
+      "initial": "",
+      "sourceWord": "drama-13-w-1",
+      "explanation": "过 · guo\n〜したことがある（経験）",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_1",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/827b99729a4d6499.mp3",
+      "answer": "过",
+      "choices": [
+        {
+          "value": "过",
+          "text": "过"
+        },
+        {
+          "value": "上海迪士尼乐园",
+          "text": "上海迪士尼乐园"
+        },
+        {
+          "value": "昨天",
+          "text": "昨天"
+        },
+        {
+          "value": "我们",
+          "text": "我们"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 1,
+      "initial": "",
+      "sourceWord": "drama-13-w-1",
+      "explanation": "过 · guo\n〜したことがある（経験）",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_1",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/827b99729a4d6499.mp3",
+      "answer": "guo",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 2,
+      "initial": "",
+      "sourceWord": "drama-13-w-2",
+      "explanation": "上海迪士尼乐园 · Shànghǎi Díshìní lèyuán\n上海ディズニーランド",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_2",
+      "kind": "meaning",
+      "prompts": [
+        "上海迪士尼乐园"
+      ],
+      "answer": "上海ディズニーランド",
+      "choices": [
+        {
+          "value": "上海ディズニーランド",
+          "text": "上海ディズニーランド"
+        },
+        {
+          "value": "〜したことがある（経験）",
+          "text": "〜したことがある（経験）"
+        },
+        {
+          "value": "昨日",
+          "text": "昨日"
+        },
+        {
+          "value": "私たち",
+          "text": "私たち"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 2,
+      "initial": "",
+      "sourceWord": "drama-13-w-2",
+      "explanation": "上海迪士尼乐园 · Shànghǎi Díshìní lèyuán\n上海ディズニーランド",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_2",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/5c0c83bcf69d8295.mp3",
+      "answer": "上海迪士尼乐园",
+      "choices": [
+        {
+          "value": "上海迪士尼乐园",
+          "text": "上海迪士尼乐园"
+        },
+        {
+          "value": "过",
+          "text": "过"
+        },
+        {
+          "value": "昨天",
+          "text": "昨天"
+        },
+        {
+          "value": "我们",
+          "text": "我们"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 2,
+      "initial": "",
+      "sourceWord": "drama-13-w-2",
+      "explanation": "上海迪士尼乐园 · Shànghǎi Díshìní lèyuán\n上海ディズニーランド",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_2",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/5c0c83bcf69d8295.mp3",
+      "answer": "Shànghǎi Díshìní lèyuán",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 3,
+      "initial": "",
+      "sourceWord": "drama-13-w-3",
+      "explanation": "昨天 · zuótiān\n昨日",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_3",
+      "kind": "meaning",
+      "prompts": [
+        "昨天"
+      ],
+      "answer": "昨日",
+      "choices": [
+        {
+          "value": "昨日",
+          "text": "昨日"
+        },
+        {
+          "value": "〜したことがある（経験）",
+          "text": "〜したことがある（経験）"
+        },
+        {
+          "value": "上海ディズニーランド",
+          "text": "上海ディズニーランド"
+        },
+        {
+          "value": "私たち",
+          "text": "私たち"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 3,
+      "initial": "",
+      "sourceWord": "drama-13-w-3",
+      "explanation": "昨天 · zuótiān\n昨日",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_3",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/782a3cfbba919884.mp3",
+      "answer": "昨天",
+      "choices": [
+        {
+          "value": "昨天",
+          "text": "昨天"
+        },
+        {
+          "value": "过",
+          "text": "过"
+        },
+        {
+          "value": "上海迪士尼乐园",
+          "text": "上海迪士尼乐园"
+        },
+        {
+          "value": "我们",
+          "text": "我们"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 3,
+      "initial": "",
+      "sourceWord": "drama-13-w-3",
+      "explanation": "昨天 · zuótiān\n昨日",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_3",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/782a3cfbba919884.mp3",
+      "answer": "zuótiān",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 4,
+      "initial": "",
+      "sourceWord": "drama-13-w-4",
+      "explanation": "我们 · wǒmen\n私たち",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_4",
+      "kind": "meaning",
+      "prompts": [
+        "我们"
+      ],
+      "answer": "私たち",
+      "choices": [
+        {
+          "value": "私たち",
+          "text": "私たち"
+        },
+        {
+          "value": "〜したことがある（経験）",
+          "text": "〜したことがある（経験）"
+        },
+        {
+          "value": "上海ディズニーランド",
+          "text": "上海ディズニーランド"
+        },
+        {
+          "value": "昨日",
+          "text": "昨日"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 4,
+      "initial": "",
+      "sourceWord": "drama-13-w-4",
+      "explanation": "我们 · wǒmen\n私たち",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_4",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/62274d31e7b78b72.mp3",
+      "answer": "我们",
+      "choices": [
+        {
+          "value": "我们",
+          "text": "我们"
+        },
+        {
+          "value": "过",
+          "text": "过"
+        },
+        {
+          "value": "上海迪士尼乐园",
+          "text": "上海迪士尼乐园"
+        },
+        {
+          "value": "昨天",
+          "text": "昨天"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 4,
+      "initial": "",
+      "sourceWord": "drama-13-w-4",
+      "explanation": "我们 · wǒmen\n私たち",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_4",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/62274d31e7b78b72.mp3",
+      "answer": "wǒmen",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 5,
+      "initial": "",
+      "sourceWord": "drama-13-w-5",
+      "explanation": "了 · le\n完了・変化を表す助詞",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_5",
+      "kind": "meaning",
+      "prompts": [
+        "了"
+      ],
+      "answer": "完了・変化を表す助詞",
+      "choices": [
+        {
+          "value": "完了・変化を表す助詞",
+          "text": "完了・変化を表す助詞"
+        },
+        {
+          "value": "〜したことがある（経験）",
+          "text": "〜したことがある（経験）"
+        },
+        {
+          "value": "上海ディズニーランド",
+          "text": "上海ディズニーランド"
+        },
+        {
+          "value": "昨日",
+          "text": "昨日"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 5,
+      "initial": "",
+      "sourceWord": "drama-13-w-5",
+      "explanation": "了 · le\n完了・変化を表す助詞",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_5",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/276d315b50045908.mp3",
+      "answer": "了",
+      "choices": [
+        {
+          "value": "了",
+          "text": "了"
+        },
+        {
+          "value": "过",
+          "text": "过"
+        },
+        {
+          "value": "上海迪士尼乐园",
+          "text": "上海迪士尼乐园"
+        },
+        {
+          "value": "昨天",
+          "text": "昨天"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 5,
+      "initial": "",
+      "sourceWord": "drama-13-w-5",
+      "explanation": "了 · le\n完了・変化を表す助詞",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_5",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/276d315b50045908.mp3",
+      "answer": "le",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 6,
+      "initial": "",
+      "sourceWord": "drama-13-w-6",
+      "explanation": "真的 · zhēnde\n本当に",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_6",
+      "kind": "meaning",
+      "prompts": [
+        "真的"
+      ],
+      "answer": "本当に",
+      "choices": [
+        {
+          "value": "本当に",
+          "text": "本当に"
+        },
+        {
+          "value": "〜したことがある（経験）",
+          "text": "〜したことがある（経験）"
+        },
+        {
+          "value": "上海ディズニーランド",
+          "text": "上海ディズニーランド"
+        },
+        {
+          "value": "昨日",
+          "text": "昨日"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 6,
+      "initial": "",
+      "sourceWord": "drama-13-w-6",
+      "explanation": "真的 · zhēnde\n本当に",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_6",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/6f3d663ec79e8317.mp3",
+      "answer": "真的",
+      "choices": [
+        {
+          "value": "真的",
+          "text": "真的"
+        },
+        {
+          "value": "过",
+          "text": "过"
+        },
+        {
+          "value": "上海迪士尼乐园",
+          "text": "上海迪士尼乐园"
+        },
+        {
+          "value": "昨天",
+          "text": "昨天"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 6,
+      "initial": "",
+      "sourceWord": "drama-13-w-6",
+      "explanation": "真的 · zhēnde\n本当に",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_6",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/6f3d663ec79e8317.mp3",
+      "answer": "zhēnde",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 7,
+      "initial": "",
+      "sourceWord": "drama-13-w-7",
+      "explanation": "太……了 · tài…le\nすごく…だ／…すぎる",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_7",
+      "kind": "meaning",
+      "prompts": [
+        "太……了"
+      ],
+      "answer": "すごく…だ／…すぎる",
+      "choices": [
+        {
+          "value": "すごく…だ／…すぎる",
+          "text": "すごく…だ／…すぎる"
+        },
+        {
+          "value": "〜したことがある（経験）",
+          "text": "〜したことがある（経験）"
+        },
+        {
+          "value": "上海ディズニーランド",
+          "text": "上海ディズニーランド"
+        },
+        {
+          "value": "昨日",
+          "text": "昨日"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 7,
+      "initial": "",
+      "sourceWord": "drama-13-w-7",
+      "explanation": "太……了 · tài…le\nすごく…だ／…すぎる",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_7",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/d976dc27a6fe65ef.mp3",
+      "answer": "太……了",
+      "choices": [
+        {
+          "value": "太……了",
+          "text": "太……了"
+        },
+        {
+          "value": "过",
+          "text": "过"
+        },
+        {
+          "value": "上海迪士尼乐园",
+          "text": "上海迪士尼乐园"
+        },
+        {
+          "value": "昨天",
+          "text": "昨天"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 7,
+      "initial": "",
+      "sourceWord": "drama-13-w-7",
+      "explanation": "太……了 · tài…le\nすごく…だ／…すぎる",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_7",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/d976dc27a6fe65ef.mp3",
+      "answer": "tàile",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 8,
+      "initial": "",
+      "sourceWord": "drama-13-w-8",
+      "explanation": "羡慕 · xiànmù\nうらやましい",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_8",
+      "kind": "meaning",
+      "prompts": [
+        "羡慕"
+      ],
+      "answer": "うらやましい",
+      "choices": [
+        {
+          "value": "うらやましい",
+          "text": "うらやましい"
+        },
+        {
+          "value": "〜したことがある（経験）",
+          "text": "〜したことがある（経験）"
+        },
+        {
+          "value": "上海ディズニーランド",
+          "text": "上海ディズニーランド"
+        },
+        {
+          "value": "昨日",
+          "text": "昨日"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 8,
+      "initial": "",
+      "sourceWord": "drama-13-w-8",
+      "explanation": "羡慕 · xiànmù\nうらやましい",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_8",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/61c1b14bb942d677.mp3",
+      "answer": "羡慕",
+      "choices": [
+        {
+          "value": "羡慕",
+          "text": "羡慕"
+        },
+        {
+          "value": "过",
+          "text": "过"
+        },
+        {
+          "value": "上海迪士尼乐园",
+          "text": "上海迪士尼乐园"
+        },
+        {
+          "value": "昨天",
+          "text": "昨天"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 8,
+      "initial": "",
+      "sourceWord": "drama-13-w-8",
+      "explanation": "羡慕 · xiànmù\nうらやましい",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_8",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/61c1b14bb942d677.mp3",
+      "answer": "xiànmù",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    }
+  ],
+  "homework": null,
+  "drama": []
+}

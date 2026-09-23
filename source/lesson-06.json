@@ -1,0 +1,848 @@
+{
+  "id": 6,
+  "title": "我的一天",
+  "japanese": "一日の生活",
+  "reading": [
+    {
+      "id": "drama-6-r-1",
+      "speaker": "王",
+      "ch": "优子同学，早上好！你每天几点起床？",
+      "py": "yōu zǐ tóng xué ， zǎo shang hǎo ！ nǐ měi tiān jǐ diǎn qǐ chuáng ？",
+      "jp": "優子さん、おはようございます。毎日何時に起きますか。",
+      "audio": "audio/lesson06/reading-01.mp3"
+    },
+    {
+      "id": "drama-6-r-2",
+      "speaker": "山本",
+      "ch": "我每天早上七点半起床。",
+      "py": "wǒ měi tiān zǎo shang qī diǎn bàn qǐ chuáng 。",
+      "jp": "私は毎朝7時半に起きます。",
+      "audio": "audio/lesson06/reading-02.mp3"
+    },
+    {
+      "id": "drama-6-r-3",
+      "speaker": "王",
+      "ch": "你今天几点回家？",
+      "py": "nǐ jīn tiān jǐ diǎn huí jiā ？",
+      "jp": "今日は何時に家に帰りますか。",
+      "audio": "audio/lesson06/reading-03.mp3"
+    },
+    {
+      "id": "drama-6-r-4",
+      "speaker": "山本",
+      "ch": "我今天去打工，晚上八点半回家。",
+      "py": "wǒ jīn tiān qù dǎ gōng ， wǎn shang bā diǎn bàn huí jiā 。",
+      "jp": "今日はアルバイトに行って、夜8時半に家に帰ります。",
+      "audio": "audio/lesson06/reading-04.mp3"
+    }
+  ],
+  "words": [
+    {
+      "id": "drama-6-w-1",
+      "ch": "早上好",
+      "py": "zǎo shang hǎo",
+      "jp": "おはようございます",
+      "audio": "audio/lesson06/word-01.mp3"
+    },
+    {
+      "id": "drama-6-w-2",
+      "ch": "每天",
+      "py": "měi tiān",
+      "jp": "毎日",
+      "audio": "audio/lesson06/word-02.mp3"
+    },
+    {
+      "id": "drama-6-w-3",
+      "ch": "起床",
+      "py": "qǐ chuáng",
+      "jp": "起きる",
+      "audio": "audio/lesson06/word-03.mp3"
+    },
+    {
+      "id": "drama-6-w-4",
+      "ch": "回家",
+      "py": "huí jiā",
+      "jp": "家に帰る",
+      "audio": "audio/lesson06/word-04.mp3"
+    },
+    {
+      "id": "drama-6-w-5",
+      "ch": "去",
+      "py": "qù",
+      "jp": "行く",
+      "audio": "audio/lesson06/word-05.mp3"
+    },
+    {
+      "id": "drama-6-w-6",
+      "ch": "打工",
+      "py": "dǎ gōng",
+      "jp": "アルバイトをする、働く",
+      "audio": "audio/lesson06/word-06.mp3"
+    },
+    {
+      "id": "drama-6-w-7",
+      "ch": "晚上",
+      "py": "wǎn shang",
+      "jp": "夜",
+      "audio": "audio/lesson06/word-07.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "“去”について",
+      "html": "<p>意味：“去”+（場所）+動詞 =「（～へ）～しに行く」</p><p data-audio=\"audio/clips/3f5da2f34320a806.mp3\">明天我去打工。Míngtiān wǒ qùdǎgōng.</p><p>明日私はバイトに行きます。</p><p>注：否定：主語+不/没+去+（場所）+動詞</p><p data-audio=\"audio/clips/27653446f57697fd.mp3\">我不去大学学习中文。Wǒ bú qù dàxué xuéxí zhōngwén</p><p>私は大学へ中国語を勉強しに行きません。</p><p data-audio=\"audio/clips/6821c122cf41b7dd.mp3\">他没去图书馆看书。Tā méiqù túshūguǎn kànshū.</p><p>彼は図書館へ本を読みに行きませんでした。</p>"
+    },
+    {
+      "title": "時間詞について",
+      "html": "<p>意味：いつ何をするかを表します。</p><p>使い方：時間詞+動詞（+目的語）</p><p data-audio=\"audio/clips/57942b905ff1a5f0.mp3\">早上七点半起床。zǎo shang qī diǎn bàn qǐ chuáng.</p><p>朝7時半に起きます。</p><p data-audio=\"audio/clips/237644a7356f61c7.mp3\">晚上八点回家。wǎn shang bā diǎn huí jiā.</p><p>夜8時に家へ帰ります。</p>"
+    }
+  ],
+  "pronunciation": [],
+  "exercises": [
+    {
+      "group": 4,
+      "number": 1,
+      "inputId": "4_1",
+      "answer": "優子さん、おはようございます。毎日何時に起きますか。",
+      "initial": "",
+      "prompts": [
+        "优子同学，早上好！你每天几点起床？"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_1",
+          "answer": "優子さん、おはようございます。毎日何時に起きますか。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">优子同学，早上好！你每天几点起床？</p><label class=\"answer-label\" for=\"4_1\">あなたの答え</label><input id=\"4_1\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-6-r-1"
+    },
+    {
+      "group": 5,
+      "number": 1,
+      "inputId": "5_1",
+      "answer": "优子同学，早上好！你每天几点起床？",
+      "initial": "",
+      "prompts": [
+        "優子さん、おはようございます。毎日何時に起きますか。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_1",
+          "answer": "优子同学，早上好！你每天几点起床？",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">優子さん、おはようございます。毎日何時に起きますか。</p><label class=\"answer-label\" for=\"5_1\">あなたの答え</label><input id=\"5_1\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-6-r-1"
+    },
+    {
+      "group": 4,
+      "number": 2,
+      "inputId": "4_2",
+      "answer": "私は毎朝7時半に起きます。",
+      "initial": "",
+      "prompts": [
+        "我每天早上七点半起床。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_2",
+          "answer": "私は毎朝7時半に起きます。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">我每天早上七点半起床。</p><label class=\"answer-label\" for=\"4_2\">あなたの答え</label><input id=\"4_2\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-6-r-2"
+    },
+    {
+      "group": 5,
+      "number": 2,
+      "inputId": "5_2",
+      "answer": "我每天早上七点半起床。",
+      "initial": "",
+      "prompts": [
+        "私は毎朝7時半に起きます。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_2",
+          "answer": "我每天早上七点半起床。",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">私は毎朝7時半に起きます。</p><label class=\"answer-label\" for=\"5_2\">あなたの答え</label><input id=\"5_2\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-6-r-2"
+    },
+    {
+      "group": 4,
+      "number": 3,
+      "inputId": "4_3",
+      "answer": "今日は何時に家に帰りますか。",
+      "initial": "",
+      "prompts": [
+        "你今天几点回家？"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_3",
+          "answer": "今日は何時に家に帰りますか。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">你今天几点回家？</p><label class=\"answer-label\" for=\"4_3\">あなたの答え</label><input id=\"4_3\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-6-r-3"
+    },
+    {
+      "group": 5,
+      "number": 3,
+      "inputId": "5_3",
+      "answer": "你今天几点回家？",
+      "initial": "",
+      "prompts": [
+        "今日は何時に家に帰りますか。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_3",
+          "answer": "你今天几点回家？",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">今日は何時に家に帰りますか。</p><label class=\"answer-label\" for=\"5_3\">あなたの答え</label><input id=\"5_3\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-6-r-3"
+    },
+    {
+      "group": 4,
+      "number": 4,
+      "inputId": "4_4",
+      "answer": "今日はアルバイトに行って、夜8時半に家に帰ります。",
+      "initial": "",
+      "prompts": [
+        "我今天去打工，晚上八点半回家。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "4_4",
+          "answer": "今日はアルバイトに行って、夜8時半に家に帰ります。",
+          "initial": "",
+          "type": "input",
+          "language": "ja"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">日本語に訳してみましょう。</p><p class=\"question-prompt\" lang=\"zh-Hans\">我今天去打工，晚上八点半回家。</p><label class=\"answer-label\" for=\"4_4\">あなたの答え</label><input id=\"4_4\" autocomplete=\"off\" lang=\"ja\" value=\"\">",
+      "sourceReading": "drama-6-r-4"
+    },
+    {
+      "group": 5,
+      "number": 4,
+      "inputId": "5_4",
+      "answer": "我今天去打工，晚上八点半回家。",
+      "initial": "",
+      "prompts": [
+        "今日はアルバイトに行って、夜8時半に家に帰ります。"
+      ],
+      "choices": [],
+      "fields": [
+        {
+          "id": "5_4",
+          "answer": "我今天去打工，晚上八点半回家。",
+          "initial": "",
+          "type": "input",
+          "language": "zh-Hans"
+        }
+      ],
+      "html": "<p class=\"question-instruction\">中国語で言ってみましょう。</p><p class=\"question-prompt\" lang=\"ja\">今日はアルバイトに行って、夜8時半に家に帰ります。</p><label class=\"answer-label\" for=\"5_4\">あなたの答え</label><input id=\"5_4\" autocomplete=\"off\" lang=\"zh-Hans\" value=\"\">",
+      "sourceReading": "drama-6-r-4"
+    },
+    {
+      "number": 1,
+      "initial": "",
+      "sourceWord": "drama-6-w-1",
+      "explanation": "早上好 · zǎo shang hǎo\nおはようございます",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_1",
+      "kind": "meaning",
+      "prompts": [
+        "早上好"
+      ],
+      "answer": "おはようございます",
+      "choices": [
+        {
+          "value": "おはようございます",
+          "text": "おはようございます"
+        },
+        {
+          "value": "毎日",
+          "text": "毎日"
+        },
+        {
+          "value": "起きる",
+          "text": "起きる"
+        },
+        {
+          "value": "家に帰る",
+          "text": "家に帰る"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 1,
+      "initial": "",
+      "sourceWord": "drama-6-w-1",
+      "explanation": "早上好 · zǎo shang hǎo\nおはようございます",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_1",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/1377135bb1d83705.mp3",
+      "answer": "早上好",
+      "choices": [
+        {
+          "value": "早上好",
+          "text": "早上好"
+        },
+        {
+          "value": "每天",
+          "text": "每天"
+        },
+        {
+          "value": "起床",
+          "text": "起床"
+        },
+        {
+          "value": "回家",
+          "text": "回家"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 1,
+      "initial": "",
+      "sourceWord": "drama-6-w-1",
+      "explanation": "早上好 · zǎo shang hǎo\nおはようございます",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_1",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/1377135bb1d83705.mp3",
+      "answer": "zǎo shang hǎo",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 2,
+      "initial": "",
+      "sourceWord": "drama-6-w-2",
+      "explanation": "每天 · měi tiān\n毎日",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_2",
+      "kind": "meaning",
+      "prompts": [
+        "每天"
+      ],
+      "answer": "毎日",
+      "choices": [
+        {
+          "value": "毎日",
+          "text": "毎日"
+        },
+        {
+          "value": "おはようございます",
+          "text": "おはようございます"
+        },
+        {
+          "value": "起きる",
+          "text": "起きる"
+        },
+        {
+          "value": "家に帰る",
+          "text": "家に帰る"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 2,
+      "initial": "",
+      "sourceWord": "drama-6-w-2",
+      "explanation": "每天 · měi tiān\n毎日",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_2",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/74a92ae7b3a7e4ab.mp3",
+      "answer": "每天",
+      "choices": [
+        {
+          "value": "每天",
+          "text": "每天"
+        },
+        {
+          "value": "早上好",
+          "text": "早上好"
+        },
+        {
+          "value": "起床",
+          "text": "起床"
+        },
+        {
+          "value": "回家",
+          "text": "回家"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 2,
+      "initial": "",
+      "sourceWord": "drama-6-w-2",
+      "explanation": "每天 · měi tiān\n毎日",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_2",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/74a92ae7b3a7e4ab.mp3",
+      "answer": "měi tiān",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 3,
+      "initial": "",
+      "sourceWord": "drama-6-w-3",
+      "explanation": "起床 · qǐ chuáng\n起きる",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_3",
+      "kind": "meaning",
+      "prompts": [
+        "起床"
+      ],
+      "answer": "起きる",
+      "choices": [
+        {
+          "value": "起きる",
+          "text": "起きる"
+        },
+        {
+          "value": "おはようございます",
+          "text": "おはようございます"
+        },
+        {
+          "value": "毎日",
+          "text": "毎日"
+        },
+        {
+          "value": "家に帰る",
+          "text": "家に帰る"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 3,
+      "initial": "",
+      "sourceWord": "drama-6-w-3",
+      "explanation": "起床 · qǐ chuáng\n起きる",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_3",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/f85c892b346cc721.mp3",
+      "answer": "起床",
+      "choices": [
+        {
+          "value": "起床",
+          "text": "起床"
+        },
+        {
+          "value": "早上好",
+          "text": "早上好"
+        },
+        {
+          "value": "每天",
+          "text": "每天"
+        },
+        {
+          "value": "回家",
+          "text": "回家"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 3,
+      "initial": "",
+      "sourceWord": "drama-6-w-3",
+      "explanation": "起床 · qǐ chuáng\n起きる",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_3",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/f85c892b346cc721.mp3",
+      "answer": "qǐ chuáng",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 4,
+      "initial": "",
+      "sourceWord": "drama-6-w-4",
+      "explanation": "回家 · huí jiā\n家に帰る",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_4",
+      "kind": "meaning",
+      "prompts": [
+        "回家"
+      ],
+      "answer": "家に帰る",
+      "choices": [
+        {
+          "value": "家に帰る",
+          "text": "家に帰る"
+        },
+        {
+          "value": "おはようございます",
+          "text": "おはようございます"
+        },
+        {
+          "value": "毎日",
+          "text": "毎日"
+        },
+        {
+          "value": "起きる",
+          "text": "起きる"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 4,
+      "initial": "",
+      "sourceWord": "drama-6-w-4",
+      "explanation": "回家 · huí jiā\n家に帰る",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_4",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/3a28cdc83f223cc9.mp3",
+      "answer": "回家",
+      "choices": [
+        {
+          "value": "回家",
+          "text": "回家"
+        },
+        {
+          "value": "早上好",
+          "text": "早上好"
+        },
+        {
+          "value": "每天",
+          "text": "每天"
+        },
+        {
+          "value": "起床",
+          "text": "起床"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 4,
+      "initial": "",
+      "sourceWord": "drama-6-w-4",
+      "explanation": "回家 · huí jiā\n家に帰る",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_4",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/3a28cdc83f223cc9.mp3",
+      "answer": "huí jiā",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 5,
+      "initial": "",
+      "sourceWord": "drama-6-w-5",
+      "explanation": "去 · qù\n行く",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_5",
+      "kind": "meaning",
+      "prompts": [
+        "去"
+      ],
+      "answer": "行く",
+      "choices": [
+        {
+          "value": "行く",
+          "text": "行く"
+        },
+        {
+          "value": "おはようございます",
+          "text": "おはようございます"
+        },
+        {
+          "value": "毎日",
+          "text": "毎日"
+        },
+        {
+          "value": "起きる",
+          "text": "起きる"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 5,
+      "initial": "",
+      "sourceWord": "drama-6-w-5",
+      "explanation": "去 · qù\n行く",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_5",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/d2c3fac0c3d0720c.mp3",
+      "answer": "去",
+      "choices": [
+        {
+          "value": "去",
+          "text": "去"
+        },
+        {
+          "value": "早上好",
+          "text": "早上好"
+        },
+        {
+          "value": "每天",
+          "text": "每天"
+        },
+        {
+          "value": "起床",
+          "text": "起床"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 5,
+      "initial": "",
+      "sourceWord": "drama-6-w-5",
+      "explanation": "去 · qù\n行く",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_5",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/d2c3fac0c3d0720c.mp3",
+      "answer": "qù",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 6,
+      "initial": "",
+      "sourceWord": "drama-6-w-6",
+      "explanation": "打工 · dǎ gōng\nアルバイトをする、働く",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_6",
+      "kind": "meaning",
+      "prompts": [
+        "打工"
+      ],
+      "answer": "アルバイトをする、働く",
+      "choices": [
+        {
+          "value": "アルバイトをする、働く",
+          "text": "アルバイトをする、働く"
+        },
+        {
+          "value": "おはようございます",
+          "text": "おはようございます"
+        },
+        {
+          "value": "毎日",
+          "text": "毎日"
+        },
+        {
+          "value": "起きる",
+          "text": "起きる"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 6,
+      "initial": "",
+      "sourceWord": "drama-6-w-6",
+      "explanation": "打工 · dǎ gōng\nアルバイトをする、働く",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_6",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/5f114f0c5596ae6b.mp3",
+      "answer": "打工",
+      "choices": [
+        {
+          "value": "打工",
+          "text": "打工"
+        },
+        {
+          "value": "早上好",
+          "text": "早上好"
+        },
+        {
+          "value": "每天",
+          "text": "每天"
+        },
+        {
+          "value": "起床",
+          "text": "起床"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 6,
+      "initial": "",
+      "sourceWord": "drama-6-w-6",
+      "explanation": "打工 · dǎ gōng\nアルバイトをする、働く",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_6",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/5f114f0c5596ae6b.mp3",
+      "answer": "dǎ gōng",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    },
+    {
+      "number": 7,
+      "initial": "",
+      "sourceWord": "drama-6-w-7",
+      "explanation": "晚上 · wǎn shang\n夜",
+      "supplemental": true,
+      "group": 1,
+      "inputId": "1_7",
+      "kind": "meaning",
+      "prompts": [
+        "晚上"
+      ],
+      "answer": "夜",
+      "choices": [
+        {
+          "value": "夜",
+          "text": "夜"
+        },
+        {
+          "value": "おはようございます",
+          "text": "おはようございます"
+        },
+        {
+          "value": "毎日",
+          "text": "毎日"
+        },
+        {
+          "value": "起きる",
+          "text": "起きる"
+        }
+      ],
+      "choiceLang": "ja"
+    },
+    {
+      "number": 7,
+      "initial": "",
+      "sourceWord": "drama-6-w-7",
+      "explanation": "晚上 · wǎn shang\n夜",
+      "supplemental": true,
+      "group": 2,
+      "inputId": "2_7",
+      "kind": "listen-choice",
+      "prompts": [],
+      "audio": "audio/clips/ae0edf371c1ffeba.mp3",
+      "answer": "晚上",
+      "choices": [
+        {
+          "value": "晚上",
+          "text": "晚上"
+        },
+        {
+          "value": "早上好",
+          "text": "早上好"
+        },
+        {
+          "value": "每天",
+          "text": "每天"
+        },
+        {
+          "value": "起床",
+          "text": "起床"
+        }
+      ],
+      "choiceLang": "zh-Hans"
+    },
+    {
+      "number": 7,
+      "initial": "",
+      "sourceWord": "drama-6-w-7",
+      "explanation": "晚上 · wǎn shang\n夜",
+      "supplemental": true,
+      "group": 3,
+      "inputId": "3_7",
+      "kind": "listen-pinyin",
+      "prompts": [],
+      "audio": "audio/clips/ae0edf371c1ffeba.mp3",
+      "answer": "wǎn shang",
+      "acceptedAnswers": [],
+      "choices": [],
+      "pinyin": true
+    }
+  ],
+  "homework": null,
+  "drama": []
+}
