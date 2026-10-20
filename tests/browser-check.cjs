@@ -32,19 +32,20 @@ async function routesAndLayout() {
     let count=0;
     for(const [width,height] of [[1440,900],[1024,768],[768,1024],[390,844],[360,740],[844,390]]) {
       await page.setViewportSize({width,height});
-      for(let id=1;id<=14;id++) for(const view of ['reading','words']) {
+      for(let id=1;id<=14;id++) for(const view of ['reading','words','grammar']) {
         await route(page,id,view);
+        if(view==='grammar') await page.locator('.grammar-explanation').evaluateAll(items=>items.forEach(item=>item.open=true));
         const state=await page.evaluate(({id,view})=>({
           lines:document.querySelectorAll('.sentence').length,
-          expected:DRAMA_COURSE.find(l=>l.id===id)[view].length,
+          expected:DRAMA.itemsFor(DRAMA_COURSE.find(l=>l.id===id),view).length,
           tabs:document.querySelectorAll('.tab').length,
           lessons:document.querySelectorAll('.lesson-link').length,
           missing:document.querySelectorAll('.missing-audio').length,
           overflow:document.documentElement.scrollWidth>innerWidth,
-          removed:[...document.querySelectorAll('#main a')].filter(a=>/\/(grammar|practice|homework|pronunciation)(?:\/|$)/.test(a.hash)).length
+          removed:[...document.querySelectorAll('#main a')].filter(a=>/\/(practice|homework|pronunciation)(?:\/|$)/.test(a.hash)).length
         }),{id,view});
         assert.equal(state.lines,state.expected);
-        assert.equal(state.tabs,2); assert.equal(state.lessons,14); assert.equal(state.missing,0); assert.equal(state.removed,0);
+        assert.equal(state.tabs,3); assert.equal(state.lessons,14); assert.equal(state.missing,0); assert.equal(state.removed,0);
         assert.equal(state.overflow,false,`overflow at ${width}x${height} ${id}/${view}`);
         count++;
       }
@@ -60,30 +61,28 @@ async function allAudio() {
     const result=await page.evaluate(async()=>{
       const context=new AudioContext();let count=0;let versions=0;
       try {
-        const items=DRAMA_COURSE.flatMap(l=>[...l.reading,...l.words]);
+        const items=Object.values(DRAMA_VOICE_DATA.entries).flatMap(choices=>Object.values(choices));
         for(let index=0;index<items.length;index+=4) await Promise.all(items.slice(index,index+4).map(async item=>{
-          const entry=DRAMA_ALIGNMENT[item.id];
-          const url=item.audio+(entry.audioVersion?'?v='+entry.audioVersion:'');
+          const url=item.audio+'?v='+item.audioVersion;
           const response=await fetch(url);
           if(!response.ok) throw new Error('audio HTTP '+response.status+' '+url);
           const bytes=await response.arrayBuffer();
-          if(entry.audioVersion) {
-            const hash=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',bytes))).map(b=>b.toString(16).padStart(2,'0')).join('');
-            if(!hash.startsWith(entry.audioVersion)) throw new Error('Stale audio '+item.id);
-            versions++;
-          }
+          const hash=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',bytes))).map(b=>b.toString(16).padStart(2,'0')).join('');
+          if(hash!==item.sha256 || !hash.startsWith(item.audioVersion)) throw new Error('Stale audio '+item.audio);
+          versions++;
           const decoded=await context.decodeAudioData(bytes.slice(0));
-          if(!(decoded.duration>0)) throw new Error('empty '+item.id);
+          if(!(decoded.duration>0) || Math.abs(decoded.duration-item.duration)>0.15) throw new Error('wrong duration '+item.audio);
           count++;
         }));
         return {count,versions};
       } finally {await context.close();}
     });
-    assert.equal(result.count,178);assert.equal(result.versions,64);
+    assert.equal(result.count,586);assert.equal(result.versions,586);
     report.checks.decodedAudio=result.count;report.checks.replacedAudioHashes=result.versions;
     let playback=0, alignedWords=0;
-    for(let id=1;id<=14;id++) for(const view of ['reading','words']) {
+    for(let id=1;id<=14;id++) for(const view of ['reading','words','grammar']) for(const voice of view==='reading'?['characters']:['female','male']) {
       await route(page,id,view);
+      if(voice!=='characters') await page.locator(`[data-pref="voice"][data-value="${voice}"]`).click();
       const count=await page.locator('.sentence').count();
       for(let index=0;index<count;index++) {
         await page.evaluate(() => {
@@ -99,18 +98,19 @@ async function allAudio() {
         await page.waitForFunction(()=>window.__checkedAudio.currentTime>0.03 && !window.__checkedAudio.paused && !window.__checkedAudio.error);
         await page.waitForFunction(() => window.__sawHighlight);
         const metadata=await page.evaluate(({id,view,index})=>{
-          const item=DRAMA_COURSE.find(l=>l.id===id)[view][index];
-          const entry=DRAMA_ALIGNMENT[item.id];
-          return {id:item.id,revision:entry.audioVersion||null,url:window.__checkedAudio.src};
+          const item=DRAMA.itemsFor(DRAMA_COURSE.find(l=>l.id===id),view)[index];
+          const entry=DRAMA.audioEntry(item);
+          return {id:item.id,revision:entry.audioVersion,path:entry.audio,words:entry.words,url:window.__checkedAudio.src};
         },{id,view,index});
+        assert(new URL(metadata.url).pathname.endsWith('/'+metadata.path));
         if(metadata.revision) {
           assert.equal(new URL(metadata.url).searchParams.get('v'),metadata.revision);
           await page.locator('[data-action="player-toggle"]').click();
-          const checked=await page.evaluate(async({id,index})=>{
+          const checked=await page.evaluate(async({id,index,words})=>{
             const audio=window.__checkedAudio;
             if(!audio.paused) throw new Error('pause did not pause');
             let count=0;
-            for(const [wordIndex,word] of DRAMA_ALIGNMENT[id].words.entries()) {
+            for(const [wordIndex,word] of words.entries()) {
               if(word.punctuation) continue;
               await new Promise((resolve,reject)=>{
                 const timer=setTimeout(()=>reject(new Error('seek timeout')),3000);
@@ -122,7 +122,7 @@ async function allAudio() {
               count++;
             }
             return count;
-          },{id:metadata.id,index});
+          },{id:metadata.id,index,words:metadata.words});
           alignedWords+=checked;
         }
         await closeAudio(page);
@@ -130,11 +130,11 @@ async function allAudio() {
         report.checks.individualAudioPlayback=playback;
         report.checks.newTimedWords=alignedWords;
       }
-      console.log(`Audio playback PASS lesson ${id} ${view} (${count})`);
+      console.log(`Audio playback PASS lesson ${id} ${view} ${voice} (${count})`);
     }
     report.checks.individualAudioPlayback=playback;
     report.checks.newTimedWords=alignedWords;
-    assert.equal(playback,178);
+    assert.equal(playback,586);
   } finally {await page.close();}
 }
 async function controls() {
@@ -196,7 +196,7 @@ async function controls() {
     assert.deepEqual(await page.evaluate(()=>window.__continuous),['0','1','2','3']);
     assert(await page.locator('[data-action="player-next"]').isDisabled());
     await closeAudio(page);
-    for(const removed of ['homework','grammar','practice','practice/2','pronunciation']) {
+    for(const removed of ['homework','practice','practice/2','pronunciation']) {
       await page.goto(base+'#lesson/5/'+removed);
       await page.waitForURL('**/#lesson/5/reading');
     }
@@ -204,6 +204,8 @@ async function controls() {
     await page.waitForFunction(()=>document.querySelector('.tab.active')?.getAttribute('href')==='#lesson/1/reading');
     await page.locator('.next-step a').click();
     await page.waitForURL('**/#lesson/1/words');
+    await page.locator('.next-step a').click();
+    await page.waitForURL('**/#lesson/1/grammar');
     await page.locator('.next-step a').click();
     await page.waitForURL('**/#lesson/1/reading');
     await page.locator('.bottom-nav a').click();await page.waitForURL('**/#lesson/2/reading');
@@ -224,7 +226,7 @@ async function controls() {
     await page.waitForURL('**/#lesson/14/reading');assert.equal(await page.locator('#menu').getAttribute('aria-expanded'),'false');
     await page.locator('#menu').click();await page.locator('#veil').click({position:{x:385,y:400}});
     assert.equal(await page.locator('#menu').getAttribute('aria-expanded'),'false');
-    report.checks.controls={preferencesPersist:true,allFiveSpeeds:true,inPlaySpeedCycle:true,pauseResume:true,repeat:true,next:true,close:true,routeStopsAudio:true,continuousWholeLesson:true,lastNextDisabled:true,legacyRoutes:5,invalidLessonFallback:true,tabsAndLessonNavigation:true,helpAndEscape:true,skipLink:true,mobileMenuAndVeil:true};
+    report.checks.controls={preferencesPersist:true,allFiveSpeeds:true,inPlaySpeedCycle:true,pauseResume:true,repeat:true,next:true,close:true,routeStopsAudio:true,continuousWholeLesson:true,lastNextDisabled:true,legacyRoutes:4,invalidLessonFallback:true,tabsAndLessonNavigation:true,helpAndEscape:true,skipLink:true,mobileMenuAndVeil:true};
     console.log('Player, navigation, preferences, help and mobile controls PASS');
   } finally {await page.close();}
   const fallback=await makePage();
@@ -238,10 +240,95 @@ async function controls() {
     report.checks.blockedStorageFallback=true;
   } finally {await fallback.close();}
 }
+async function voiceControls() {
+  const page=await makePage();
+  try {
+    await route(page,1,'words');
+    for(const voice of ['male','female']) {
+      const button=page.locator(`[data-pref="voice"][data-value="${voice}"]`);
+      await button.focus(); await page.keyboard.press('Space');
+      assert.equal(await button.getAttribute('aria-pressed'),'true');
+      await page.reload(); await page.locator('.sentence').first().waitFor();
+      assert.equal(await button.getAttribute('aria-pressed'),'true');
+      await page.locator('.tab[href="#lesson/1/grammar"]').click();
+      assert.equal(await button.getAttribute('aria-pressed'),'true');
+      await page.locator('.tab[href="#lesson/1/words"]').click();
+    }
+    for(const paused of [false,true]) {
+      await page.locator('[data-action="play-line"]').first().click();
+      await page.waitForFunction(()=>window.__checkedAudio.currentTime>0.03 && !window.__checkedAudio.paused);
+      if(paused) await page.locator('[data-action="player-toggle"]').click();
+      const next=await page.locator('[data-pref="voice"][aria-pressed="false"]').getAttribute('data-value');
+      await page.locator(`[data-pref="voice"][data-value="${next}"]`).click();
+      assert(await page.locator('#player').evaluate(el=>el.hidden));
+      assert(await page.evaluate(()=>window.__checkedAudio.paused && !window.__checkedAudio.getAttribute('src')));
+      assert.equal(await page.locator('.current-word').count(),0);
+      await page.locator('[data-action="play-line"]').first().click();
+      await page.waitForFunction(()=>window.__checkedAudio.currentTime>0.03 && !window.__checkedAudio.paused);
+      assert((await page.evaluate(()=>window.__checkedAudio.src)).includes(`/audio/${next}/`));
+      await closeAudio(page);
+    }
+    // Listen through complete vocabulary and grammar queues in both voices.
+    const sequences=[];
+    for(const view of ['words','grammar']) for(const voice of ['female','male']) {
+      await route(page,2,view);
+      await page.locator(`[data-pref="voice"][data-value="${voice}"]`).click();
+      await page.locator('[data-pref="speed"][data-value="1.5"]').click();
+      const count=await page.locator('.sentence').count();
+      await page.evaluate(()=>{
+        window.__voicesPlayed=[];
+        window.__checkedAudio.addEventListener('playing',()=>{
+          const index=document.querySelector('.sentence.is-playing')?.dataset.segment;
+          if(index!==undefined && window.__voicesPlayed.at(-1)?.index!==index)
+            window.__voicesPlayed.push({index,src:window.__checkedAudio.src});
+        });
+      });
+      await page.locator('[data-action="play-all"]').click();
+      await page.waitForFunction(last=>window.__checkedAudio.ended && document.querySelector('.sentence.is-playing')?.dataset.segment===String(last),count-1,{timeout:90000});
+      const played=await page.evaluate(()=>window.__voicesPlayed);
+      assert.deepEqual(played.map(p=>p.index),Array.from({length:count},(_,i)=>String(i)));
+      assert(played.every(p=>p.src.includes(`/audio/${voice}/`)));
+      assert(await page.locator('[data-action="player-next"]').isDisabled());
+      await closeAudio(page);
+      sequences.push({view,voice,clips:count});
+    }
+    // Conversation voices stay tied to characters even when the preference is male.
+    await route(page,1);
+    assert.equal(await page.locator('[data-pref="voice"]').count(),0);
+    for(let index=0;index<4;index++) {
+      await page.locator(`[data-action="play-line"][data-index="${index}"]`).click();
+      await page.waitForFunction(()=>window.__checkedAudio.currentTime>0.03 && !window.__checkedAudio.paused);
+      const correct=await page.evaluate(index=>{
+        const item=DRAMA_COURSE[0].reading[index];
+        return window.__checkedAudio.src.includes('/audio/'+(item.speaker.includes('山本')?'female':'male')+'/');
+      },index);
+      assert(correct);await closeAudio(page);
+    }
+    // A failed request produces a useful message and the same clip can be retried.
+    await page.route('**/audio/female/**',route=>route.abort());
+    await route(page,1,'grammar');
+    await page.locator('[data-pref="voice"][data-value="female"]').click();
+    await page.locator('[data-action="play-line"]').first().click();
+    await page.waitForFunction(()=>document.querySelector('#status').textContent===DRAMA_CONFIG.text.msgLoadFailed);
+    await page.unroute('**/audio/female/**');
+    await page.locator('[data-action="play-line"]').first().click();
+    await page.waitForFunction(()=>window.__checkedAudio.currentTime>0.03 && !window.__checkedAudio.paused);
+    await closeAudio(page);
+    await page.evaluate(()=>localStorage.setItem('drama-preferences',JSON.stringify({voice:'invalid'})));
+    await page.reload(); await page.locator('.sentence').first().waitFor();
+    assert.equal(await page.locator('[data-pref="voice"][data-value="female"]').getAttribute('aria-pressed'),'true');
+    report.checks.voiceControls={keyboard:true,persistentAcrossPages:true,switchStopsPlayingAndPausedAudio:true,characterVoicesPreserved:true,continuousQueues:sequences,failedAudioRetry:true,invalidSavedVoiceFallback:true};
+    console.log('Voice selection, both continuous queues and failed-audio recovery PASS');
+  } finally {await page.close();}
+}
 (async()=>{
   browser=await chromium.launch({...(process.env.CHROMIUM_PATH ? {executablePath:process.env.CHROMIUM_PATH} : {}),headless:true});
   try {
-    const suites=await Promise.allSettled([routesAndLayout(),allAudio(),controls()]);
+    const available={layout:routesAndLayout,audio:allAudio,controls,voices:voiceControls};
+    const selected=process.env.BROWSER_SUITES ? process.env.BROWSER_SUITES.split(',') : Object.keys(available);
+    assert(selected.length && selected.every(name=>available[name]),'unknown BROWSER_SUITES');
+    report.suites=selected;
+    const suites=await Promise.allSettled(selected.map(name=>available[name]()));
     const failures=suites.filter(s=>s.status==='rejected').map(s=>s.reason.stack||String(s.reason));
     assert.deepEqual(failures,[]);
     assert.deepEqual(errors,[]);assert.deepEqual(httpErrors,[]);

@@ -12,20 +12,15 @@ ROOT = Path(__file__).resolve().parents[1]
 PAGE_FILES = [
     "index.html", "app.css", "app.js", "config.js", "course-data.js",
     "reading-alignment.js", "manifest.webmanifest",
+    "voice-data.js",
 ]
 
 
 def page_audio():
-    """本文・単語页会播放的音频（与 app.js 的 playablePaths 一致）。"""
-    text = (ROOT / "course-data.js").read_text(encoding="utf-8")
-    course = json.loads(re.sub(r"^\s*window\.DRAMA_COURSE\s*=\s*", "", text).rstrip().rstrip(";"))
-    paths = []
-    for lesson in course:
-        for view in ("reading", "words"):
-            for line in lesson.get(view, []):
-                if line.get("audio"):
-                    paths.append(line["audio"])
-    return sorted(set(paths))
+    """All character, vocabulary and grammar recordings, including both voices."""
+    text = (ROOT / "voice-data.js").read_text(encoding="utf-8")
+    catalog = json.loads(re.sub(r"^\s*window\.DRAMA_VOICE_DATA\s*=\s*", "", text).rstrip().rstrip(";"))
+    return sorted({entry["audio"] for choices in catalog["entries"].values() for entry in choices.values()})
 
 
 def main():

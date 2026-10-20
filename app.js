@@ -2,10 +2,11 @@
  * ================================================================
  *  app.js — 页面程序（一般不需要改）
  * ================================================================
- *  读取三个数据文件，生成页面：
+ *  读取配置和数据文件，生成页面：
  *    config.js            页面文字、语速、配色   ← 平时改这个
  *    course-data.js       课文和单词（由 tools/build-course.py 生成）
  *    reading-alignment.js 逐字高亮用的时间数据
+ *    voice-data.js        当前男女声路径、时间戳和语法朗读条目
  *
  *  本文件分为 7 段，按顺序阅读即可：
  *    1. 工具函数          2. 设置的保存与读取     3. 网址（路由）
@@ -21,7 +22,8 @@
   const course = window.DRAMA_COURSE;
   const config = window.DRAMA_CONFIG;
   const T = config.text;
-  const VIEWS = ['reading', 'words'];          // 页面上的标签页，顺序即显示顺序
+  const voiceData = window.DRAMA_VOICE_DATA;
+  const VIEWS = ['reading', 'words', 'grammar'];
   const STORAGE_KEY = 'drama-preferences';
 
 
@@ -54,7 +56,7 @@
     close:  'm6 6 12 12M6 18 18 6',
     bulb:   'M8 16a7 7 0 1 1 8 0v3H8v-3Zm1 6h6'
   };
-  const TAB_ICONS = { reading: 'book', words: 'words' };
+  const TAB_ICONS = { reading: 'book', words: 'words', grammar: 'bulb' };
   const icon = name =>
     `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="${ICONS[name] || ICONS.book}"/></svg>`;
 
@@ -66,7 +68,7 @@
    *    保存在浏览器的 localStorage 里；无法保存时照常使用。
    * ============================================================ */
 
-  const prefs = { py: true, jp: true, speed: config.defaultSpeed };
+  const prefs = { py: true, jp: true, speed: config.defaultSpeed, voice: 'female' };
   let canSave = true;
 
   function loadPrefs() {
@@ -77,6 +79,7 @@
         if (typeof saved[key] === 'boolean') prefs[key] = saved[key];
       }
       if (config.speeds.some(s => s.value === saved.speed)) prefs.speed = saved.speed;
+      if (['male', 'female'].includes(saved.voice)) prefs.voice = saved.voice;
     } catch {
       canSave = false;
     }
@@ -95,7 +98,8 @@
   /* ============================================================
    * 3. 网址（路由）
    *    #lesson/3/reading → 第3课 本文      #lesson/3/words → 第3课 単語
-   *    已删除的页面（教材・発音、文法、練習、発音・声調）的旧链接
+   *    #lesson/3/grammar → 第3课 文法
+   *    已删除的页面（教材・発音、練習、発音・声調）的旧链接
    *    会跳到同一课的本文页。
    * ============================================================ */
 
@@ -103,19 +107,32 @@
 
   function resolveHash(hash) {
     const value = String(hash || '');
-    const removed = value.match(/^#lesson\/(\d+)\/(homework|grammar|practice|pronunciation)(?:\/.*)?$/);
+    const removed = value.match(/^#lesson\/(\d+)\/(homework|practice|pronunciation)(?:\/.*)?$/);
     if (removed) return { id: Number(removed[1]), view: 'reading', redirectedFrom: removed[2] };
-    const parts = value.match(/^#lesson\/(\d+)\/(reading|words)(?:\/.*)?$/);
+    const parts = value.match(/^#lesson\/(\d+)\/(reading|words|grammar)(?:\/.*)?$/);
     if (!parts) return { id: 1, view: 'reading' };
     return { id: Number(parts[1]), view: parts[2] };
   }
 
-  // 页面会播放的所有音频路径（测试脚本用它检查文件是否齐全）
+  function itemsFor(currentLesson, currentView) {
+    return currentView === 'grammar'
+      ? voiceData.grammar[currentLesson.id] || []
+      : currentLesson[currentView] || [];
+  }
+
+  function audioEntry(item, voice = prefs.voice) {
+    const choices = voiceData.entries[item?.id];
+    return choices?.[voice] || (choices ? Object.values(choices)[0] : null);
+  }
+
+  // 包含单词和语法的两种声音，以及会话中每个角色的声音。
   function playablePaths(lessons) {
     const paths = [];
     for (const lesson of lessons) {
       for (const view of VIEWS) {
-        for (const line of lesson[view] || []) if (line.audio) paths.push(line.audio);
+        for (const line of itemsFor(lesson, view)) {
+          for (const entry of Object.values(voiceData.entries[line.id] || {})) paths.push(entry.audio);
+        }
       }
     }
     return paths;
@@ -127,7 +144,7 @@
    * ============================================================ */
 
   let lesson;   // 当前课
-  let view;     // 当前标签页：'reading' 或 'words'
+  let view;     // 当前标签页：'reading'、'words' 或 'grammar'
 
   // 左侧课程列表
   function sidebarHtml() {
@@ -178,11 +195,11 @@
       </section>`;
   }
 
-  // 标签栏（本文 / 単語）
+  // 标签栏（本文 / 単語 / 文法）
   function tabsHtml() {
     const tabs = VIEWS.map(v => `
       <a class="tab ${v === view ? 'active' : ''}" href="${url(lesson.id, v)}" ${v === view ? 'aria-current="page"' : ''}>
-        ${icon(TAB_ICONS[v])}${escape(T.tabs[v])}<small>${lesson[v].length}</small>
+        ${icon(TAB_ICONS[v])}${escape(T.tabs[v])}<small>${itemsFor(lesson, v).length}</small>
       </a>`).join('');
     return `<nav class="tabs" aria-label="学習メニュー">${tabs}</nav>`;
   }
@@ -208,12 +225,15 @@
         ${settingHtml('py', T.pinyin, showHide)}
         ${settingHtml('jp', T.japanese, showHide)}
         ${settingHtml('speed', T.speed, config.speeds)}
+        ${view === 'reading' ? '' : settingHtml('voice', T.voice, [
+          { value: 'female', label: T.femaleVoice }, { value: 'male', label: T.maleVoice }
+        ])}
       </div>`;
   }
 
   // 汉字上方逐字标拼音（有时间数据的句子）
   function alignedTextHtml(line) {
-    const alignment = window.DRAMA_ALIGNMENT?.[line.id];
+    const alignment = audioEntry(line);
     if (!alignment) {
       return `<p class="cn" lang="zh-Hans">${escape(line.ch)}</p>${line.py ? `<p class="py" lang="zh-Latn">${escape(line.py)}</p>` : ''}`;
     }
@@ -227,15 +247,16 @@
   // 一句会话 / 一个单词
   function lineHtml(line, i) {
     const student = config.studentSpeakers.some(name => (line.speaker || '').includes(name));
-    const speaker = line.speaker
-      ? `<span class="speaker ${student ? 'speaker-student' : 'speaker-partner'}">${escape(line.speaker)}</span>` : '';
+    const speakerName = line.speaker || line.dialogueRole;
+    const speaker = speakerName
+      ? `<span class="speaker ${student ? 'speaker-student' : 'speaker-partner'}">${escape(speakerName)}</span>` : '';
     return `
       <article class="sentence" data-segment="${i}">
         <span class="sentence-num">${pad(i + 1)}</span>
         <div>${speaker}${alignedTextHtml(line)}${line.jp ? `<p class="jp">${escape(line.jp)}</p>` : ''}</div>
         <button type="button" class="icon-button line-play" data-action="play-line" data-index="${i}"
-          aria-label="${escape(fill(T.playLine, { n: i + 1, title: line.ch }))}" ${line.audio ? '' : 'disabled'}>${icon('play')}</button>
-        ${line.audio ? '' : `<small class="missing-audio">${escape(T.noAudio)}</small>`}
+          aria-label="${escape(fill(T.playLine, { n: i + 1, title: line.ch }))}" ${audioEntry(line) ? '' : 'disabled'}>${icon('play')}</button>
+        ${audioEntry(line) ? '' : `<small class="missing-audio">${escape(T.noAudio)}</small>`}
       </article>`;
   }
 
@@ -269,21 +290,36 @@
       </aside>`;
   }
 
-  // 本文页 / 单词页 的主体
+  function grammarHtml(items) {
+    return lesson.grammar.map((section, index) => `
+      <section class="grammar-section" aria-labelledby="grammar-title-${index}">
+        <h3 id="grammar-title-${index}">${escape(section.title)}</h3>
+        <details class="grammar-explanation">
+          <summary>${escape(T.grammarExplanation)}</summary>
+          <div class="grammar-source">${section.html.replace(/ data-audio="[^"]*"/g, '')}</div>
+        </details>
+        <div class="segments">${items.map((item, i) =>
+          item.section === index + 1 ? lineHtml(item, i) : '').join('')}</div>
+      </section>`).join('');
+  }
+
+  // 本文、单词和语法页面共用播放与显示设置。
   function studyHtml() {
     const t = T[view];
     const isWords = view === 'words';
-    const nextView = isWords ? 'reading' : 'words';
+    const nextView = isWords ? 'grammar' : view === 'grammar' ? 'reading' : 'words';
+    const items = itemsFor(lesson, view);
     return `
       <div class="study-layout">
         <section class="panel">
           <div class="panel-title">
             <div><h2>${escape(t.heading)}</h2><p>${escape(t.intro)}</p></div>
-            <span class="count-label">${escape(fill(t.count, { n: lesson[view].length }))}</span>
+            <span class="count-label">${escape(fill(t.count, { n: items.length }))}</span>
           </div>
           ${toolbarHtml()}
-          <div class="segments ${isWords ? 'word-grid' : ''}">${lesson[view].map(lineHtml).join('')}</div>
-          ${isWords ? '' : cultureHtml()}
+          ${view === 'grammar' ? grammarHtml(items) :
+            `<div class="segments ${isWords ? 'word-grid' : ''}">${items.map(lineHtml).join('')}</div>`}
+          ${view === 'reading' ? cultureHtml() : ''}
           <div class="next-step">
             <p>${escape(t.nextText)}</p>
             <a class="secondary" href="${url(lesson.id, nextView)}">${escape(t.nextLink)} ${icon('arrow')}</a>
@@ -325,7 +361,7 @@
       <div class="player-label">
         <b lang="zh-Hans">${escape(item.ch)}</b>
         <small>${escape(mode)} · ${player.index + 1} / ${player.queue.length}</small>
-        ${window.DRAMA_ALIGNMENT?.[item.id] ? '<span id="word-position" class="word-position"></span>' : ''}
+        ${audioEntry(item) ? '<span id="word-position" class="word-position"></span>' : ''}
       </div>
       <button type="button" class="speed-cycle" data-action="speed-cycle" aria-label="${escape(fill(T.changeSpeed, { speed: speedLabel(prefs.speed) }))}">${escape(speedLabel(prefs.speed))}</button>
       <button type="button" class="icon-button repeat" data-action="player-repeat" aria-label="${escape(T.repeat)}">${icon('repeat')}</button>
@@ -396,11 +432,18 @@
     if (key === 'speed') {
       if (!config.speeds.some(s => s.value === value)) return;
       if (audio) audio.playbackRate = value;
+    } else if (key === 'voice') {
+      if (!['male', 'female'].includes(value)) return;
     } else if (key !== 'py' && key !== 'jp') {
       return;
     }
     prefs[key] = value;
     savePrefs();
+    if (key === 'voice') {
+      render({ keepScroll: true });
+      $(`[data-pref="voice"][data-value="${value}"]`)?.focus({ preventScroll: true });
+      return;
+    }
     applyPrefs();
     $$(`[data-action="set-pref"][data-pref="${key}"]`).forEach(b =>
       b.setAttribute('aria-pressed', String(b.dataset.value === String(value))));
@@ -437,7 +480,7 @@
 
   // 根据播放时间找到正在读的词并高亮
   function syncWord() {
-    const alignment = window.DRAMA_ALIGNMENT?.[player.queue[player.index]?.id];
+    const alignment = audioEntry(player.queue[player.index]);
     if (!alignment) { clearWord(); return; }
     const time = audio.currentTime;
     const wordIndex = alignment.words.findIndex(w => !w.punctuation && time >= w.start && time < w.end);
@@ -498,11 +541,11 @@
     player.queue = items;
     player.index = start;
     player.continuous = all;
-    if (all) while (player.index < items.length && !items[player.index].audio) player.index++;
+    if (all) while (player.index < items.length && !audioEntry(items[player.index])) player.index++;
     const item = items[player.index];
-    if (!item?.audio) { notify(T.msgNoAudio); stopAudio(); return; }
-    const audioVersion = window.DRAMA_ALIGNMENT?.[item.id]?.audioVersion;
-    audio.src = item.audio + (audioVersion ? `?v=${encodeURIComponent(audioVersion)}` : '');
+    const entry = audioEntry(item);
+    if (!entry) { notify(T.msgNoAudio); stopAudio(); return; }
+    audio.src = entry.audio + `?v=${encodeURIComponent(entry.audioVersion)}`;
     audio.playbackRate = prefs.speed;
     player.playing = true;
     updatePlayer();
@@ -515,7 +558,7 @@
       cancelFollow();
       clearWord();
       updatePlayer();
-      notify(T.msgPlayFailed);
+      notify(audio.error ? T.msgLoadFailed : T.msgPlayFailed);
     }
   }
 
@@ -535,7 +578,7 @@
       updatePlayer();
       startFollow();
     } catch {
-      notify(T.msgPlayFailed);
+      if (session === player.session) notify(audio.error ? T.msgLoadFailed : T.msgPlayFailed);
     }
   }
 
@@ -557,7 +600,7 @@
   function onAudioEnded() {
     cancelFollow();
     clearWord();
-    const more = player.queue.slice(player.index + 1).some(x => x.audio);
+    const more = player.queue.slice(player.index + 1).some(x => audioEntry(x));
     if (player.continuous && more) {
       play(player.queue, player.index + 1, true);
     } else {
@@ -581,7 +624,8 @@
     'help-close':     () => $('#help-dialog').close(),
     'set-pref':       button => {
       const raw = button.dataset.value;
-      setPref(button.dataset.pref, raw === 'true' ? true : raw === 'false' ? false : Number(raw));
+      setPref(button.dataset.pref, button.dataset.pref === 'voice' ? raw :
+        raw === 'true' ? true : raw === 'false' ? false : Number(raw));
     },
     'speed-cycle':    () => {
       const i = config.speeds.findIndex(s => s.value === prefs.speed);
@@ -589,8 +633,8 @@
       setPref('speed', nextSpeed);
       notify(fill(T.msgSpeed, { speed: speedLabel(nextSpeed) }));
     },
-    'play-line':      button => play(lesson[view], Number(button.dataset.index), false),
-    'play-all':       () => play(lesson[view], 0, true),
+    'play-line':      button => play(itemsFor(lesson, view), Number(button.dataset.index), false),
+    'play-all':       () => play(itemsFor(lesson, view), 0, true),
     'player-toggle':  () => togglePause(),
     'player-repeat':  () => play(player.queue, player.index, false),
     'player-next':    () => play(player.queue, player.index + 1, player.continuous),
@@ -651,6 +695,7 @@
   }
 
   // 给测试脚本用的接口
-  window.DRAMA = { tabs: VIEWS.map(v => T.tabs[v]), resolveHash, playablePaths, speeds: config.speeds.map(s => s.value) };
+  window.DRAMA = { tabs: VIEWS.map(v => T.tabs[v]), resolveHash, playablePaths, itemsFor, audioEntry,
+    speeds: config.speeds.map(s => s.value) };
   boot();
 })();

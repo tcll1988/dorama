@@ -35,7 +35,7 @@ def main():
     deadline = time.monotonic() + args.wait
     while True:
         try:
-            for name in ("index.html", "app.js", "reading-alignment.js"):
+            for name in ("index.html", "app.js", "voice-data.js"):
                 assert sha(download(base, name)) == sha((ROOT / name).read_bytes()), "Old release: " + name
             break
         except Exception as exc:
@@ -43,13 +43,12 @@ def main():
                 raise
             print("Waiting for Pages release:", str(exc), flush=True)
             time.sleep(20)
-    course = json.loads(re.sub(r"^\s*window\.DRAMA_COURSE\s*=\s*", "",
-                              (ROOT / "course-data.js").read_text()).rstrip().rstrip(";"))
-    audio = sorted({item["audio"] for lesson in course for kind in ("reading", "words")
-                    for item in lesson[kind]})
-    assert len(audio) == 178
+    catalog = json.loads(re.sub(r"^\s*window\.DRAMA_VOICE_DATA\s*=\s*", "",
+                               (ROOT / "voice-data.js").read_text()).rstrip().rstrip(";"))
+    audio = sorted({entry["audio"] for choices in catalog["entries"].values() for entry in choices.values()})
+    assert len(audio) == 586
     files = ["index.html", "app.js", "app.css", "config.js", "course-data.js",
-             "reading-alignment.js", "manifest.webmanifest"]
+             "reading-alignment.js", "voice-data.js", "manifest.webmanifest"]
     files += sorted(path.relative_to(ROOT).as_posix() for path in (ROOT / "icons").glob("*.png"))
     files += audio
 

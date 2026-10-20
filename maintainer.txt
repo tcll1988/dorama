@@ -1,5 +1,5 @@
 看剧学汉语 / ドラマで中国語を学ぼう
-维护说明（2026-09-23 v5）
+维护说明（2026-10-20 男女声更新）
 
 ════════════════════════════════════════
  想改什么 → 改哪个文件
@@ -13,13 +13,13 @@
  全站配色                                 config.js 第2部分「配色」        保存后刷新浏览器
  哪些说话人用蓝色标签                     config.js 第3部分               保存后刷新浏览器
  某句会话的日语译文、拼音、单词            source/lesson-01.json～14.json  执行 py -3 tools/build-course.py
- 更换本文・单词的录音（整批）              准备好音频包文件夹               执行 py -3 tools/import-audio.py 文件夹
- 只换某一句 / 某个单词的录音              audio/lessonXX/ 里对应的 mp3     见下面「更换录音」
+ 更换男女声录音                           voice-data.js + audio/男女声目录  见 docs/voice-release.md
+ 只换某句 / 某词 / 某条语法录音           同上，必须同步高亮和文件指纹      见下面「更换录音」
  版面、字号、间距                         app.css（开头有目录）            保存后刷新浏览器
  页面功能（一般不用改）                    app.js（开头有目录）             保存后刷新浏览器
 
- ※ 不要手改 course-data.js 和 reading-alignment.js（都是自动生成的数据）。
- ※ 放到网站上后，改了 css / js，请把 index.html 里 ?v=7 的数字加 1，
+ ※ course-data.js、reading-alignment.js 和 voice-data.js 是生成的数据；修改时须保持内容、拼音、录音和高亮一致。
+ ※ 放到网站上后，改了 css / js，请把 index.html 里对应 ?v= 的版本数字加 1，
    否则学生的手机可能继续显示旧版本。
 
 
@@ -44,9 +44,10 @@
 
  页面读到的就是这一步生成的 course-data.js。其他课保持不动，这一句原来的音频文件仍然有效。
 
- 课文 JSON 里的 grammar、exercises 数据仍然保留，build-course.py 照常打包，
- 但页面已不显示「文法」「練習」。旧链接 #lesson/N/grammar、#lesson/N/practice…
- 会自动跳到该课的本文页面。
+ 文法页面已恢复，原始说明来自 course-data.js，朗读内容来自 voice-data.js。
+ 练习页仍隐藏，旧 #lesson/N/practice 链接跳到本文。
+ 当前源资料重建流程引用 161 个缺失的旧文法/练习音频，build-course.py 和 edit-check.py
+ 暂不能完整通过；本次保留现有 course-data.js。当前网页音频使用新的独立目录，不受影响。
 
  某句没有录音时（audio 为空），页面会标出「教材音声なし」。
  materials 文件夹是原始教材，供查阅，页面不从那里取播放路径。
@@ -56,31 +57,15 @@
  更换录音
 ════════════════════════════════════════
 
- 本文・单词的录音放在 audio/lesson01～lesson14/：
-     reading-03.mp3 = 该课本文第3句      word-08.mp3 = 该课第8个单词
- （audio/clips/ 里是原教材录音，课文数据里的语法・练习部分还引用它们，请不要删。）
+ 当前 586 条录音放在 audio/female/lesson01～14/ 和 audio/male/lesson01～14/。
+ 每个声音包有 32 条角色会话、114 个单词、147 条语法。
+ voice-data.js 按条目 ID 和性别记录实际路径、逐字时间、时长、SHA-256 和 audioVersion。
+ 更新某个 MP3 必须同时更新以上字段，否则可能播放旧缓存或出现高亮错位。
+ 本文由角色决定声音；单词和语法由用户选择女性或男性。
 
- ■ 整批更换
-     py -3 tools/import-audio.py 音频包文件夹
-   音频包文件夹里要有 manifest.json（格式同 textbook-audio 音频包）。
-   工具按「课号 + 中文」自动对应，一条录音含连续几句时按停顿自动切开，
-   同时重新计算逐字高亮时间并生成 course-data.js。
-
- ■ 补录几句（推荐：以后只重录个别句子时用这个）
-   把 mp3 放进一个新文件夹，文件名写成那句中文，例如「你要几个？.mp3」，然后执行
-     py -3 tools/import-audio.py 这个文件夹
-   · 文件名只在一处出现的句子・单词会直接替换。
-   · 一句由几段录音组成时（如「你好！.mp3」「一百块.mp3」「你要几个？.mp3」），自动按顺序接成一句。
-   · 「你好！」这种好几课都有的文字，不会被单独拿去替换别处。
-
- 结果（换了哪些、没用上哪些）写在 audio/import-report.txt。没对上的句子保留现有录音。
- 需要电脑上装有 ffmpeg。
-
- ■ 只换一个文件
-   用同名 mp3 覆盖 audio/lessonXX/ 里的文件即可（例如重录第7课第8个单词 → 覆盖 word-08.mp3）。
-   逐字高亮的时间不会自动更新；想要更新，就把这个文件和 manifest.json 放进音频包，重新整批执行一次。
-
- 现在本文・单词全部使用新录音（audio/lessonXX/）。
+ 旧 tools/import-audio.py 面向 textbook-audio 格式，只修改旧目录与数据，
+ 不适用于当前男女声包。旧 audio/lessonXX/、audio/clips/ 和原资料保留供追溯。
+ 完整结构和验证命令见 docs/voice-release.md。
 
 
 ════════════════════════════════════════
@@ -91,7 +76,7 @@
 
  手机・平板：手机无法直接打开 ZIP 里的 index.html，需要放到网站上，让学生用网址打开。
    1. 执行   py -3 tools/pack-web.py drama-web.zip
-      生成只含页面所需文件的精简包（约 2 MB，不含 materials 等原始教材）。
+      生成只含页面所需文件的精简包（约 15 MB，不含 materials 等原始教材）。
    2. 解压后把 drama-web 文件夹整个上传到网站（大学服务器、GitHub Pages 等）。
    3. 把 index.html 的网址（或二维码）发给学生。
       iPhone：Safari「共有」→「ホーム画面に追加」；Android：Chrome「︙」→「ホーム画面に追加」，
@@ -102,9 +87,10 @@
 
 
 ════════════════════════════════════════
- 检查命令（改完后可选执行）
+ 检查命令（发布前执行）
 ════════════════════════════════════════
 
      node tests/study-check.js          检查课文、音频文件、config.js 是否完整
-     py -3 tests/edit-check.py 临时文件夹   检查改译文→重新生成的流程
+     node tests/browser-check.cjs 本地网址 /tmp/browser-results.json  检查实际播放和页面功能
+     python3 tools/verify-site.py 本地网址  核对发布文件指纹并解码全部录音
      py -3 tests/unzip-check.py 临时文件夹  检查 ZIP 在日文 Windows 上解压是否正常

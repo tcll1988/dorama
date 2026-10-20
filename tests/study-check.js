@@ -2,6 +2,7 @@
 const fs = require('fs');
 const path = require('path');
 const vm = require('vm');
+const crypto = require('crypto');
 
 function loadPage(root) {
   const html = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
@@ -51,22 +52,24 @@ function check(root) {
   const api = sandbox.DRAMA;
   if (!Array.isArray(course) || course.length !== 14) note('expected 14 lessons');
   if (course[0] && course[0].reading[0].ch !== '你好！') note('lesson 1 first line is ' + (course[0] && course[0].reading[0].ch));
-  if (JSON.stringify(api.tabs) !== JSON.stringify(['本文', '単語'])) note('tabs ' + JSON.stringify(api.tabs));
+  if (JSON.stringify(api.tabs) !== JSON.stringify(['本文', '単語', '文法'])) note('tabs ' + JSON.stringify(api.tabs));
   // Removed pages redirect to the same lesson's 本文.
-  for (const [hash, id] of [['#lesson/8/homework', 8], ['#lesson/3/homework/2', 3], ['#lesson/1/grammar', 1], ['#lesson/5/practice', 5], ['#lesson/6/practice/2', 6], ['#lesson/9/practice/3/4', 9], ['#lesson/2/pronunciation', 2]]) {
+  for (const [hash, id] of [['#lesson/8/homework', 8], ['#lesson/3/homework/2', 3], ['#lesson/5/practice', 5], ['#lesson/6/practice/2', 6], ['#lesson/9/practice/3/4', 9], ['#lesson/2/pronunciation', 2]]) {
     const hit = api.resolveHash(hash);
     if (!hit || hit.id !== id || hit.view !== 'reading' || !hit.redirectedFrom) note('redirect ' + hash + ' ' + JSON.stringify(hit));
   }
   const words = api.resolveHash('#lesson/4/words');
   if (!words || words.id !== 4 || words.view !== 'words') note('words route ' + JSON.stringify(words));
+  const grammarRoute = api.resolveHash('#lesson/4/grammar');
+  if (grammarRoute.id !== 4 || grammarRoute.view !== 'grammar' || grammarRoute.redirectedFrom) note('grammar route');
   const app0 = fs.readFileSync(path.join(root, 'app.js'), 'utf8');
-  for (const gone of ["'grammar'", "'practice'", '文法を確認する', '練習する', 'この課の練習', 'start_drama_practice']) {
+  for (const gone of ["'practice'", '練習する', 'この課の練習', 'start_drama_practice']) {
     if (app0.includes(gone)) note('app.js still contains ' + gone);
   }
   const html0 = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
   if (html0.includes('grammar.css') || html0.includes('練習')) note('index.html still mentions grammar/practice');
 
-  const inventory = JSON.parse(fs.readFileSync(path.join(root, 'tests', 'v4-inventory.json'), 'utf8'));
+  const inventory = JSON.parse(fs.readFileSync(path.join(__dirname, 'v4-inventory.json'), 'utf8'));
   let readings = 0, wordCount = 0, grammar = 0, exercises = 0;
   course.forEach((lesson, index) => {
     const want = inventory.lessons[index];
@@ -91,10 +94,10 @@ function check(root) {
   if (exercises !== 464) note('exercises ' + exercises);
 
   const paths = api.playablePaths(course);
-  if (!paths.length) note('no playable audio');
+  if (paths.length !== 586 || new Set(paths).size !== 586) note('expected 586 unique playable audio paths');
   const bad = [...new Set(paths.filter(rel => !fileOk(root, rel)))];
   if (bad.length) note('missing audio ' + bad.slice(0, 8).join(', '));
-  if (course[0] && !fileOk(root, course[0].reading[0].audio)) note('lesson 1 first audio missing');
+  if (course[0] && !fileOk(root, api.audioEntry(course[0].reading[0]).audio)) note('lesson 1 first audio missing');
 
   const lesson14 = course.find(lesson => lesson.id === 14);
   const happyLine = lesson14 && lesson14.reading.find(line => line.ch.includes('天天开心'));
@@ -102,17 +105,36 @@ function check(root) {
   // 2026-09-23 起本文・単語使用 textbook-audio 音频包，天天开心 也有录音了
   if (!happyLine || !happyLine.audio) note('天天开心 reading audio missing');
   if (!happyWord || !happyWord.audio) note('天天开心 word audio missing');
-  // 每句本文・单词都要有逐字高亮时间，且不超出录音长度
-  const alignment = sandbox.DRAMA_ALIGNMENT || {};
-  for (const lesson of course) for (const kind of ['reading', 'words']) for (const item of lesson[kind]) {
-    const entry = alignment[item.id];
-    if (!entry) { note('no alignment ' + item.id); continue; }
-    if (!item.audio) continue;
-    const timed = entry.words.filter(w => !w.punctuation);
-    const imported = item.audio.startsWith('audio/lesson');   // import-audio.py 换过的录音一定有时间
-    if (!imported && timed.every(w => w.start === undefined)) continue;
-    if (timed.some(w => !(w.start >= 0 && w.end > w.start && w.end <= entry.duration + 0.01))) note('bad alignment times ' + item.id);
+  const voices = sandbox.DRAMA_VOICE_DATA;
+  if (!voices?.entries || !voices?.grammar) return [...failures, 'missing voice catalog'];
+  let grammarItems = 0;
+  for (const lesson of course) for (const kind of ['reading', 'words', 'grammar']) for (const item of api.itemsFor(lesson, kind)) {
+    if (kind === 'grammar') {
+      grammarItems++;
+      if (!lesson.grammar[item.section - 1]) note('invalid grammar section ' + item.id);
+    }
+    const choices = voices.entries[item.id] || {};
+    const expectedVoices = kind === 'reading'
+      ? [item.speaker.includes('山本') ? 'female' : 'male'] : ['female', 'male'];
+    if (JSON.stringify(Object.keys(choices).sort()) !== JSON.stringify(expectedVoices.sort())) note('voice choices ' + item.id);
+    for (const voice of expectedVoices) {
+      const entry = api.audioEntry(item, voice);
+      if (!entry) { note('no voice alignment ' + item.id); continue; }
+      if (!entry.audio.startsWith(`audio/${voice}/`)) note('wrong voice path ' + item.id);
+      if (entry.words.map(w => w.text).join('') !== item.ch) note('alignment text ' + item.id);
+      let previous = 0;
+      for (const word of entry.words.filter(w => !w.punctuation)) {
+        if (!(word.start >= previous - .001 && word.end > word.start && word.end <= entry.duration + .01)) note('bad alignment times ' + voice + ' ' + item.id);
+        if (word.chars.some(c => !c.py || !c.ch)) note('missing ruby ' + item.id);
+        previous = word.end;
+      }
+      if (fileOk(root, entry.audio)) {
+        const hash = crypto.createHash('sha256').update(fs.readFileSync(path.join(root, entry.audio))).digest('hex');
+        if (hash !== entry.sha256 || !hash.startsWith(entry.audioVersion)) note('audio hash ' + entry.audio);
+      }
+    }
   }
+  if (grammarItems !== 147) note('grammar audio items ' + grammarItems);
   const config = sandbox.DRAMA_CONFIG;
   if (!config || !config.text || config.text.noAudio !== '教材音声なし') note('missing no-audio label in config.js');
   // 语速档位：来自 config.js，默认值必须在档位里
@@ -127,7 +149,8 @@ function check(root) {
   for (const [key, names] of Object.entries(placeholders)) {
     for (const name of names) if (!String(config && config.text[key]).includes('{' + name + '}')) note('config.text.' + key + ' lost {' + name + '}');
   }
-  for (const view of ['reading', 'words']) if (!config || !config.text[view] || !config.text[view].count.includes('{n}')) note('config.text.' + view + '.count lost {n}');
+  for (const view of ['reading', 'words', 'grammar']) if (!config || !config.text[view] || !config.text[view].count.includes('{n}')) note('config.text.' + view + '.count lost {n}');
+  if (!sources.includes('voice-data.js') || sources.indexOf('voice-data.js') > sources.indexOf('app.js')) note('voice-data.js must load before app.js');
   if (!sources.includes('config.js') || sources.indexOf('config.js') > sources.indexOf('app.js')) note('config.js must load before app.js');
   if (!sources.includes('course-data.js') || !sources.includes('app.js')) note('page scripts ' + sources.join(','));
   return failures;

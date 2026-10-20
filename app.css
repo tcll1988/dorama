@@ -240,6 +240,16 @@ h1 { font: 600 34px/1.45 var(--cn); letter-spacing: .04em; }
 .culture-card p { font-size: 16px; line-height: 1.95; margin: 12px 0; }
 .culture-card small { color: var(--muted); }
 
+.grammar-section { border-top: 1px solid var(--line); }
+.grammar-section > h3 { margin: 24px 24px 12px; font-size: 18px; line-height: 1.6; }
+.grammar-explanation { margin: 0 24px 20px; padding: 12px 16px; background: var(--pale); border-radius: 8px; }
+.grammar-explanation summary { cursor: pointer; font-weight: 600; }
+.grammar-source { margin-top: 14px; line-height: 1.9; overflow-wrap: anywhere; }
+.grammar-source p { margin: 10px 0; }
+.grammar-source .table-scroll { max-width: 100%; overflow-x: auto; margin: 12px 0; }
+.grammar-source table { border-collapse: collapse; min-width: 100%; }
+.grammar-source td { border: 1px solid var(--line); padding: 6px 10px; white-space: nowrap; }
+
 
 /* ---------- 9. 逐字拼音与朗读高亮 ---------- */
 .ruby-line { line-height: 1.4; display: flex; flex-wrap: wrap; align-items: flex-end; gap: 10px 3px; padding: 5px 0; }
