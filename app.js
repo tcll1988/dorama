@@ -501,7 +501,8 @@
     if (all) while (player.index < items.length && !items[player.index].audio) player.index++;
     const item = items[player.index];
     if (!item?.audio) { notify(T.msgNoAudio); stopAudio(); return; }
-    audio.src = item.audio;
+    const audioVersion = window.DRAMA_ALIGNMENT?.[item.id]?.audioVersion;
+    audio.src = item.audio + (audioVersion ? `?v=${encodeURIComponent(audioVersion)}` : '');
     audio.playbackRate = prefs.speed;
     player.playing = true;
     updatePlayer();

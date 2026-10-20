@@ -1,0 +1,44 @@
+name: Verify published dorama
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: verify-published-dorama
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Install browser and audio checks
+        run: |
+          npm install --no-save --package-lock=false playwright@1.62.1
+          npx playwright install --with-deps chromium
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+      - name: Check course and audio alignment
+        run: node tests/study-check.js
+      - name: Wait for this release and audit every published asset
+        run: |
+          mkdir -p verification
+          python3 tools/verify-site.py https://tcll1988.github.io/dorama/ --wait 600 --output verification/site-results.json
+      - name: Exercise all pages, audio clips and controls on the live site
+        run: node tests/browser-check.cjs https://tcll1988.github.io/dorama/ verification/browser-results.json
+      - name: Save verification evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: dorama-published-verification
+          path: verification/
+          retention-days: 14
