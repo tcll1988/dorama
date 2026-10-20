@@ -7,6 +7,7 @@
  *    course-data.js       课文和单词（由 tools/build-course.py 生成）
  *    reading-alignment.js 逐字高亮用的时间数据
  *    voice-data.js        当前男女声路径、时间戳和语法朗读条目
+ *    grammar-guide.js     面向初学者的语法提示与例句分组
  *
  *  本文件分为 7 段，按顺序阅读即可：
  *    1. 工具函数          2. 设置的保存与读取     3. 网址（路由）
@@ -23,6 +24,7 @@
   const config = window.DRAMA_CONFIG;
   const T = config.text;
   const voiceData = window.DRAMA_VOICE_DATA;
+  const grammarGuide = window.DRAMA_GRAMMAR_GUIDE;
   const VIEWS = ['reading', 'words', 'grammar'];
   const STORAGE_KEY = 'drama-preferences';
 
@@ -199,7 +201,7 @@
   function tabsHtml() {
     const tabs = VIEWS.map(v => `
       <a class="tab ${v === view ? 'active' : ''}" href="${url(lesson.id, v)}" ${v === view ? 'aria-current="page"' : ''}>
-        ${icon(TAB_ICONS[v])}${escape(T.tabs[v])}<small>${itemsFor(lesson, v).length}</small>
+        ${icon(TAB_ICONS[v])}${escape(T.tabs[v])}<small>${v === 'grammar' ? lesson.grammar.length : itemsFor(lesson, v).length}</small>
       </a>`).join('');
     return `<nav class="tabs" aria-label="学習メニュー">${tabs}</nav>`;
   }
@@ -291,16 +293,53 @@
   }
 
   function grammarHtml(items) {
-    return lesson.grammar.map((section, index) => `
-      <section class="grammar-section" aria-labelledby="grammar-title-${index}">
-        <h3 id="grammar-title-${index}">${escape(section.title)}</h3>
+    const guides = grammarGuide[lesson.id];
+    const navigation = guides.length > 1 ? `<nav class="grammar-nav" aria-label="${escape(T.grammarTopics)}">
+      <span>${escape(T.grammarTopics)}</span>
+      ${guides.map((guide, index) => `<button class="grammar-topic" data-action="grammar-jump" data-section="${index}"
+        aria-controls="grammar-section-${index}"><span>${index + 1}</span>${escape(guide.title)}</button>`).join('')}
+    </nav>` : '';
+    return navigation + lesson.grammar.map((section, index) => {
+      const guide = guides[index];
+      const entries = items.map((item, i) => ({ item, i })).filter(({ item }) => item.section === index + 1);
+      let offset = 0;
+      const groups = guide.groups.map(group => {
+        const rows = entries.slice(offset, offset + group.count);
+        offset += group.count;
+        return `<div class="grammar-group">
+          <div class="grammar-group-heading">
+            <h4>${escape(group.title)}</h4>
+            ${group.pattern ? `<div class="grammar-pattern" role="group" aria-label="${escape(T.grammarPattern)}">${group.pattern.map((part, i) =>
+              `${i ? '<span class="pattern-plus" aria-hidden="true">＋</span>' : ''}<span class="pattern-part">${escape(part)}</span>`).join('')}</div>` : ''}
+            ${group.hint ? `<p>${escape(group.hint)}</p>` : ''}
+          </div>
+          <div class="segments">${rows.map(({ item, i }) => lineHtml(item, i)).join('')}</div>
+        </div>`;
+      }).join('');
+      return `<section class="grammar-section" id="grammar-section-${index}" aria-labelledby="grammar-title-${index}">
+        <div class="grammar-section-heading">
+          <span class="grammar-point">POINT ${pad(index + 1)}</span>
+          <h3 id="grammar-title-${index}" tabindex="-1">${escape(guide.title)}</h3>
+          <p class="grammar-goal">${escape(guide.goal)}</p>
+          <p class="grammar-tip"><b>${escape(T.grammarKey)}</b>${escape(guide.tip)}</p>
+          <button class="secondary grammar-listen" data-action="play-section" data-section="${index}"
+            aria-label="${escape(fill(T.grammarListenLabel, { title: guide.title }))}">${icon('play')}${escape(T.grammarListen)}<small>${entries.length}</small></button>
+        </div>
+        ${groups}
         <details class="grammar-explanation">
           <summary>${escape(T.grammarExplanation)}</summary>
-          <div class="grammar-source">${section.html.replace(/ data-audio="[^"]*"/g, '')}</div>
+          <div class="grammar-source"><h4>${escape(section.title)}</h4>${section.html.replace(/ data-audio="[^"]*"/g, '')}</div>
         </details>
-        <div class="segments">${items.map((item, i) =>
-          item.section === index + 1 ? lineHtml(item, i) : '').join('')}</div>
-      </section>`).join('');
+      </section>`;
+    }).join('');
+  }
+
+  function grammarSettingsHtml() {
+    const expanded = window.matchMedia('(min-width: 601px)').matches;
+    return `<details class="grammar-settings" ${expanded ? 'open' : ''}>
+      <summary>${escape(T.grammarSettings)}<span id="grammar-settings-state"></span></summary>
+      ${toolbarHtml()}
+    </details>`;
   }
 
   // 本文、单词和语法页面共用播放与显示设置。
@@ -310,13 +349,15 @@
     const nextView = isWords ? 'grammar' : view === 'grammar' ? 'reading' : 'words';
     const items = itemsFor(lesson, view);
     return `
-      <div class="study-layout">
+      <div class="study-layout ${view === 'grammar' ? 'grammar-layout' : ''}">
         <section class="panel">
           <div class="panel-title">
             <div><h2>${escape(t.heading)}</h2><p>${escape(t.intro)}</p></div>
-            <span class="count-label">${escape(fill(t.count, { n: items.length }))}</span>
+            ${view === 'grammar'
+              ? `<button class="secondary" data-action="play-all">${icon('play')}${escape(t.playAll)}</button>`
+              : `<span class="count-label">${escape(fill(t.count, { n: items.length }))}</span>`}
           </div>
-          ${toolbarHtml()}
+          ${view === 'grammar' ? grammarSettingsHtml() : toolbarHtml()}
           ${view === 'grammar' ? grammarHtml(items) :
             `<div class="segments ${isWords ? 'word-grid' : ''}">${items.map(lineHtml).join('')}</div>`}
           ${view === 'reading' ? cultureHtml() : ''}
@@ -325,7 +366,7 @@
             <a class="secondary" href="${url(lesson.id, nextView)}">${escape(t.nextLink)} ${icon('arrow')}</a>
           </div>
         </section>
-        ${railHtml()}
+        ${view === 'grammar' ? '' : railHtml()}
       </div>`;
   }
 
@@ -354,13 +395,15 @@
   // 底部播放条
   function playerHtml() {
     const item = player.queue[player.index];
-    const mode = player.continuous ? T.playModeAll : T.playModeOne;
-    const last = player.index >= player.queue.length - 1;
+    const mode = player.continuous ? (player.range ? T.playModeSection : T.playModeAll) : T.playModeOne;
+    const start = player.range?.start ?? 0;
+    const end = player.range?.end ?? player.queue.length - 1;
+    const last = player.index >= end;
     return `
       <button type="button" class="icon-button play-main" data-action="player-toggle" aria-label="${escape(player.playing ? T.pause : T.play)}">${icon(player.playing ? 'pause' : 'play')}</button>
       <div class="player-label">
         <b lang="zh-Hans">${escape(item.ch)}</b>
-        <small>${escape(mode)} · ${player.index + 1} / ${player.queue.length}</small>
+        <small>${escape(mode)} · ${player.index - start + 1} / ${end - start + 1}</small>
         ${audioEntry(item) ? '<span id="word-position" class="word-position"></span>' : ''}
       </div>
       <button type="button" class="speed-cycle" data-action="speed-cycle" aria-label="${escape(fill(T.changeSpeed, { speed: speedLabel(prefs.speed) }))}">${escape(speedLabel(prefs.speed))}</button>
@@ -387,6 +430,8 @@
   function applyPrefs() {
     document.body.classList.toggle('hide-py', !prefs.py);
     document.body.classList.toggle('hide-jp', !prefs.jp);
+    const state = $('#grammar-settings-state');
+    if (state) state.textContent = `${prefs.voice === 'male' ? T.maleVoice : T.femaleVoice} · ${speedLabel(prefs.speed)}`;
   }
 
   function render({ keepScroll = false } = {}) {
@@ -434,15 +479,19 @@
       if (audio) audio.playbackRate = value;
     } else if (key === 'voice') {
       if (!['male', 'female'].includes(value)) return;
+      if (value === prefs.voice) return;
     } else if (key !== 'py' && key !== 'jp') {
       return;
     }
     prefs[key] = value;
     savePrefs();
     if (key === 'voice') {
-      render({ keepScroll: true });
-      $(`[data-pref="voice"][data-value="${value}"]`)?.focus({ preventScroll: true });
-      return;
+      stopAudio();
+      // 保留学生的展开状态、焦点和阅读位置，只替换与声音相关的字词。
+      itemsFor(lesson, view).forEach((item, i) => {
+        const text = $(`.sentence[data-segment="${i}"] .cn`);
+        if (text) text.outerHTML = alignedTextHtml(item);
+      });
     }
     applyPrefs();
     $$(`[data-action="set-pref"][data-pref="${key}"]`).forEach(b =>
@@ -457,7 +506,7 @@
    * ============================================================ */
 
   let audio;
-  const player = { queue: [], index: 0, continuous: false, playing: false, session: 0 };
+  const player = { queue: [], index: 0, continuous: false, playing: false, session: 0, range: null };
   let followFrame = null;
   let currentWord = null;
 
@@ -532,7 +581,7 @@
   }
 
   // items: 句子数组   start: 从第几句开始   all: 是否连续播放
-  async function play(items, start, all) {
+  async function play(items, start, all, range = null) {
     player.session++;
     const session = player.session;
     cancelFollow();
@@ -541,7 +590,10 @@
     player.queue = items;
     player.index = start;
     player.continuous = all;
-    if (all) while (player.index < items.length && !audioEntry(items[player.index])) player.index++;
+    player.range = range;
+    const end = range?.end ?? items.length - 1;
+    if (all) while (player.index <= end && !audioEntry(items[player.index])) player.index++;
+    if (player.index > end) { stopAudio(); return; }
     const item = items[player.index];
     const entry = audioEntry(item);
     if (!entry) { notify(T.msgNoAudio); stopAudio(); return; }
@@ -600,9 +652,10 @@
   function onAudioEnded() {
     cancelFollow();
     clearWord();
-    const more = player.queue.slice(player.index + 1).some(x => audioEntry(x));
+    const end = player.range?.end ?? player.queue.length - 1;
+    const more = player.queue.slice(player.index + 1, end + 1).some(x => audioEntry(x));
     if (player.continuous && more) {
-      play(player.queue, player.index + 1, true);
+      play(player.queue, player.index + 1, true, player.range);
     } else {
       player.playing = false;
       updatePlayer();
@@ -635,9 +688,21 @@
     },
     'play-line':      button => play(itemsFor(lesson, view), Number(button.dataset.index), false),
     'play-all':       () => play(itemsFor(lesson, view), 0, true),
+    'grammar-jump':   button => {
+      stopAudio();
+      const heading = $(`#grammar-title-${button.dataset.section}`);
+      heading?.focus({ preventScroll: true });
+      heading?.scrollIntoView({ block: 'start', behavior: 'instant' });
+    },
+    'play-section':   button => {
+      const items = itemsFor(lesson, 'grammar');
+      const section = Number(button.dataset.section) + 1;
+      const indices = items.flatMap((item, i) => item.section === section ? [i] : []);
+      if (indices.length) play(items, indices[0], true, { start: indices[0], end: indices.at(-1) });
+    },
     'player-toggle':  () => togglePause(),
-    'player-repeat':  () => play(player.queue, player.index, false),
-    'player-next':    () => play(player.queue, player.index + 1, player.continuous),
+    'player-repeat':  () => play(player.queue, player.index, false, player.range),
+    'player-next':    () => play(player.queue, player.index + 1, player.continuous, player.range),
     'player-close':   () => stopAudio()
   };
 

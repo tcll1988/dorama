@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 PAGE_FILES = [
     "index.html", "app.css", "app.js", "config.js", "course-data.js",
     "reading-alignment.js", "manifest.webmanifest",
-    "voice-data.js",
+    "voice-data.js", "grammar-guide.js",
 ]
 
 

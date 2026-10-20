@@ -43,7 +43,7 @@ python3 tools/pack-web.py /tmp/dorama-web.zip
 - 音频请求失败后的重试、存储不可用、无效保存值、旧链接、帮助框和手机菜单。
 
 `.github/workflows/verify-pages.yml` 在 main 更新后等待 GitHub Pages 发布，
-核对 597 个发布文件的指纹，完整解码 586 个音频，并在正式网站运行同一浏览器检查。
+核对 598 个发布文件的指纹，完整解码 586 个音频，并在正式网站运行同一浏览器检查。
 运行结果保存在 Actions 的 `dorama-published-verification` 附件中。
 功能测试和时间戳核对不等同于对全部发音或音色的人工听辨。
 
@@ -57,3 +57,5 @@ python3 tools/pack-web.py /tmp/dorama-web.zip
 既有 `tools/build-course.py` / `tests/edit-check.py` 仍引用 161 个缺失的旧
 文法/练习音频，不能作为本版本的完整发布检查。新文法页面使用独立的新录音；
 练习页继续隐藏。本次没有重建 `course-data.js`，上述旧资源缺失不影响已发布页面。
+
+语法学习流程与独立播放的后续优化见 [grammar-learning.md](grammar-learning.md)。

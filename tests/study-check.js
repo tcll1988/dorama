@@ -135,6 +135,18 @@ function check(root) {
     }
   }
   if (grammarItems !== 147) note('grammar audio items ' + grammarItems);
+  const guides = sandbox.DRAMA_GRAMMAR_GUIDE;
+  for (const lesson of course) {
+    if (!Array.isArray(guides?.[lesson.id]) || guides[lesson.id].length !== lesson.grammar.length) {
+      note('missing grammar guides ' + lesson.id); continue;
+    }
+    guides[lesson.id].forEach((guide, index) => {
+      const count = api.itemsFor(lesson, 'grammar').filter(item => item.section === index + 1).length;
+      if (!guide.title || !guide.goal || !guide.tip || !guide.groups.length) note('incomplete grammar guide ' + lesson.id);
+      if (guide.groups.some(group => !group.title || !Number.isInteger(group.count) || group.count < 1)) note('invalid grammar group ' + lesson.id);
+      if (guide.groups.reduce((sum, group) => sum + group.count, 0) !== count) note('grammar group count ' + lesson.id + '/' + (index + 1));
+    });
+  }
   const config = sandbox.DRAMA_CONFIG;
   if (!config || !config.text || config.text.noAudio !== '教材音声なし') note('missing no-audio label in config.js');
   // 语速档位：来自 config.js，默认值必须在档位里

@@ -99,10 +99,10 @@ window.DRAMA_CONFIG = {
     },
 
     grammar: {
-      heading:  '文法と例文を聞こう',
-      intro:    '説明を確認して、例文や表現を声に出して練習しましょう。',
+      heading:  'わかる、聞く、使ってみる',
+      intro:    'ポイントを読む → 例文を聞く → 自分のことに置き換えて言う。',
       count:    '{n}項目',
-      playAll:  '例文を続けて聞く',
+      playAll:  'この課を全部聞く',
       nextText: '学んだ表現を、本文でもう一度確認しましょう。',
       nextLink: '本文に戻る',
       tipTitle: '聞いて、声に出してみよう。',
@@ -116,7 +116,14 @@ window.DRAMA_CONFIG = {
     voice:      '音声',
     femaleVoice: '女性',
     maleVoice:   '男性',
-    grammarExplanation: '文法の説明・表を見る',
+    grammarExplanation: '教科書の説明・表も確認する',
+    grammarTopics: 'この課のポイント',
+    grammarPattern: 'ことばの順番',
+    grammarKey: 'ここを覚えよう',
+    grammarListen: 'このポイントを聞く',
+    grammarListenLabel: '「{title}」の例文を続けて聞く',
+    grammarSettings: '音声・表示の設定',
+    playModeSection: 'ポイントの例文',
     show:       '表示',
     hide:       '非表示',
 
@@ -164,7 +171,7 @@ window.DRAMA_CONFIG = {
       { title: '単語を確認する',
         body:  '「単語」タブで、一語ずつ発音と意味を確かめましょう。「音声」で男性・女性を選べます。切り替えると再生は停止します。' },
       { title: '文法と例文を練習する',
-        body:  '「文法」タブで説明や表を開き、例文を一つずつ、または続けて聞けます。本文は登場人物ごとの声で再生します。' }
+        body:  '「文法」タブでは、短いポイントとことばの順番を読んでから、例文を聞きましょう。「このポイントを聞く」でその部分だけ練習できます。スマートフォンでは「音声・表示の設定」を開くと声や速度を変えられます。本文は登場人物ごとの声で再生します。' }
     ],
     helpNote:  '表示設定は、このブラウザに保存されます。',
     helpClose: '学習に戻る',

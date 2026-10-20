@@ -321,10 +321,103 @@ async function voiceControls() {
     console.log('Voice selection, both continuous queues and failed-audio recovery PASS');
   } finally {await page.close();}
 }
+async function grammarExperience() {
+  const page=await makePage();
+  try {
+    let ranges=0, clips=0;
+    async function checkLesson(id) {
+      const page=await makePage();
+      try {
+      await route(page,id,'grammar');
+      const sections=await page.evaluate(id=>DRAMA_GRAMMAR_GUIDE[id].map((guide,section)=>({
+        title:guide.title,
+        indices:DRAMA.itemsFor(DRAMA_COURSE[id-1],'grammar').flatMap((item,i)=>item.section===section+1?[i]:[])
+      })),id);
+      assert.equal(await page.locator('.grammar-goal:visible').count(),sections.length);
+      assert.equal(await page.locator('.grammar-tip:visible').count(),sections.length);
+      assert.equal(await page.locator('.grammar-explanation[open]').count(),0);
+      for(const voice of ['female','male']) {
+        await page.locator(`[data-pref="voice"][data-value="${voice}"]`).click();
+        for(const [section,entry] of sections.entries()) {
+          await page.locator(`[data-action="play-section"][data-section="${section}"]`).click();
+          for(const index of entry.indices) {
+            await page.waitForFunction(index=>document.querySelector('.sentence.is-playing')?.dataset.segment===String(index) && window.__checkedAudio.currentTime>0.03 && !window.__checkedAudio.paused,index);
+            assert.equal(await page.locator('.sentence.is-playing').getAttribute('data-segment'),String(index));
+            assert((await page.evaluate(()=>window.__checkedAudio.src)).includes('/audio/'+voice+'/'));
+            await page.evaluate(async()=>{
+              const audio=window.__checkedAudio;
+              audio.pause();
+              await new Promise((resolve,reject)=>{
+                const timer=setTimeout(()=>reject(new Error('section seek timeout')),3000);
+                audio.addEventListener('seeked',()=>{clearTimeout(timer);resolve();},{once:true});
+                audio.currentTime=audio.duration-0.06;
+              });
+              await audio.play();
+            });
+            if(index===entry.indices.at(-1)) {
+              await page.waitForFunction(()=>window.__checkedAudio.ended && window.__checkedAudio.paused);
+              assert.equal(await page.locator('.sentence.is-playing').getAttribute('data-segment'),String(index));
+              assert(await page.locator('[data-action="player-next"]').isDisabled());
+            }
+            clips++;
+          }
+          await closeAudio(page);
+          ranges++;
+        }
+      }
+      console.log(`Grammar section queues PASS lesson ${id}`);
+      } finally {await page.close();}
+    }
+    // Independent lessons use separate pages so this exhaustive check stays fast.
+    await Promise.all(Array.from({length:4},(_,worker)=>(async()=>{
+      for(let id=worker+1;id<=14;id+=4) await checkLesson(id);
+    })()));
+    assert.equal(ranges,50);assert.equal(clips,294);
+    // A full section starting in the middle of a lesson stays within its boundaries.
+    await route(page,4,'grammar');
+    await page.locator('[data-pref="speed"][data-value="1.5"]').click();
+    await page.locator('[data-action="play-section"][data-section="1"]').click();
+    await page.waitForFunction(()=>window.__checkedAudio.ended && document.querySelector('.sentence.is-playing')?.dataset.segment==='9',null,{timeout:20000});
+    assert((await page.locator('.player-label small').innerText()).endsWith('2 / 2'));
+    await page.locator('[data-action="player-repeat"]').click();
+    await page.waitForFunction(()=>window.__checkedAudio.currentTime>0.03 && !window.__checkedAudio.paused);
+    assert.equal(await page.locator('.sentence.is-playing').getAttribute('data-segment'),'9');
+    assert(await page.locator('[data-action="player-next"]').isDisabled());
+    await page.locator('[data-action="grammar-jump"][data-section="0"]').focus();
+    await page.keyboard.press('Enter');
+    assert.equal(await page.evaluate(()=>document.activeElement.id),'grammar-title-0');
+    assert(await page.evaluate(()=>window.__checkedAudio.paused && !window.__checkedAudio.getAttribute('src')));
+    // Mobile settings should not hide the learning goal on arrival.
+    await page.setViewportSize({width:390,height:844});
+    await route(page,12,'grammar');
+    assert.equal(await page.locator('.grammar-settings').evaluate(el=>el.open),false);
+    await page.locator('.grammar-settings > summary').click();
+    await page.locator('.grammar-explanation').first().evaluate(el=>el.open=true);
+    await page.locator('[data-pref="voice"][data-value="female"]').click();
+    const position=await page.evaluate(()=>scrollY);
+    await page.locator('[data-pref="voice"][data-value="male"]').click();
+    assert(await page.locator('.grammar-settings').evaluate(el=>el.open));
+    assert(await page.locator('.grammar-explanation').first().evaluate(el=>el.open));
+    assert.equal(await page.evaluate(()=>document.activeElement.dataset.value),'male');
+    assert(Math.abs(await page.evaluate(()=>scrollY)-position)<2);
+    assert((await page.locator('#grammar-settings-state').innerText()).includes('男性'));
+    for(const key of ['py','jp']) await page.locator(`[data-pref="${key}"][data-value="false"]`).click();
+    assert.equal(await page.locator('.sentence rt:visible').count(),0);
+    assert.equal(await page.locator('.sentence .jp:visible').count(),0);
+    assert.equal(await page.locator('.grammar-goal:visible').count(),2);
+    await page.locator('.grammar-settings > summary').click();
+    await page.locator('[data-action="grammar-jump"][data-section="1"]').click();
+    assert.equal(await page.evaluate(()=>document.activeElement.id),'grammar-title-1');
+    assert((await page.locator('#grammar-title-1').boundingBox()).y>=60);
+    assert.equal(await page.locator('.tab.active').getAttribute('href'),'#lesson/12/grammar');
+    report.checks.grammarExperience={visibleGuides:25,sectionQueues:ranges,sectionClips:clips,wholeSectionPlayback:true,repeatAtBoundary:true,keyboardTopicNavigation:true,topicChangeStopsAudio:true,mobileSettings:true,voiceChangePreservesReadingPosition:true,displaySettings:true};
+    console.log('Student grammar flow, all 50 section queues and mobile settings PASS');
+  } finally {await page.close();}
+}
 (async()=>{
   browser=await chromium.launch({...(process.env.CHROMIUM_PATH ? {executablePath:process.env.CHROMIUM_PATH} : {}),headless:true});
   try {
-    const available={layout:routesAndLayout,audio:allAudio,controls,voices:voiceControls};
+    const available={layout:routesAndLayout,audio:allAudio,controls,voices:voiceControls,grammar:grammarExperience};
     const selected=process.env.BROWSER_SUITES ? process.env.BROWSER_SUITES.split(',') : Object.keys(available);
     assert(selected.length && selected.every(name=>available[name]),'unknown BROWSER_SUITES');
     report.suites=selected;

@@ -48,7 +48,7 @@ def main():
     audio = sorted({entry["audio"] for choices in catalog["entries"].values() for entry in choices.values()})
     assert len(audio) == 586
     files = ["index.html", "app.js", "app.css", "config.js", "course-data.js",
-             "reading-alignment.js", "voice-data.js", "manifest.webmanifest"]
+             "reading-alignment.js", "voice-data.js", "grammar-guide.js", "manifest.webmanifest"]
     files += sorted(path.relative_to(ROOT).as_posix() for path in (ROOT / "icons").glob("*.png"))
     files += audio
 

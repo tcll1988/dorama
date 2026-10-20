@@ -16,6 +16,7 @@
  更换男女声录音                           voice-data.js + audio/男女声目录  见 docs/voice-release.md
  只换某句 / 某词 / 某条语法录音           同上，必须同步高亮和文件指纹      见下面「更换录音」
  版面、字号、间距                         app.css（开头有目录）            保存后刷新浏览器
+ 语法页的学习提示、句型和例句分组          grammar-guide.js                node tests/study-check.js
  页面功能（一般不用改）                    app.js（开头有目录）             保存后刷新浏览器
 
  ※ course-data.js、reading-alignment.js 和 voice-data.js 是生成的数据；修改时须保持内容、拼音、录音和高亮一致。
